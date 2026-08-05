@@ -1,0 +1,212 @@
+@import 'tailwindcss';
+@import './fonts.css';
+@plugin '@tailwindcss/typography';
+
+/* Theme is toggled by a class on <html>, set before paint by an inline script. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+  Direction: "stamp ink on a document scan".
+
+  This is a 13-year technical archive, so it is dressed as a record rather than
+  as a magazine: a cool, faintly blue paper (the colour of a scanned document,
+  not of parchment), one saturated indigo standing in for archival stamp ink,
+  and no second accent competing with it. Metadata — dates, ids, source hosts,
+  counts — is always set in mono, because that is the catalogue's voice; prose
+  is always Kantumruy Pro, because that is the author's.
+*/
+@theme {
+  --color-paper: #eef1f5;
+  --color-surface: #ffffff;
+  --color-raised: #f7f9fb;
+  --color-ink: #11141b;
+  --color-muted: #5a6272;
+  --color-faint: #8b93a3;
+  --color-rule: #d7dde6;
+  --color-stamp: #3a31c4;
+  --color-stamp-soft: #ebe9fb;
+
+  --font-sans: 'Kantumruy Pro', ui-sans-serif, system-ui, sans-serif;
+  /*
+    Kantumruy Pro is appended as the last resort so that Khmer inside code
+    blocks, tables and metadata still has glyphs. Font fallback resolves per
+    character and Kantumruy's Latin subset is never reached, so Latin stays
+    monospaced while Khmer renders instead of turning into tofu boxes.
+  */
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', 'Consolas', 'Liberation Mono',
+    'Kantumruy Pro', monospace;
+
+  --text-display: clamp(2.4rem, 1.2rem + 4.2vw, 4.6rem);
+  --text-title: clamp(1.9rem, 1.2rem + 2.4vw, 3rem);
+
+  --spacing-measure: 68ch;
+}
+
+.dark {
+  --color-paper: #0c0e13;
+  --color-surface: #12151c;
+  --color-raised: #171b24;
+  --color-ink: #e3e6ec;
+  --color-muted: #939bab;
+  --color-faint: #6b7383;
+  --color-rule: #232936;
+  --color-stamp: #9b94ff;
+  --color-stamp-soft: #1c1a3a;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /*
+    Khmer stacks diacritics above and below the baseline, so it needs
+    noticeably more leading than Latin or the lines collide. Every surface that
+    can hold Khmer sets `lang`, and the leading follows from that rather than
+    from a single compromise value that would be wrong for both scripts.
+  */
+  :lang(km) {
+    line-height: 2;
+    word-break: break-word;
+  }
+
+  :lang(km) h1,
+  :lang(km) h2,
+  :lang(km) h3 {
+    line-height: 1.5;
+  }
+
+  ::selection {
+    background-color: var(--color-stamp);
+    color: #fff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-stamp);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* The catalogue voice: every date, id, count and source host. */
+  .meta {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-faint);
+  }
+
+  .rule {
+    border-color: var(--color-rule);
+  }
+
+  /* Underline that draws itself on hover, left to right. */
+  .link-draw {
+    background-image: linear-gradient(var(--color-stamp), var(--color-stamp));
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 0.28s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  .link-draw:hover,
+  .link-draw:focus-visible {
+    background-size: 100% 1px;
+  }
+
+  .stamp-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.15rem 0.5rem;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+    transition: border-color 0.2s, color 0.2s, background-color 0.2s;
+  }
+  a.stamp-chip:hover {
+    border-color: var(--color-stamp);
+    color: var(--color-stamp);
+    background-color: var(--color-stamp-soft);
+  }
+}
+
+/* ---- Article body ------------------------------------------------------- */
+.prose-archive {
+  --tw-prose-body: var(--color-ink);
+  --tw-prose-headings: var(--color-ink);
+  --tw-prose-links: var(--color-stamp);
+  --tw-prose-bold: var(--color-ink);
+  --tw-prose-counters: var(--color-faint);
+  --tw-prose-bullets: var(--color-rule);
+  --tw-prose-hr: var(--color-rule);
+  --tw-prose-quotes: var(--color-muted);
+  --tw-prose-quote-borders: var(--color-stamp);
+  --tw-prose-captions: var(--color-faint);
+  --tw-prose-code: var(--color-ink);
+  --tw-prose-th-borders: var(--color-rule);
+  --tw-prose-td-borders: var(--color-rule);
+  max-width: none;
+}
+
+.prose-archive :where(a) {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* Screenshots dominate this archive; frame them so they read as artefacts. */
+.prose-archive :where(img) {
+  border: 1px solid var(--color-rule);
+  border-radius: 3px;
+  background-color: var(--color-surface);
+  margin-inline: auto;
+}
+
+.prose-archive :where(pre) {
+  border: 1px solid var(--color-rule);
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+.dark .prose-archive :where(pre) {
+  background-color: var(--color-raised) !important;
+}
+
+.prose-archive :where(table) {
+  display: block;
+  overflow-x: auto;
+  font-size: 0.9em;
+}
+
+/* Long unbroken URLs are common in 2010-era posts. */
+.prose-archive :where(p, li) {
+  overflow-wrap: break-word;
+}
