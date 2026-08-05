@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Image no longer available">
+  <rect width="640" height="360" fill="#eef1f5"/>
+  <rect x="0.5" y="0.5" width="639" height="359" fill="none" stroke="#d7dde6"/>
+  <g fill="none" stroke="#8b93a3" stroke-width="2">
+    <rect x="264" y="140" width="112" height="80" rx="3"/>
+    <path d="m272 204 26-28 22 22 18-16 30 30"/>
+    <circle cx="300" cy="164" r="8"/>
+  </g>
+  <text x="320" y="256" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace"
+        font-size="13" letter-spacing="1.4" fill="#5a6272">IMAGE NO LONGER AVAILABLE</text>
+  <text x="320" y="278" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace"
+        font-size="11" letter-spacing="0.6" fill="#8b93a3">missing from the source server at time of archiving</text>
+</svg>
