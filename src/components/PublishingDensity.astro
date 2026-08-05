@@ -1,0 +1,101 @@
+---
+import type { YearGroup } from '../lib/posts';
+
+interface Props {
+  groups: YearGroup[];
+  class?: string;
+}
+
+const { groups, class: className } = Astro.props;
+
+// Oldest to newest reads left-to-right like a timeline.
+const years = [...groups].sort((a, b) => a.year - b.year);
+const peak = Math.max(...years.map((group) => group.posts.length), 1);
+const busiest = years.reduce((max, group) => (group.posts.length > max.posts.length ? group : max), years[0]);
+const quietest = years.reduce((min, group) => (group.posts.length < min.posts.length ? group : min), years[0]);
+---
+
+{/*
+  The archive's publishing rhythm, drawn from the real per-year counts. It is
+  the honest shape of thirteen years of writing — a busy stretch around Barcamp
+  Cambodia, a near-silent 2017, a late return — and it doubles as navigation
+  into each year of the archive.
+*/}
+<figure class:list={['not-prose', className]}>
+  <ol class="flex items-end gap-[2px] sm:gap-1" style={`--peak:${peak}`}>
+    {
+      years.map((group, index) => {
+        // A unitless ratio, scaled against an explicit track height in CSS.
+        // A percentage here would have nothing definite to resolve against.
+        const ratio = Math.max(0.04, group.posts.length / peak).toFixed(3);
+        return (
+          <li class="group/bar relative flex-1">
+            <a
+              href={`/archive/#y${group.year}`}
+              class="block focus-visible:outline-offset-4"
+              aria-label={`${group.posts.length} articles in ${group.year}`}
+            >
+              <span
+                class="density-bar block w-full rounded-t-[1px] bg-rule transition-colors duration-200 group-hover/bar:bg-stamp"
+                style={`--r:${ratio}; --i:${index}`}
+              />
+              <span class="mt-2 block text-center font-mono text-[0.6rem] tracking-tight text-faint transition-colors group-hover/bar:text-stamp">
+                {String(group.year).slice(2)}
+              </span>
+            </a>
+            <span
+              class="pointer-events-none absolute -top-7 left-1/2 z-10 -translate-x-1/2 rounded-sm border border-rule bg-surface px-1.5 py-0.5 font-mono text-[0.65rem] whitespace-nowrap text-ink opacity-0 transition-opacity group-hover/bar:opacity-100"
+            >
+              {group.posts.length}
+            </span>
+          </li>
+        );
+      })
+    }
+  </ol>
+
+  <figcaption class="meta mt-4 flex flex-wrap gap-x-4 gap-y-1">
+    <span>Articles per year</span>
+    <span aria-hidden="true">·</span>
+    <span>Peak {busiest.year} — {busiest.posts.length}</span>
+    <span aria-hidden="true">·</span>
+    <span>Quietest {quietest.year} — {quietest.posts.length}</span>
+  </figcaption>
+</figure>
+
+<style>
+  ol {
+    --track: 8rem;
+  }
+
+  .density-bar {
+    height: calc(var(--r) * var(--track));
+    min-height: 3px;
+  }
+
+  /* Bars rise once on load, left to right, then never move again. */
+  @media (prefers-reduced-motion: no-preference) {
+    .density-bar {
+      animation: rise 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) backwards;
+      animation-delay: calc(var(--i) * 45ms);
+      transform-origin: bottom;
+    }
+  }
+
+  @keyframes rise {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+
+  @media (min-width: 640px) {
+    ol {
+      --track: 13rem;
+    }
+  }
+</style>

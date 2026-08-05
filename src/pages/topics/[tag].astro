@@ -1,0 +1,38 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostRow from '../../components/PostRow.astro';
+import { allPosts, tagCounts, postsWithTerm } from '../../lib/posts';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = await allPosts();
+  return tagCounts(posts).map((tag) => ({
+    params: { tag: tag.slug },
+    props: { name: tag.name, matches: postsWithTerm(posts, 'tags', tag.slug) },
+  }));
+};
+
+const { name, matches } = Astro.props;
+---
+
+<BaseLayout
+  title={`${name} — ${matches.length} article${matches.length === 1 ? '' : 's'}`}
+  description={`Every article in the OSIFY archive tagged ${name}.`}
+>
+  <div class="mx-auto max-w-4xl px-5 py-12 sm:px-8 sm:py-16">
+    <nav class="meta mb-8" aria-label="Breadcrumb">
+      <a href="/topics/" class="hover:text-stamp">Topics</a>
+    </nav>
+
+    <header>
+      <p class="meta">Tag · {matches.length} article{matches.length === 1 ? '' : 's'}</p>
+      <h1 class="mt-3 font-bold tracking-[-0.04em] text-ink" style="font-size: var(--text-title)">
+        {name}
+      </h1>
+    </header>
+
+    <div class="mt-10">
+      {matches.map((post) => <PostRow post={post} fullDate />)}
+    </div>
+  </div>
+</BaseLayout>

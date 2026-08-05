@@ -1,0 +1,79 @@
+---
+import type { Post } from '../lib/posts';
+import { formatDate, ORIGIN_LABELS } from '../lib/site';
+
+interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props;
+const { origin, date, modified, author, mergedFrom } = post.data;
+
+const wasEdited = modified.getTime() - date.getTime() > 60_000;
+---
+
+{/*
+  The catalogue record. Every article in this archive was published somewhere
+  else first, and that fact is part of the article — so the original host, the
+  original post id and the original dates are printed on the page rather than
+  hidden in frontmatter.
+*/}
+<aside
+  class="not-prose rounded-sm border border-rule bg-raised/60 px-4 py-3"
+  aria-label="Publication record"
+>
+  <dl class="grid gap-x-6 gap-y-2 font-mono text-[0.7rem] sm:grid-cols-2">
+    <div class="flex gap-2">
+      <dt class="w-20 shrink-0 text-faint uppercase tracking-[0.08em]">Source</dt>
+      <dd class="text-muted">
+        <a
+          href={origin.url}
+          rel="nofollow noopener"
+          class="underline decoration-rule underline-offset-2 hover:text-stamp hover:decoration-stamp"
+        >
+          {ORIGIN_LABELS[origin.site] ?? origin.host}
+        </a>
+      </dd>
+    </div>
+
+    <div class="flex gap-2">
+      <dt class="w-20 shrink-0 text-faint uppercase tracking-[0.08em]">Record</dt>
+      <dd class="text-muted">#{origin.id}</dd>
+    </div>
+
+    <div class="flex gap-2">
+      <dt class="w-20 shrink-0 text-faint uppercase tracking-[0.08em]">Published</dt>
+      <dd class="text-muted">
+        <time datetime={date.toISOString()}>{formatDate(date)}</time>
+      </dd>
+    </div>
+
+    {
+      wasEdited && (
+        <div class="flex gap-2">
+          <dt class="w-20 shrink-0 text-faint uppercase tracking-[0.08em]">Revised</dt>
+          <dd class="text-muted">
+            <time datetime={modified.toISOString()}>{formatDate(modified)}</time>
+          </dd>
+        </div>
+      )
+    }
+
+    <div class="flex gap-2">
+      <dt class="w-20 shrink-0 text-faint uppercase tracking-[0.08em]">Author</dt>
+      <dd class="text-muted">{author}</dd>
+    </div>
+
+    {
+      mergedFrom.length > 0 && (
+        <div class="flex gap-2 sm:col-span-2">
+          <dt class="w-20 shrink-0 text-faint uppercase tracking-[0.08em]">Merged</dt>
+          <dd class="text-muted">
+            Duplicate {mergedFrom.length === 1 ? 'record' : 'records'} {mergedFrom.join(', ')} folded into this
+            one
+          </dd>
+        </div>
+      )
+    }
+  </dl>
+</aside>

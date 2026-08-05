@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { allPosts, tagCounts, categoryCounts } from '../../lib/posts';
+
+const posts = await allPosts();
+const tags = tagCounts(posts);
+const categories = categoryCounts(posts);
+
+// Size the tag list by frequency so the archive's real preoccupations show.
+const max = tags[0]?.count ?? 1;
+function weight(count: number) {
+  const ratio = count / max;
+  if (ratio > 0.6) return 'text-2xl font-semibold';
+  if (ratio > 0.35) return 'text-xl font-medium';
+  if (ratio > 0.15) return 'text-lg';
+  if (ratio > 0.06) return 'text-base';
+  return 'text-sm';
+}
+---
+
+<BaseLayout
+  title="Topics"
+  description={`${tags.length} tags and ${categories.length} categories across the OSIFY archive, sized by how much was written about each.`}
+>
+  <div class="mx-auto max-w-6xl px-5 py-12 sm:px-8 sm:py-16">
+    <header class="max-w-2xl">
+      <p class="meta">{tags.length} tags · {categories.length} categories</p>
+      <h1 class="mt-3 font-bold tracking-[-0.04em] text-ink" style="font-size: var(--text-title)">
+        Topics
+      </h1>
+      <p class="mt-4 text-base leading-relaxed text-muted">
+        What thirteen years of writing actually concentrated on. Larger means more often.
+      </p>
+    </header>
+
+    <section class="mt-14">
+      <h2 class="meta border-b border-rule pb-3">Categories</h2>
+      <ul class="mt-5 grid gap-x-8 gap-y-2 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          categories.map((category) => (
+            <li>
+              <a
+                href={`/categories/${category.slug}/`}
+                class="link-draw flex items-baseline justify-between gap-3 py-1 text-sm text-muted hover:text-ink"
+              >
+                <span>{category.name}</span>
+                <span class="meta tabular-nums">{category.count}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="mt-16">
+      <h2 class="meta border-b border-rule pb-3">Tags</h2>
+      <ul class="mt-6 flex flex-wrap items-baseline gap-x-5 gap-y-3">
+        {
+          tags.map((tag) => (
+            <li>
+              <a
+                href={`/topics/${tag.slug}/`}
+                class:list={[
+                  'tracking-[-0.02em] text-ink transition-colors hover:text-stamp',
+                  weight(tag.count),
+                ]}
+              >
+                {tag.name}
+                <span class="ml-1 font-mono text-[0.6rem] align-super text-faint">{tag.count}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+</BaseLayout>

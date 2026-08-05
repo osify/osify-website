@@ -1,0 +1,100 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE } from '../lib/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Absolute or root-relative image for social cards. */
+  image?: string;
+  type?: 'website' | 'article';
+  noindex?: boolean;
+  lang?: 'en' | 'km';
+}
+
+const {
+  title,
+  description = SITE.description,
+  image,
+  type = 'website',
+  noindex = false,
+  lang = 'en',
+} = Astro.props;
+
+const pageTitle = title ? `${title} — ${SITE.title}` : `${SITE.title} — ${SITE.tagline}`;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
+const socialImage = image ? new URL(image, Astro.site ?? SITE.url).href : undefined;
+---
+
+<!doctype html>
+<html lang={lang} class="scroll-pt-24">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title ?? SITE.title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE.title} />
+    {socialImage && <meta property="og:image" content={socialImage} />}
+    <meta name="twitter:card" content={socialImage ? 'summary_large_image' : 'summary'} />
+
+    <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/rss.xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <link
+      rel="preload"
+      href="/fonts/kantumruy-pro-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    {
+      lang === 'km' && (
+        <link
+          rel="preload"
+          href="/fonts/kantumruy-pro-khmer.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin
+        />
+      )
+    }
+
+    {/* Set the theme before first paint so there is no flash of the wrong one. */}
+    <script is:inline>
+      (() => {
+        const stored = localStorage.getItem('osify-theme');
+        const dark = stored ? stored === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.classList.toggle('dark', dark);
+      })();
+    </script>
+
+    <slot name="head" />
+  </head>
+
+  <body class="min-h-screen flex flex-col antialiased">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-surface focus:text-ink focus:px-4 focus:py-2 focus:border focus:border-stamp"
+    >
+      Skip to content
+    </a>
+
+    <Header />
+
+    <main id="main" class="flex-1 w-full">
+      <slot />
+    </main>
+
+    <Footer />
+  </body>
+</html>

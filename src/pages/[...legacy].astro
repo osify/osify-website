@@ -1,0 +1,97 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { allPosts } from '../lib/posts';
+import { SITE } from '../lib/site';
+
+/**
+ * Legacy permalink stubs.
+ *
+ * osify.com published at /YYYY/MM/<slug>/ for thirteen years. Those URLs are in
+ * search results, in other people's blogrolls, and in links nobody controls
+ * any more, so each one is rebuilt as a tiny page that redirects to the
+ * article's new canonical address.
+ *
+ * GitHub Pages cannot issue a real 301, so each stub does the next best thing:
+ * a `canonical` link and a `refresh` meta so crawlers consolidate ranking onto
+ * the new URL, plus an immediate client-side replace so people never see it.
+ *
+ * ask.osify.com URLs are NOT handled here — that host is served by its own
+ * repository (see redirects/ask.osify.com) which forwards to this site.
+ */
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = await allPosts();
+  const seen = new Set<string>();
+  const routes: { params: { legacy: string }; props: { to: string; title: string } }[] = [];
+
+  for (const post of posts) {
+    for (const legacyUrl of post.data.legacyUrls) {
+      let url: URL;
+      try {
+        url = new URL(legacyUrl);
+      } catch {
+        continue;
+      }
+
+      // Only this host's own history; the subdomain redirects separately.
+      if (url.host !== 'osify.com' && url.host !== 'www.osify.com') continue;
+
+      const key = url.pathname.replace(/^\/|\/$/g, '');
+      if (!key || seen.has(key)) continue;
+
+      // Never shadow a real page.
+      if (key.startsWith('posts/') || key.startsWith('archive') || key.startsWith('topics')) continue;
+
+      seen.add(key);
+      routes.push({
+        params: { legacy: key },
+        props: { to: `/posts/${post.id}/`, title: post.data.title },
+      });
+    }
+  }
+
+  return routes;
+};
+
+const { to, title } = Astro.props;
+const target = new URL(to, SITE.url).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Moved — {title}</title>
+    <link rel="canonical" href={target} />
+    <meta http-equiv="refresh" content={`0; url=${to}`} />
+    <meta name="robots" content="noindex, follow" />
+    <script is:inline define:vars={{ to }}>
+      window.location.replace(to);
+    </script>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 34rem;
+        margin: 20vh auto;
+        padding: 0 1.5rem;
+        line-height: 1.6;
+        color: #11141b;
+      }
+      a {
+        color: #3a31c4;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #0c0e13;
+          color: #e3e6ec;
+        }
+        a {
+          color: #9b94ff;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p>This article has moved.</p>
+    <p><a href={to}>{title}</a></p>
+  </body>
+</html>

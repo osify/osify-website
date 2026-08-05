@@ -1,0 +1,152 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PublishingDensity from '../components/PublishingDensity.astro';
+import PostRow from '../components/PostRow.astro';
+import { allPosts, groupByYear, tagCounts, categoryCounts } from '../lib/posts';
+import { getCollection } from 'astro:content';
+import { SITE } from '../lib/site';
+
+const posts = await allPosts();
+const groups = groupByYear(posts);
+const recent = posts.slice(0, 8);
+const topTags = tagCounts(posts).slice(0, 14);
+const topCategories = categoryCounts(posts).slice(0, 8);
+
+const projects = (await getCollection('projects', ({ data }) => !data.draft))
+  .sort((a, b) => a.data.order - b.data.order)
+  .slice(0, 3);
+
+const firstYear = posts.length ? posts[posts.length - 1].data.date.getUTCFullYear() : 2008;
+const lastYear = posts.length ? posts[0].data.date.getUTCFullYear() : 2021;
+const khmerCount = posts.filter((post) => post.data.lang === 'km').length;
+---
+
+<BaseLayout>
+  <section class="mx-auto max-w-6xl px-5 pt-14 pb-16 sm:px-8 sm:pt-20">
+    <div class="grid gap-12 lg:grid-cols-[1.05fr_1fr] lg:items-end lg:gap-16">
+      <div>
+        <p class="meta">The archive · {firstYear}—{lastYear}</p>
+        <h1
+          class="mt-4 text-balance font-bold leading-[0.95] tracking-[-0.045em] text-ink"
+          style="font-size: var(--text-display)"
+        >
+          Notes on code,<br />computing and<br />Cambodia.
+        </h1>
+        <p class="mt-6 max-w-md text-base leading-relaxed text-muted">
+          {posts.length} articles written between {firstYear} and {lastYear}, in English and Khmer —
+          on Java, Android, databases, Khmer Unicode, and the years when the Phnom Penh tech scene
+          was being built one Barcamp at a time.
+        </p>
+
+        <div class="mt-8 flex flex-wrap items-center gap-3">
+          <a
+            href="/archive/"
+            class="rounded-sm bg-stamp px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
+          >
+            Browse the archive
+          </a>
+          <a
+            href="/work/"
+            class="rounded-sm border border-rule px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:border-stamp hover:text-stamp"
+          >
+            See the work
+          </a>
+        </div>
+      </div>
+
+      <PublishingDensity groups={groups} />
+    </div>
+  </section>
+
+  {/* A single line of numbers that says what kind of archive this is. */}
+  <section class="border-y border-rule bg-surface/50">
+    <dl class="mx-auto grid max-w-6xl grid-cols-2 gap-px px-5 sm:grid-cols-4 sm:px-8">
+      {
+        [
+          { value: posts.length, label: 'Articles' },
+          { value: lastYear - firstYear + 1, label: 'Years' },
+          { value: khmerCount, label: 'In Khmer' },
+          { value: topCategories.length ? tagCounts(posts).length : 0, label: 'Topics' },
+        ].map((stat) => (
+          <div class="py-6">
+            <dt class="meta">{stat.label}</dt>
+            <dd class="mt-1 font-mono text-2xl tabular-nums text-ink">{stat.value}</dd>
+          </div>
+        ))
+      }
+    </dl>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-5 py-16 sm:px-8">
+    <div class="grid gap-14 lg:grid-cols-[1fr_16rem] lg:gap-20">
+      <div>
+        <div class="flex items-baseline justify-between border-b border-rule pb-3">
+          <h2 class="text-sm font-semibold tracking-[-0.01em] text-ink">Most recent</h2>
+          <a href="/archive/" class="meta hover:text-stamp">All {posts.length} →</a>
+        </div>
+
+        <div class="mt-2">
+          {recent.map((post) => <PostRow post={post} fullDate />)}
+        </div>
+      </div>
+
+      <aside class="space-y-10">
+        <div>
+          <h2 class="meta border-b border-rule pb-3">Most written about</h2>
+          <ul class="mt-4 flex flex-wrap gap-2">
+            {
+              topTags.map((tag) => (
+                <li>
+                  <a href={`/topics/${tag.slug}/`} class="stamp-chip">
+                    {tag.name}
+                    <span class="text-faint">{tag.count}</span>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+
+        {
+          projects.length > 0 && (
+            <div>
+              <h2 class="meta border-b border-rule pb-3">Selected work</h2>
+              <ul class="mt-4 space-y-4">
+                {projects.map((project) => (
+                  <li>
+                    <a href={`/work/#${project.id}`} class="group block">
+                      <span class="block text-sm font-medium text-ink transition-colors group-hover:text-stamp">
+                        {project.data.title}
+                      </span>
+                      <span class="meta mt-0.5 block">{project.data.year}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+              <a href="/work/" class="meta mt-4 inline-block hover:text-stamp">All work →</a>
+            </div>
+          )
+        }
+
+        <div>
+          <h2 class="meta border-b border-rule pb-3">Read by topic</h2>
+          <ul class="mt-4 space-y-2">
+            {
+              topCategories.map((category) => (
+                <li>
+                  <a
+                    href={`/categories/${category.slug}/`}
+                    class="link-draw flex items-baseline justify-between text-sm text-muted hover:text-ink"
+                  >
+                    <span>{category.name}</span>
+                    <span class="meta">{category.count}</span>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

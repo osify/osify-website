@@ -1,0 +1,57 @@
+---
+import CommandSearch from './vue/CommandSearch.vue';
+import ThemeToggle from './vue/ThemeToggle.vue';
+import { NAV, SITE } from '../lib/site';
+
+const path = Astro.url.pathname;
+const isCurrent = (href: string) => path === href || (href !== '/' && path.startsWith(href));
+---
+
+<header class="sticky top-0 z-40 border-b border-rule bg-paper/85 backdrop-blur">
+  <div class="mx-auto flex max-w-6xl items-center gap-4 px-5 py-3 sm:px-8">
+    <a href="/" class="group flex items-baseline gap-2" aria-label={`${SITE.title} home`}>
+      <span class="text-lg font-bold tracking-[-0.04em] text-ink">OSIFY</span>
+      <span class="meta hidden text-faint sm:inline">est. 2008</span>
+    </a>
+
+    <nav class="ml-auto hidden items-center gap-6 md:flex" aria-label="Primary">
+      {
+        NAV.map((item) => (
+          <a
+            href={item.href}
+            class:list={[
+              'link-draw text-sm transition-colors',
+              isCurrent(item.href) ? 'text-stamp' : 'text-muted hover:text-ink',
+            ]}
+            aria-current={isCurrent(item.href) ? 'page' : undefined}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="ml-auto flex items-center gap-2 md:ml-0">
+      <CommandSearch client:idle />
+      <ThemeToggle client:idle />
+    </div>
+  </div>
+
+  {/* Nav collapses to a scrollable rail on small screens rather than a menu. */}
+  <nav class="flex gap-5 overflow-x-auto border-t border-rule px-5 py-2 md:hidden" aria-label="Primary">
+    {
+      NAV.map((item) => (
+        <a
+          href={item.href}
+          class:list={[
+            'shrink-0 text-sm',
+            isCurrent(item.href) ? 'text-stamp' : 'text-muted',
+          ]}
+          aria-current={isCurrent(item.href) ? 'page' : undefined}
+        >
+          {item.label}
+        </a>
+      ))
+    }
+  </nav>
+</header>

@@ -1,0 +1,180 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProvenanceStamp from '../../components/ProvenanceStamp.astro';
+import PostRow from '../../components/PostRow.astro';
+import { allPosts, relatedPosts } from '../../lib/posts';
+import { formatDate, slugifyTerm, ORIGIN_LABELS, SITE } from '../../lib/site';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = await allPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+};
+
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+
+const posts = await allPosts();
+const related = relatedPosts(posts, post);
+const { title, date, modified, author, categories, tags, lang, excerpt, featuredImage, origin } = post.data;
+
+const wasEdited = modified.getTime() - date.getTime() > 60_000;
+const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
+
+/*
+  On some articles WordPress promoted the first inline image to the featured
+  slot, so rendering both would show it twice. It stays in frontmatter either
+  way because social cards still need it.
+*/
+const firstBodyImage = post.body?.match(/!\[[^\]]*\]\((\/media\/[^)\s]+)/)?.[1];
+const showHeroImage = Boolean(featuredImage) && featuredImage !== firstBodyImage;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: title,
+  datePublished: date.toISOString(),
+  dateModified: modified.toISOString(),
+  author: { '@type': 'Person', name: author },
+  publisher: { '@type': 'Organization', name: SITE.title },
+  inLanguage: lang === 'km' ? 'km-KH' : 'en',
+  mainEntityOfPage: new URL(`/posts/${post.id}/`, SITE.url).href,
+  ...(featuredImage ? { image: new URL(featuredImage, SITE.url).href } : {}),
+};
+---
+
+<BaseLayout
+  title={title}
+  description={excerpt || SITE.description}
+  image={featuredImage}
+  type="article"
+  lang={lang}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} slot="head" />
+
+  <article class="mx-auto max-w-6xl px-5 py-10 sm:px-8 sm:py-14">
+    <nav class="meta mb-8 flex items-center gap-2" aria-label="Breadcrumb">
+      <a href="/archive/" class="hover:text-stamp">Archive</a>
+      <span aria-hidden="true">/</span>
+      <a href={`/archive/#y${date.getUTCFullYear()}`} class="hover:text-stamp">{date.getUTCFullYear()}</a>
+    </nav>
+
+    <div class="grid gap-12 lg:grid-cols-[minmax(0,1fr)_14rem] lg:gap-14">
+      <div class="min-w-0">
+        <header>
+          {
+            categories.length > 0 && (
+              <p class="meta">
+                {categories.map((category, index) => (
+                  <>
+                    {index > 0 && <span aria-hidden="true"> · </span>}
+                    <a href={`/categories/${slugifyTerm(category)}/`} class="hover:text-stamp">
+                      {category}
+                    </a>
+                  </>
+                ))}
+              </p>
+            )
+          }
+
+          <h1
+            lang={lang}
+            class="mt-3 text-balance font-bold leading-[1.08] tracking-[-0.035em] text-ink"
+            style="font-size: var(--text-title)"
+          >
+            {title}
+          </h1>
+
+          <p class="mt-5 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
+            <a href={`/authors/${slugifyTerm(author)}/`} class="link-draw font-medium text-ink">
+              {author}
+            </a>
+            <span aria-hidden="true" class="text-faint">·</span>
+            <time datetime={date.toISOString()}>{formatDate(date)}</time>
+            {wasEdited && <span aria-hidden="true" class="text-faint">·</span>}
+            {wasEdited && <span class="text-faint">revised {formatDate(modified)}</span>}
+          </p>
+        </header>
+
+        {
+          showHeroImage && (
+            <img
+              src={featuredImage}
+              alt=""
+              loading="eager"
+              decoding="async"
+              class="mt-8 w-full rounded-sm border border-rule bg-surface"
+            />
+          )
+        }
+
+        <div class="prose prose-archive mt-10 max-w-measure" lang={lang}>
+          <Content />
+        </div>
+
+        {
+          tags.length > 0 && (
+            <div class="mt-12 border-t border-rule pt-6">
+              <p class="meta">Tagged</p>
+              <ul class="mt-3 flex flex-wrap gap-2">
+                {tags.map((tag) => (
+                  <li>
+                    <a href={`/topics/${slugifyTerm(tag)}/`} class="stamp-chip">
+                      {tag}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+
+        <div class="mt-8">
+          <ProvenanceStamp post={post} />
+        </div>
+      </div>
+
+      <aside class="lg:sticky lg:top-28 lg:self-start">
+        {
+          tocHeadings.length > 2 && (
+            <nav class="mb-8 hidden lg:block" aria-label="On this page">
+              <p class="meta border-b border-rule pb-2">On this page</p>
+              <ul class="mt-3 space-y-2">
+                {tocHeadings.map((heading) => (
+                  <li class={heading.depth === 3 ? 'pl-3' : ''}>
+                    <a
+                      href={`#${heading.slug}`}
+                      lang={lang}
+                      class="block text-xs leading-snug text-muted transition-colors hover:text-stamp"
+                    >
+                      {heading.text}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )
+        }
+
+        <div>
+          <p class="meta border-b border-rule pb-2">Originally at</p>
+          <p class="mt-3 font-mono text-xs text-muted">{ORIGIN_LABELS[origin.site]}</p>
+        </div>
+      </aside>
+    </div>
+
+    {
+      related.length > 0 && (
+        <section class="mt-20 border-t border-rule pt-8">
+          <h2 class="text-sm font-semibold text-ink">Related from the archive</h2>
+          <div class="mt-2">
+            {related.map((entry) => (
+              <PostRow post={entry} fullDate />
+            ))}
+          </div>
+        </section>
+      )
+    }
+  </article>
+</BaseLayout>

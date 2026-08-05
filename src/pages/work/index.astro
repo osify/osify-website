@@ -1,0 +1,92 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const projects = (await getCollection('projects', ({ data }) => import.meta.env.DEV || !data.draft)).sort(
+  (a, b) => a.data.order - b.data.order || String(b.data.year).localeCompare(String(a.data.year))
+);
+
+const rendered = await Promise.all(
+  projects.map(async (project) => ({ project, Content: (await render(project)).Content }))
+);
+
+const STATUS_LABEL: Record<string, string> = {
+  active: 'In progress',
+  shipped: 'Shipped',
+  archived: 'Archived',
+};
+---
+
+<BaseLayout
+  title="Work"
+  description="Selected projects — what was built, when, and with what."
+>
+  <div class="mx-auto max-w-4xl px-5 py-12 sm:px-8 sm:py-16">
+    <header class="max-w-2xl">
+      <p class="meta">Portfolio</p>
+      <h1 class="mt-3 font-bold tracking-[-0.04em] text-ink" style="font-size: var(--text-title)">
+        Work
+      </h1>
+      <p class="mt-4 text-base leading-relaxed text-muted">
+        Projects worth writing down. The archive covers the thinking; this covers the building.
+      </p>
+    </header>
+
+    {
+      rendered.length === 0 && (
+        <p class="mt-16 rounded-sm border border-dashed border-rule px-5 py-10 text-center text-sm text-muted">
+          No projects published yet. Add Markdown files to{' '}
+          <code class="font-mono text-xs text-ink">src/content/projects/</code>.
+        </p>
+      )
+    }
+
+    <div class="mt-14 space-y-16">
+      {
+        rendered.map(({ project, Content }) => (
+          <article id={project.id} class="scroll-mt-28 border-t border-rule pt-8">
+            <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+              <h2 class="text-xl font-semibold tracking-[-0.025em] text-ink">{project.data.title}</h2>
+              <p class="meta flex items-center gap-2">
+                <span>{project.data.year}</span>
+                <span aria-hidden="true">·</span>
+                <span>{STATUS_LABEL[project.data.status]}</span>
+              </p>
+            </div>
+
+            <p class="mt-3 max-w-2xl text-base leading-relaxed text-muted">{project.data.summary}</p>
+
+            {project.data.role && <p class="meta mt-3">{project.data.role}</p>}
+
+            {project.data.stack.length > 0 && (
+              <ul class="mt-4 flex flex-wrap gap-2">
+                {project.data.stack.map((tool) => (
+                  <li class="stamp-chip">{tool}</li>
+                ))}
+              </ul>
+            )}
+
+            <div class="prose prose-archive mt-6 max-w-measure text-sm">
+              <Content />
+            </div>
+
+            {(project.data.link || project.data.repo) && (
+              <p class="mt-5 flex flex-wrap gap-4">
+                {project.data.link && (
+                  <a href={project.data.link} rel="noopener" class="link-draw text-sm text-stamp">
+                    Visit site →
+                  </a>
+                )}
+                {project.data.repo && (
+                  <a href={project.data.repo} rel="noopener" class="link-draw text-sm text-stamp">
+                    Source →
+                  </a>
+                )}
+              </p>
+            )}
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</BaseLayout>

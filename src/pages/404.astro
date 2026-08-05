@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { allPosts } from '../lib/posts';
+
+const posts = await allPosts();
+const recent = posts.slice(0, 5);
+---
+
+<BaseLayout title="Page not found" noindex>
+  <div class="mx-auto max-w-3xl px-5 py-24 sm:px-8">
+    <p class="meta">404</p>
+    <h1 class="mt-3 font-bold tracking-[-0.04em] text-ink" style="font-size: var(--text-title)">
+      That page isn't in the archive
+    </h1>
+    <p class="mt-4 max-w-lg text-base leading-relaxed text-muted">
+      The two old sites had thirteen years of URLs between them and most of them still resolve. If
+      you followed a link that used to work, search for the title — the article is probably here
+      under a tidier address.
+    </p>
+
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a
+        href="/archive/"
+        class="rounded-sm bg-stamp px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
+      >
+        Browse the archive
+      </a>
+      <button
+        type="button"
+        class="rounded-sm border border-rule px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:border-stamp hover:text-stamp"
+        data-open-search
+      >
+        Search instead
+      </button>
+    </div>
+
+    <section class="mt-16">
+      <h2 class="meta border-b border-rule pb-3">Most recent articles</h2>
+      <ul class="mt-4 space-y-3">
+        {
+          recent.map((post) => (
+            <li>
+              <a href={`/posts/${post.id}/`} class="link-draw text-sm text-muted hover:text-ink" lang={post.data.lang}>
+                {post.data.title}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+</BaseLayout>
+
+<script>
+  // Reuse the header's command palette rather than shipping a second search UI.
+  document.querySelector('[data-open-search]')?.addEventListener('click', () => {
+    window.dispatchEvent(new KeyboardEvent('keydown', { key: 'k', ctrlKey: true }));
+  });
+</script>

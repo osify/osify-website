@@ -1,0 +1,72 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostRow from '../../components/PostRow.astro';
+import PublishingDensity from '../../components/PublishingDensity.astro';
+import { allPosts, authorCounts, groupByYear } from '../../lib/posts';
+import { slugifyTerm, formatDate } from '../../lib/site';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = await allPosts();
+  const profiles = await getCollection('authors');
+
+  return authorCounts(posts).map((author) => {
+    const matches = posts.filter((post) => slugifyTerm(post.data.author) === author.slug);
+    const profile = profiles.find((entry) => slugifyTerm(entry.data.id) === author.slug);
+    return {
+      params: { author: author.slug },
+      props: { name: author.name, matches, profile: profile?.data ?? null },
+    };
+  });
+};
+
+const { name, matches, profile } = Astro.props;
+const groups = groupByYear(matches);
+const first = matches[matches.length - 1];
+const last = matches[0];
+---
+
+<BaseLayout
+  title={`${profile?.name ?? name} — ${matches.length} article${matches.length === 1 ? '' : 's'}`}
+  description={profile?.bio || `Every article written by ${name} in the OSIFY archive.`}
+>
+  <div class="mx-auto max-w-4xl px-5 py-12 sm:px-8 sm:py-16">
+    <header>
+      <p class="meta">Author · {matches.length} article{matches.length === 1 ? '' : 's'}</p>
+      <h1 class="mt-3 font-bold tracking-[-0.04em] text-ink" style="font-size: var(--text-title)">
+        {profile?.name ?? name}
+      </h1>
+
+      {profile?.bio && <p class="mt-4 max-w-xl text-base leading-relaxed text-muted">{profile.bio}</p>}
+
+      {
+        first && last && (
+          <p class="meta mt-4">
+            First published {formatDate(first.data.date)} · most recent {formatDate(last.data.date)}
+          </p>
+        )
+      }
+
+      {
+        profile?.links && Object.keys(profile.links).length > 0 && (
+          <ul class="mt-4 flex flex-wrap gap-2">
+            {Object.entries(profile.links).map(([label, href]) => (
+              <li>
+                <a href={href} rel="me noopener" class="stamp-chip">
+                  {label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+    </header>
+
+    {groups.length > 2 && <PublishingDensity groups={groups} class="mt-12" />}
+
+    <div class="mt-12">
+      {matches.map((post) => <PostRow post={post} fullDate />)}
+    </div>
+  </div>
+</BaseLayout>
