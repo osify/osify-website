@@ -36,7 +36,7 @@ const quietest = years.reduce((min, group) => (group.posts.length < min.posts.le
               aria-label={`${group.posts.length} articles in ${group.year}`}
             >
               <span
-                class="density-bar block w-full rounded-t-[1px] bg-rule transition-colors duration-200 group-hover/bar:bg-stamp"
+                class="density-bar block w-full rounded-t-[1px] bg-ink/20 transition-colors duration-200 group-hover/bar:bg-stamp"
                 style={`--r:${ratio}; --i:${index}`}
               />
               <span class="mt-2 block text-center font-mono text-[0.6rem] tracking-tight text-faint transition-colors group-hover/bar:text-stamp">
