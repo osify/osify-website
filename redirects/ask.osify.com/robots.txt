@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://osify.com/sitemap-index.xml
