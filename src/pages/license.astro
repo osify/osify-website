@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { allPosts } from '../lib/posts';
+
+const posts = await allPosts();
+---
+
+<BaseLayout
+  title="Licence"
+  description="How the writing and images in the OSIFY archive may be used: CC BY-NC-ND 4.0 for content, MIT for the site's code."
+>
+  <div class="mx-auto max-w-3xl px-5 py-12 sm:px-8 sm:py-16">
+    <header>
+      <p class="meta">Terms of use</p>
+      <h1 class="mt-3 font-bold tracking-[-0.04em] text-ink" style="font-size: var(--text-title)">
+        Licence
+      </h1>
+      <p class="mt-4 text-base leading-relaxed text-muted">
+        Two licences apply here, because the writing and the software that
+        presents it are different things.
+      </p>
+    </header>
+
+    <div class="mt-12 grid gap-5 sm:grid-cols-2">
+      <section class="rounded-sm border border-rule bg-surface p-5">
+        <p class="meta">The {posts.length} articles and their images</p>
+        <p class="mt-2 text-lg font-semibold tracking-[-0.02em] text-ink">CC BY-NC-ND 4.0</p>
+        <p class="mt-2 text-sm leading-relaxed text-muted">
+          Share it, quote it, link to it — with credit. No commercial use, and no
+          republishing modified versions.
+        </p>
+        <a
+          href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
+          rel="license noopener"
+          class="link-draw mt-3 inline-block text-sm text-stamp"
+        >
+          Read the full licence →
+        </a>
+      </section>
+
+      <section class="rounded-sm border border-rule bg-surface p-5">
+        <p class="meta">The site's code</p>
+        <p class="mt-2 text-lg font-semibold tracking-[-0.02em] text-ink">MIT</p>
+        <p class="mt-2 text-sm leading-relaxed text-muted">
+          The theme, layouts and migration scripts. Take them, change them, build
+          something of your own with them.
+        </p>
+        <a
+          href="https://github.com/osify/osify-website/blob/main/LICENSE"
+          rel="noopener"
+          class="link-draw mt-3 inline-block text-sm text-stamp"
+        >
+          Read the full licence →
+        </a>
+      </section>
+    </div>
+
+    <div class="prose prose-archive mt-14 max-w-none">
+      <h2>What you may do with the writing</h2>
+      <ul>
+        <li>Share and redistribute any article, in any medium or format</li>
+        <li>Quote an excerpt in your own writing</li>
+      </ul>
+      <p>Provided that you credit the article's named author and OSIFY, and link back to the article here.</p>
+
+      <h2>What you may not do</h2>
+      <ul>
+        <li>
+          <strong>Use it commercially.</strong> That includes republishing articles on an
+          ad-supported site, in a paid publication, or as part of a commercial product.
+        </li>
+        <li>
+          <strong>Publish a modified version.</strong> Translations, rewrites and summaries that
+          stand in for the original all count.
+        </li>
+      </ul>
+      <p>
+        Reposting an article in full elsewhere is not permitted, attributed or not.
+        <strong>Link to it instead</strong> — that costs you nothing and keeps the record in one place.
+      </p>
+
+      <h2>Screenshots are not all ours to license</h2>
+      <p>
+        Many of these articles show operating system dialogs, developer tools and other people's
+        websites. Those belong to their owners and appear here for illustration and commentary.
+        Nothing on this page grants you rights over them.
+      </p>
+
+      <h2>Several people wrote this</h2>
+      <p>
+        Copyright in each article rests with the person who wrote it, and every article names its
+        author. The licence is offered on that basis.
+      </p>
+
+      <h2>If you want to do more</h2>
+      <p>
+        Translating an article into Khmer or English, republishing it in full, using it in
+        teaching — these are usually fine, but ask first.
+        <a href="https://github.com/osify/osify-website/issues" rel="noopener">Open an issue</a>
+        and say what you have in mind.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

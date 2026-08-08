@@ -46,6 +46,7 @@ const socialImage = image ? new URL(image, Astro.site ?? SITE.url).href : undefi
     {socialImage && <meta property="og:image" content={socialImage} />}
     <meta name="twitter:card" content={socialImage ? 'summary_large_image' : 'summary'} />
 
+    <link rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" />
     <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/rss.xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />

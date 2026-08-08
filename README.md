@@ -160,6 +160,29 @@ CNAME www          <owner>.github.io
 
 Wait for the certificate to issue, then enable **Enforce HTTPS**.
 
+## Licence
+
+Two licences, because the writing and the software are different things.
+
+| | |
+|---|---|
+| Articles and images (`src/content/`, `public/media/`) | [CC BY-NC-ND 4.0](LICENSE-CONTENT.md) — share and quote with credit; no commercial use, no modified republishing |
+| Site code, theme and scripts | [MIT](LICENSE) |
+
+Note that a public repository can always be forked — GitHub's Terms of Service
+grant that regardless of licence. The licence exists to give a clear basis for
+a takedown when an article is republished, not to prevent copying technically.
+
+Not everything here is ours to license: many screenshots show software and
+websites belonging to others, and the archive has three authors who each hold
+copyright in their own articles. `LICENSE-CONTENT.md` spells this out.
+
+## Reader support
+
+The Buy Me a Coffee link is configured in `SUPPORT` in `src/lib/site.ts`. It
+fails closed — while `url` is empty, nothing renders anywhere on the site, so a
+placeholder or wrong handle can never ship.
+
 ## Project layout
 
 ```

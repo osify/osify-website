@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import SupportCoffee from '../components/SupportCoffee.astro';
 import { getCollection } from 'astro:content';
 import { allPosts, authorCounts } from '../lib/posts';
 import { slugifyTerm } from '../lib/site';
@@ -78,6 +79,14 @@ const khmer = posts.filter((post) => post.data.lang === 'km').length;
         it was pulled in and is now served from here.
       </p>
 
+      <h2>Licence</h2>
+      <p>
+        The articles and images are licensed
+        <a href="/license/" rel="license">CC BY-NC-ND 4.0</a> — share them and quote them with
+        credit, but please link rather than repost, and ask before anything commercial. The site's
+        code is MIT, so take the theme if it is useful to you.
+      </p>
+
       <h2>Corrections</h2>
       <p>
         These are historical documents and are left as written, including the parts that have aged
@@ -85,5 +94,7 @@ const khmer = posts.filter((post) => post.data.lang === 'km').length;
         wrong date — that is worth fixing, and the source is on GitHub.
       </p>
     </div>
+
+    <SupportCoffee class="mt-12" />
   </div>
 </BaseLayout>

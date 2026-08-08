@@ -18,6 +18,8 @@ export async function GET(context: APIContext) {
       author: post.data.author,
       categories: [...post.data.categories, ...post.data.tags],
     })),
-    customData: `<language>en</language>`,
+    // Feed readers and scrapers both see the terms; excerpts only, so a full
+    // article is never handed over in a form that invites reposting.
+    customData: `<language>en</language><copyright>© 2008-${new Date().getFullYear()} OSIFY. Licensed CC BY-NC-ND 4.0.</copyright>`,
   });
 }

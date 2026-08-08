@@ -8,6 +8,24 @@ export const SITE = {
   locale: 'en',
 } as const;
 
+/**
+ * Reader support link.
+ *
+ * Deliberately fails closed: while `url` is empty nothing renders anywhere on
+ * the site. A placeholder or guessed handle would route readers' money to
+ * whoever happens to own that username, so the link only appears once a real
+ * one is set here.
+ */
+export const SUPPORT = {
+  url: 'https://buymeacoffee.com/mtstuffs',
+  label: 'Buy me a coffee',
+  /** Shown above the button. Keep it plain — no guilt, no urgency. */
+  blurb:
+    'This archive is free to read, has no ads and no tracking. If something here saved you an afternoon, you can put a coffee behind it.',
+} as const;
+
+export const supportEnabled = SUPPORT.url.length > 0;
+
 export const NAV = [
   { href: '/archive/', label: 'Archive' },
   { href: '/work/', label: 'Work' },

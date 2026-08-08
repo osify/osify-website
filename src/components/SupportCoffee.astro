@@ -1,0 +1,61 @@
+---
+import { SUPPORT, supportEnabled } from '../lib/site';
+
+interface Props {
+  /** `card` sits at the end of an article; `inline` is a quiet footer link. */
+  variant?: 'card' | 'inline';
+  class?: string;
+}
+
+const { variant = 'card', class: className } = Astro.props;
+---
+
+{/*
+  Renders nothing at all until SUPPORT.url is set in src/lib/site.ts, so the
+  site can never ship a dead or wrong payment link.
+*/}
+{
+  supportEnabled &&
+    (variant === 'inline' ? (
+      <a
+        href={SUPPORT.url}
+        rel="noopener nofollow"
+        class:list={['link-draw text-muted hover:text-ink', className]}
+      >
+        {SUPPORT.label}
+      </a>
+    ) : (
+      <aside
+        class:list={[
+          'not-prose flex flex-col gap-4 rounded-sm border border-rule bg-raised/60 px-5 py-5 sm:flex-row sm:items-center sm:justify-between',
+          className,
+        ]}
+      >
+        <div class="flex items-start gap-3">
+          <svg
+            class="mt-0.5 size-5 shrink-0 text-stamp"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M4 9h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9Z" />
+            <path d="M17 10h1.6a2.4 2.4 0 0 1 0 4.8H17" />
+            <path d="M7.5 2.5c-.6.9-.6 1.8 0 2.7M11 2.5c-.6.9-.6 1.8 0 2.7M14.5 2.5c-.6.9-.6 1.8 0 2.7" />
+          </svg>
+          <p class="max-w-md text-sm leading-relaxed text-muted">{SUPPORT.blurb}</p>
+        </div>
+
+        <a
+          href={SUPPORT.url}
+          rel="noopener nofollow"
+          class="shrink-0 self-start rounded-sm bg-stamp px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:self-auto"
+        >
+          {SUPPORT.label}
+        </a>
+      </aside>
+    ))
+}

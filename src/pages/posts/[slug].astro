@@ -3,6 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ProvenanceStamp from '../../components/ProvenanceStamp.astro';
+import SupportCoffee from '../../components/SupportCoffee.astro';
 import PostRow from '../../components/PostRow.astro';
 import { allPosts, relatedPosts } from '../../lib/posts';
 import { formatDate, slugifyTerm, ORIGIN_LABELS, SITE } from '../../lib/site';
@@ -38,6 +39,12 @@ const jsonLd = {
   dateModified: modified.toISOString(),
   author: { '@type': 'Person', name: author },
   publisher: { '@type': 'Organization', name: SITE.title },
+  // Declared machine-readably so a scraped copy has no plausible claim that the
+  // terms were unclear.
+  license: 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
+  copyrightHolder: { '@type': 'Person', name: author },
+  copyrightYear: date.getUTCFullYear(),
+  isAccessibleForFree: true,
   inLanguage: lang === 'km' ? 'km-KH' : 'en',
   mainEntityOfPage: new URL(`/posts/${post.id}/`, SITE.url).href,
   ...(featuredImage ? { image: new URL(featuredImage, SITE.url).href } : {}),
@@ -129,6 +136,9 @@ const jsonLd = {
             </div>
           )
         }
+
+        {/* Asked for only after the article has actually delivered something. */}
+        <SupportCoffee class="mt-10" />
 
         <div class="mt-8">
           <ProvenanceStamp post={post} />

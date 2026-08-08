@@ -1,6 +1,7 @@
 ---
-import { SITE } from '../lib/site';
+import { SITE, supportEnabled } from '../lib/site';
 import { allPosts } from '../lib/posts';
+import SupportCoffee from './SupportCoffee.astro';
 
 const posts = await allPosts();
 const years = posts.length
@@ -41,13 +42,37 @@ const years = posts.length
               GitHub
             </a>
           </li>
+          {
+            supportEnabled && (
+              <li>
+                <SupportCoffee variant="inline" />
+              </li>
+            )
+          }
         </ul>
       </div>
     </div>
 
-    <div class="mt-10 flex flex-col gap-3 border-t border-rule pt-6 sm:flex-row sm:items-center sm:justify-between">
-      <p class="meta">
+    <div class="mt-10 flex flex-col gap-3 border-t border-rule pt-6 sm:flex-row sm:items-start sm:justify-between">
+      <p class="meta max-w-md leading-relaxed">
         © 2008–{new Date().getFullYear()} OSIFY · Articles remain the work of their original authors
+        <br />
+        Text and images licensed
+        <a
+          href="/license/"
+          rel="license"
+          class="underline decoration-rule underline-offset-2 hover:text-stamp hover:decoration-stamp"
+        >
+          CC BY-NC-ND 4.0
+        </a>
+        · code
+        <a
+          href="https://github.com/osify/osify-website/blob/main/LICENSE"
+          rel="noopener"
+          class="underline decoration-rule underline-offset-2 hover:text-stamp hover:decoration-stamp"
+        >
+          MIT
+        </a>
       </p>
       <p class="meta">
         Previously published at osify.com and ask.osify.com
