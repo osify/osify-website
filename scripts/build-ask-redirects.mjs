@@ -17,8 +17,35 @@ import matter from 'gray-matter';
 import { SITE_ROOT, ensureDir } from './lib/util.mjs';
 
 const POSTS_DIR = path.join(SITE_ROOT, 'src', 'content', 'posts');
-const OUT_ROOT = path.join(SITE_ROOT, 'redirects', 'ask.osify.com');
 const TARGET_ORIGIN = 'https://osify.com';
+
+/**
+ * Output lives outside this project by default.
+ *
+ * GitHub Pages binds one custom domain per repository, via the single CNAME at
+ * the site root, so ask.osify.com cannot be served from the osify.com repo. It
+ * needs its own repository — hence its own working directory, a sibling rather
+ * than a nested folder (git treats a repo inside a repo as an embedded
+ * repository and refuses to track it usefully).
+ *
+ * Override with `--out <dir>`.
+ */
+const outFlag = process.argv.indexOf('--out');
+const OUT_ROOT =
+  outFlag !== -1 && process.argv[outFlag + 1]
+    ? path.resolve(process.argv[outFlag + 1])
+    : path.resolve(SITE_ROOT, '..', 'ask-osify-redirect');
+
+/** Regenerating must not destroy the target repo's history or git config. */
+const PRESERVE = new Set(['.git', '.gitattributes', '.gitignore']);
+
+function clearGenerated(dir) {
+  if (!fs.existsSync(dir)) return;
+  for (const entry of fs.readdirSync(dir)) {
+    if (PRESERVE.has(entry)) continue;
+    fs.rmSync(path.join(dir, entry), { recursive: true, force: true });
+  }
+}
 
 function page({ target, title, immediate = true }) {
   const escaped = String(title).replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]);
@@ -57,7 +84,7 @@ function main() {
     process.exit(1);
   }
 
-  if (fs.existsSync(OUT_ROOT)) fs.rmSync(OUT_ROOT, { recursive: true });
+  clearGenerated(OUT_ROOT);
   ensureDir(OUT_ROOT);
 
   let count = 0;
@@ -104,8 +131,9 @@ function main() {
     'utf8'
   );
 
-  console.log(`ask.osify.com redirect site written to redirects/ask.osify.com`);
+  console.log(`ask.osify.com redirect site written to ${OUT_ROOT}`);
   console.log(`  ${count} article redirects + index, 404 and /qa fallbacks`);
+  console.log(`  existing .git preserved — commit and push from that directory`);
 }
 
 main();

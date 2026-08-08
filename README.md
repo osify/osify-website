@@ -120,15 +120,27 @@ are gone — no osify-owned image is hotlinked.
 Legacy `osify.com/YYYY/MM/<slug>/` permalinks are generated as redirect stubs by
 `src/pages/[...legacy].astro` and are excluded from the sitemap.
 
-`ask.osify.com` becomes its own repository. Generate it with:
+### ask.osify.com
+
+GitHub Pages binds **one custom domain per repository** — the domain comes from
+the single `CNAME` file at the site root — so `ask.osify.com` cannot be served
+from this repo. It gets its own repository and its own working directory,
+generated as a sibling folder rather than a nested one (git will not usefully
+track a repository inside a repository):
 
 ```bash
-node scripts/build-ask-redirects.mjs   # -> redirects/ask.osify.com/
+node scripts/build-ask-redirects.mjs            # -> ../ask-osify-redirect/
+node scripts/build-ask-redirects.mjs --out DIR  # somewhere else
 ```
 
-Push that directory to a separate repo with Pages enabled, then point a DNS
-CNAME for `ask.osify.com` at `<owner>.github.io`. Every `/qa/<id>` forwards to
-the corresponding article on osify.com.
+Regenerating replaces the generated files but preserves `.git`, so the redirect
+repo keeps its history. Commit and push from that directory, enable Pages
+(branch `main`, folder `/`), then point a DNS CNAME for `ask.osify.com` at
+`<owner>.github.io`. All 216 `/qa/<id>` URLs forward to their article on
+osify.com; anything unmapped lands on `/archive/`.
+
+Do not remove the `ask.osify.com` DNS record until that site is live, or those
+216 URLs break.
 
 ## Deploying
 
@@ -166,5 +178,11 @@ scripts/                 Migration tooling
 public/
 ├── media/               Deduplicated, optimised images
 ├── fonts/               Self-hosted Kantumruy Pro
-└── CNAME
+└── CNAME                osify.com
+```
+
+Sibling directory, its own repository:
+
+```
+../ask-osify-redirect/   Generated redirect site for ask.osify.com
 ```
