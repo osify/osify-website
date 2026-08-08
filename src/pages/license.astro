@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import SupportCoffee from '../components/SupportCoffee.astro';
 import { allPosts } from '../lib/posts';
 
 const posts = await allPosts();
@@ -100,5 +101,7 @@ const posts = await allPosts();
         and say what you have in mind.
       </p>
     </div>
+
+    <SupportCoffee qr class="mt-14" />
   </div>
 </BaseLayout>

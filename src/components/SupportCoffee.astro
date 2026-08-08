@@ -4,10 +4,16 @@ import { SUPPORT, supportEnabled } from '../lib/site';
 interface Props {
   /** `card` sits at the end of an article; `inline` is a quiet footer link. */
   variant?: 'card' | 'inline';
+  /**
+   * Show the scannable code. Kept off the per-article card — 423 articles do
+   * not each need a payment code — and used on the pages someone lands on when
+   * they have actually gone looking for a way to support the archive.
+   */
+  qr?: boolean;
   class?: string;
 }
 
-const { variant = 'card', class: className } = Astro.props;
+const { variant = 'card', qr = false, class: className } = Astro.props;
 ---
 
 {/*
@@ -49,13 +55,33 @@ const { variant = 'card', class: className } = Astro.props;
           <p class="max-w-md text-sm leading-relaxed text-muted">{SUPPORT.blurb}</p>
         </div>
 
-        <a
-          href={SUPPORT.url}
-          rel="noopener nofollow"
-          class="shrink-0 self-start rounded-sm bg-stamp px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:self-auto"
-        >
-          {SUPPORT.label}
-        </a>
+        <div class="flex shrink-0 items-center gap-4 self-start sm:self-auto">
+          {
+            /*
+              Kept on a white plate regardless of theme, and rendered large
+              enough to scan off a screen — the centre logo already eats into
+              the code's error-correction budget.
+            */
+            qr && (
+              <img
+                src="/media/buymeacoffee-qr.webp"
+                alt={`QR code linking to ${SUPPORT.url}`}
+                width="128"
+                height="128"
+                loading="lazy"
+                decoding="async"
+                class="size-32 rounded-sm border border-rule bg-white p-1.5"
+              />
+            )
+          }
+          <a
+            href={SUPPORT.url}
+            rel="noopener nofollow"
+            class="rounded-sm bg-stamp px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
+          >
+            {SUPPORT.label}
+          </a>
+        </div>
       </aside>
     ))
 }
