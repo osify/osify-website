@@ -120,6 +120,9 @@ function main() {
   write('qa/index.html', page({ target: `${TARGET_ORIGIN}/archive/`, title: 'Browse the archive' }));
 
   fs.writeFileSync(path.join(OUT_ROOT, 'CNAME'), 'ask.osify.com\n', 'utf8');
+  // Served straight from the branch, so Pages would otherwise run Jekyll over
+  // it for no reason.
+  fs.writeFileSync(path.join(OUT_ROOT, '.nojekyll'), '', 'utf8');
   fs.writeFileSync(
     path.join(OUT_ROOT, 'robots.txt'),
     `User-agent: *\nAllow: /\nSitemap: ${TARGET_ORIGIN}/sitemap-index.xml\n`,
