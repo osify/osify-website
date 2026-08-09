@@ -2621,11 +2621,15 @@
   },
   {
     "from": "author/mtrtoday",
-    "to": "/authors/mtr/"
+    "to": "/about/"
   },
   {
     "from": "author/sysomeho",
     "to": "/authors/sysomeho/"
+  },
+  {
+    "from": "authors/mtr",
+    "to": "/authors/osify/"
   },
   {
     "from": "category/access-db",

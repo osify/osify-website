@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { origin, date, modified, author, mergedFrom, originalSource } = post.data;
+const { origin, date, modified, author, mergedFrom, originalSource, originalAuthor } = post.data;
 
 const wasEdited = modified.getTime() - date.getTime() > 60_000;
 ---
@@ -61,7 +61,11 @@ const wasEdited = modified.getTime() - date.getTime() > 60_000;
 
     <div class="flex gap-2">
       <dt class="w-20 shrink-0 text-faint uppercase tracking-[0.08em]">Author</dt>
-      <dd class="text-muted">{author}</dd>
+      <dd class="text-muted">
+        {author}
+        {/* The same person published under two logins; both are recorded. */}
+        {originalAuthor && <span class="text-faint"> · published as {originalAuthor}</span>}
+      </dd>
     </div>
 
     {

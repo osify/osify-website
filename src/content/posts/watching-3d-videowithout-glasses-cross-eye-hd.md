@@ -2,7 +2,7 @@
 title: Watching 3D video without glasses, Cross-Eye HD
 date: "2011-05-21T07:57:28"
 modified: "2011-05-21T07:57:28"
-author: MTR
+author: osify
 categories:
   - How-To
 tags: []
@@ -19,6 +19,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 សូម​មើល​វីដេអូ​ខាង​ក្រោម ដោយ​សំលឹង​កែវ​ភ្នែក​របស់​អ្នក អោយ​ចំ​កណ្តាល​អេក្រង់ រួច​ព្យាយាម​បង្រួម​ កែវ​ភ្នែក​ចូល​គ្នា​មក​ចំនុច​កណ្តាល​ នោះ​អ្នក​នឹង​ឃើញ​រូប​ភាព​ជា 3D ដូច​ពិតៗ។ ខ្ញុំ​បាន​អនុវត្តន៍​រួច​ហើយ ឃើញ​ថា​ដូច 3D ពិត​មែន។

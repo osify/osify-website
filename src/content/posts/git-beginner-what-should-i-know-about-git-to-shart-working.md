@@ -2,7 +2,7 @@
 title: Git Beginner – What should I know about git to shart working?
 date: "2013-07-05T01:27:39"
 modified: "2013-07-05T01:53:03"
-author: MTR
+author: osify
 categories:
   - Source Control
 tags:
@@ -24,6 +24,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 Git is one popular source control nowadays. I have worked with CVS, SVN and just now get to know git.

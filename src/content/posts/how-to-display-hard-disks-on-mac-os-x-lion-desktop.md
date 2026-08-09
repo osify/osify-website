@@ -2,7 +2,7 @@
 title: How To Display Hard Disks On Mac OS X Lion Desktop
 date: "2011-09-18T19:34:43"
 modified: "2011-09-18T19:34:43"
-author: MTR
+author: osify
 categories:
   - How-To
 tags: []
@@ -19,6 +19,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 ជាធម្មតានៅ​ពេល​ដែល​លោកអ្នក​តំឡើង​ Mac OS X Lion ជា​លើក​ដំបូង​ វា​មិន​បង្ហាញ​ icon HD ឬ External Disk Drive នៅ​លើ​អេក្រង់​របស់​វា​ឡើយ។

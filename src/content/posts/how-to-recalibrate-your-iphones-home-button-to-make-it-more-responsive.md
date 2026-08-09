@@ -2,7 +2,7 @@
 title: How to Recalibrate Your iPhone’s Home Button to Make it More Responsive
 date: "2011-12-26T11:02:10"
 modified: "2019-10-29T10:12:29"
-author: MTR
+author: osify
 categories:
   - How-To
   - iOS
@@ -20,6 +20,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 ពេល​ខ្លះ ប៊ូតុង Home របស់ iPhone លោកអ្នក​វា​មាន​ភាព​លំបាក​ក្នុង​ការ​ចុច​ ព្រោះ​​តែង​​តែ​​ត្រូវ​​ឱ្យ​​លោក​អ្នក​ចុច​ ពីរ​ ឬបី​ដង​ទើប​អាច​បិទ​កម្ម​វិធី​បាន។

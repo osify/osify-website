@@ -2,7 +2,7 @@
 title: How to Change iPhone Signal Bars to Numbers
 date: "2011-05-08T10:55:35"
 modified: "2011-05-08T10:55:35"
-author: MTR
+author: osify
 categories:
   - How-To
 tags: []
@@ -19,6 +19,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 1. ចុចសញ្ញានិងលេខដូចរូបខាងក្រោម បន្ទាប់មកចុច Call

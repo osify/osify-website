@@ -241,6 +241,13 @@ const unmapped = [];
 const MANUAL = {
   'associated-store': '/programming-books/',
   'mr-pongsa-metrey-sok': '/about/',
+  /*
+    The MTR byline was folded into osify — the same person under two logins.
+    Both the old WordPress author archive and the author page this site itself
+    published keep resolving.
+  */
+  'author/mtrtoday': '/authors/osify/',
+  'authors/mtr': '/authors/osify/',
 };
 
 /** Slugs of pages restored from the archive — these render, so never redirect them. */
@@ -291,7 +298,12 @@ for (let year = 2008; year <= 2021; year++) {
 }
 for (let page = 2; page <= 60; page++) add(`page/${page}`, '/archive/');
 add('feed', '/rss.xml');
-for (const [from, to] of Object.entries(MANUAL)) add(from, to);
+// Hand-decided entries bypass the shadow guard: /authors/mtr/ is deliberately
+// a redirect now that no article carries that byline.
+for (const [from, to] of Object.entries(MANUAL)) {
+  const key = from.replace(/^\/+|\/+$/g, '');
+  if (!redirects.has(key)) redirects.set(key, to);
+}
 
 const list = [...redirects.entries()]
   .map(([from, to]) => ({ from, to }))

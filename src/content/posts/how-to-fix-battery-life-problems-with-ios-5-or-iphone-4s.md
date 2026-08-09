@@ -2,7 +2,7 @@
 title: How to fix battery life problems with iOS 5 or iPhone 4S
 date: "2011-11-25T14:59:04"
 modified: "2019-10-29T10:12:49"
-author: MTR
+author: osify
 categories:
   - How-To
 tags: []
@@ -19,6 +19,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 បច្ចុប្បន្ន​នេះ​មាន​អ្នក​ប្រើ​ប្រាស់​ច្រើន​ណាស់​តែង​តែ​ត្អញ​ត្អែរ​អំពី​បញ្ហា​ឆាប់​អស់​ថ្ម​របស់​ iPhone 4S ក៏​ដូច​ជា​ iOS 5។ ប៉ុន្តែ​ពេល​នេះ​​​​​​យើង​ខ្ញុំ​សូម​លើក​យក​វិធី​​មួយ​ចំនួន​ដែល​អាច​ជួយ​កុំ​ទូរស័ព្ទ​របស់​លោកអ្នក​ឆាប់​អស់​ថ្ម​ពេក។

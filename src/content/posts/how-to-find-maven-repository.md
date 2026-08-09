@@ -2,7 +2,7 @@
 title: How to find maven repository?
 date: "2013-06-25T13:05:09"
 modified: "2013-06-25T13:05:09"
-author: MTR
+author: osify
 categories:
   - Java
 tags:
@@ -22,6 +22,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 Where can we search for right maven repository?

@@ -2,7 +2,7 @@
 title: "Android: ដោះស្រាយ “Error generating final archive: Debug certificate expired”"
 date: "2012-04-03T11:28:38"
 modified: "2012-04-03T12:36:43"
-author: MTR
+author: osify
 categories:
   - Android
 tags:
@@ -22,6 +22,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 ពេល​ Run Android App ដែលទុកយូរមកហើយមានជួបបញ្ហានេះ៖

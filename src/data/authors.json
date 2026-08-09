@@ -2,7 +2,7 @@
   {
     "id": "osify",
     "name": "osify",
-    "bio": "Sok Pongsametrey, writing under the OSIFY name — Our Soft Is For You. Started this archive in 2008 and kept it going through Barcamp Phnom Penh, the Khmer Unicode years, and a long run of Java and Android work. OSIFY began as a freelance team and he later ran it alone, well before the company he runs today.",
+    "bio": "Sok Pongsametrey, writing under the OSIFY name — Our Soft Is For You. Started this archive in 2008 and kept it going through Barcamp Phnom Penh, the Khmer Unicode years, and a long run of Java and Android work. OSIFY began as a freelance team and he later ran it alone, well before the company he runs today. Some of these articles were published under an earlier MTR byline; both are him.",
     "links": {
       "Blog": "https://pongsametrey.com",
       "LinkedIn": "https://linkedin.com/in/pongsametreysok",
@@ -12,13 +12,7 @@
   {
     "id": "sysomeho",
     "name": "sysomeho",
-    "bio": "Contributor to the #AskMe side of the archive, mostly Khmer-language tutorials on Git, jQuery and web development.",
-    "links": {}
-  },
-  {
-    "id": "MTR",
-    "name": "MTR",
-    "bio": "Contributor to the archive.",
+    "bio": "A volunteer contributor to the blog, not part of the OSIFY team. Wrote the Khmer-language guides on Git, jQuery, C programming and ASP.NET that make up much of the #AskMe side of the archive.",
     "links": {}
   }
 ]

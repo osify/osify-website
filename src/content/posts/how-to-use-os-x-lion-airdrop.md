@@ -2,7 +2,7 @@
 title: How to use OS X Lion AirDrop [Picture & Video]
 date: "2011-08-08T13:57:49"
 modified: "2011-08-08T13:57:49"
-author: MTR
+author: osify
 categories:
   - How-To
 tags: []
@@ -19,6 +19,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 AirDrop គឺ​ជា​លក្ខណៈពិសេស​ថ្មី​មួយ​របស់​ Mac OS X Lion 10.7 ដែល​អា​ចឱ្យ​យើង​ផ្ទេរ ឬបញ្ជូន​ឯកសារ​ពី​កុំ​ព្យូទ័រ Mac មួយ​ទៅ​មួយ​បាន​យ៉ាង​ងាយ​ស្រួល និង​ស្វែង​រក​ម៉ាស៊ីន​ព្រីន​តាម Local Network បាន​ទៀត​ផង។ កាន់តែ​ពិសេស​ជាង​នេះ​ទៅ​ទៀត​នោះ​គឺ​យើង​មិន​ចាំ​បាច់​វាយ​លេខ​បណ្តាញ​ (Network) ចូល​ឡើយ​​មាន​ន័យ​ថា​ប្រើ​ប្រាស់​វា​ស្រដៀង​គ្នា​ទៅ​នឹង​ការ​ប្រើ​ប្រាស់ Bluetooth អញ្ចឹង​ដែរ​ហើយ​អាចប្រើ​បាន​ក្នុង​រង្វង់​ចំងាយ 30 ហ្វីត​ (ប្រហែល​ជិត​ដប់ម៉ែត្រ)។

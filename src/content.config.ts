@@ -15,8 +15,14 @@ const posts = defineCollection({
     date: z.coerce.date(),
     /** Original last-modified time. Equal to `date` when never edited. */
     modified: z.coerce.date(),
-    /** Original author login — never normalised or reassigned. */
+    /** The identity the article is shown under. */
     author: z.string(),
+    /**
+     * The byline WordPress actually recorded, when it differs from `author`.
+     * The same person published under both "MTR" and "osify"; the displayed
+     * byline is unified, but what was originally written down is kept.
+     */
+    originalAuthor: z.string().optional(),
     categories: z.array(z.string()).default([]),
     tags: z.array(z.string()).default([]),
     /** Dominant script of the article, used to pick the right type stack. */

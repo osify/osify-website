@@ -2,7 +2,7 @@
 title: Speed Up YouTube Streaming On iPhone, iPad, iPod touch With TCP Optimizer [Cydia Tweak]
 date: "2011-05-22T09:23:57"
 modified: "2011-05-22T09:23:57"
-author: MTR
+author: osify
 categories:
   - How-To
 tags: []
@@ -19,6 +19,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 Youtube នៅ​លើ iPhone, iPod Touch និង iPad គឺតែង​តែ​យឺត និង​ជួនកាល​រអាក់​រអួល ដែល​ធ្វើ​អោយ​យើង​ពិបាក​នឹង​មើល​វិដេអូ​នៅ​លើ Youtube ណាស់។ ជាមួយ​កម្មវិធី TCP Optimizer លោក​អ្នក​អាច​មើល​ Youtube បាន​លឿន​ជាង​មុន ព្រោះ​កម្មវិធីនេះ​កែប្រែ setting មួយចំនួន​នៅ​ក្នុង​ប្រព័ន្ធ​ iOS ដើម្បី​ជួយ​ដល់​ការ​អូស​យក​វីដេអូ​មក​ចាក់​មើល​ក្នុង Youtube ។ លោក​អ្នក​អាច​បញ្ចូល​កម្មវិធី​នេះ​បាន​ តាម​រយៈ Cydia ដោយ​ដាក់​បញ្ចួល Source មួយឈ្មោះ​ថា http://cydia.pushfix.info/ ។ ក្រោយ​ពីបញ្ចូល source នេះ​ហើយ អ្នក​នឹង​ឃើញ​ឈ្មោះ​កម្មវិធី​នេះ​នៅ​ក្នុង​បញ្ជីរ source ដែលមាន​ឈ្មោះ​ថា TCP Optimizer ។ បន្ទាប់​មក​លោក​អ្នក​គ្រាន់​តែ​បញ្ចួល​កម្មវិធី​នេះ​ចូល​ទៅ​ក្នុង​ iPhone/iPod Touch ឬ iPad របស់​អ្នក​ជា​ការ​ស្រេច។ ចំនុច​ល្អ​មួយ​ទៀត​របស់​កម្មវិធី​នេះ គឺ​យើង​អាច​បញ្ចូល​វា​ដោយ​សេរី។

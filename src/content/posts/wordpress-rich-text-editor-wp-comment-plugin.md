@@ -2,7 +2,7 @@
 title: "WordPress: តើអាចប្រើ Rich Text Editor លើ WP Comment ដោយ​មិន​ប្រើ Plugin បានទេ?"
 date: "2012-04-03T16:44:07"
 modified: "2012-04-03T16:44:07"
-author: MTR
+author: osify
 categories:
   - WordPress
 tags:
@@ -22,6 +22,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 សព្វថ្ងៃ​ខ្ញុំ​អាចដាក់ Rich Text Editor លើ​ Comment form ដោយ​ប្រើ Plugin តែបើគិតមើល​ទៅ​វាដូចជា​មិនចំ​ណេញ​សោះ​ជាមួយ WordPress ដែល​មាន Editor ស្រាប់។

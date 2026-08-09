@@ -2,7 +2,7 @@
 title: How to make Firefox browser run at maximum speed
 date: "2011-07-19T09:47:39"
 modified: "2011-07-19T09:47:39"
-author: MTR
+author: osify
 categories:
   - How-To
 tags: []
@@ -19,6 +19,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 សូម​ធ្វើ​តាម​ជំហាន​នីមួយៗខាង​ក្រោម​នេះ

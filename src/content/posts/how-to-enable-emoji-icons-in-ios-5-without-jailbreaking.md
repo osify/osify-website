@@ -2,7 +2,7 @@
 title: How To Enable Emoji Icons In iOS 5 [Without Jailbreaking]
 date: "2011-10-26T19:29:35"
 modified: "2011-10-26T19:29:35"
-author: MTR
+author: osify
 categories:
   - How-To
 tags: []
@@ -19,6 +19,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 Emoji គឺ​ជា​មុខងារ​ដ៏​ពេញ​និយម​មួយ​សម្រាប់​អ្នក​ប្រើ​ប្រាស់​អ៊ីនធឺណិត​ទាំងនៅ​ក្នុង​វេបសាយ ឬ​ទូរស័ព្ទ​ចល័ត។ ជា​ពិសេស​គឺ​សំរាប់​ទូរស័ព្តដំណើរ​ការ​ដោយ iOS ឬ Android ជា​ដើម ប៉ុន្តែ​ចំពោះ​ iOS វិញ​កាល​ពី​មុន​មិនទាន់​មាន​ការដាក់​បញ្ចូល​មុខ​ងារ​ជា​ស្រេច​នៅ​ឡើយ​ទេ លុះ​ត្រាតែ​អ្នក​ប្រើ​ប្រាស់​ដោន​ឡូដ​កម្មវិធី​បន្ថែមដោយ​ត្រូវ​ Jailbreak ជា​ដើម។

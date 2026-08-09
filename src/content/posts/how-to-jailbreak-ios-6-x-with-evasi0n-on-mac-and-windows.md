@@ -2,7 +2,7 @@
 title: How To Jailbreak iOS 6.x With Evasi0n On Mac And Windows
 date: "2013-02-06T08:51:53"
 modified: "2019-10-29T10:11:53"
-author: MTR
+author: osify
 categories:
   - How-To
 tags: []
@@ -19,6 +19,7 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalAuthor: MTR
 ---
 
 **Step 1:** Download evasi0n for Mac or Window on [Evasi0n.com](http://evasi0n.com/), and extract the package.
