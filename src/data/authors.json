@@ -2,8 +2,10 @@
   {
     "id": "osify",
     "name": "osify",
-    "bio": "Writes about software, systems and the Cambodian tech scene. Started this archive in 2008 and kept it going through Barcamp Phnom Penh, the Khmer Unicode years, and a long run of Java and Android work.",
+    "bio": "Sok Pongsametrey, writing under the OSIFY name — Our Soft Is For You. Started this archive in 2008 and kept it going through Barcamp Phnom Penh, the Khmer Unicode years, and a long run of Java and Android work. OSIFY began as a freelance team and he later ran it alone, well before the company he runs today.",
     "links": {
+      "Blog": "https://pongsametrey.com",
+      "LinkedIn": "https://linkedin.com/in/pongsametreysok",
       "GitHub": "https://github.com/osify"
     }
   },
