@@ -5,10 +5,13 @@ on:
     branches: [main]
   workflow_dispatch:
 
-# Allow one concurrent deployment; a newer push supersedes an in-flight one.
+# One deployment at a time. A deploy that has already started is allowed to
+# finish rather than being cancelled by the next push, which is what GitHub
+# recommends for Pages — a half-cancelled deployment can leave the environment
+# holding a lock that later runs queue behind.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: read
@@ -32,6 +35,10 @@ jobs:
       # the original WordPress sites to be reachable.
       - run: npm run build
 
+      # If a deploy fails, use "Re-run failed jobs" rather than "Re-run all
+      # jobs". Re-running all of them uploads a second artifact named
+      # github-pages into the same run, and deploy-pages refuses to choose
+      # between two. A fresh push is the other safe option.
       - uses: actions/upload-pages-artifact@v5
         with:
           path: ./dist
