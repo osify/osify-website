@@ -22,6 +22,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2008/12/khmer-unicode-works-now-with-adobe-cs3.html
+  published: "2008-12-23T21:55:00.000-08:00"
 ---
 
 Very good news for us, Khmer, that we have now the fonts that work with Adobe CS3.

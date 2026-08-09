@@ -22,6 +22,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/09/jibx-xml-loading-digester-which-one-is.html
+  published: "2009-09-25T06:19:00.000-07:00"
 ---
 
 [Jibx](http://jibx.sourceforge.net/) is one of the popular XML parsing in Java and also [Digester](http://commons.apache.org/digester/).

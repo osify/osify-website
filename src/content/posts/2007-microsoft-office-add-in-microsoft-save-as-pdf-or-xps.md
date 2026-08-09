@@ -24,6 +24,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/11/2007-microsoft-office-add-in-microsoft.html
+  published: "2009-11-05T20:12:00.000-08:00"
 ---
 
 I start using MS Office 2007 and also has Adobe Acrobat 8.0 install, I can print as PDF in MS Word 2003 but not with MS Office 2007. See below screen shots of error:

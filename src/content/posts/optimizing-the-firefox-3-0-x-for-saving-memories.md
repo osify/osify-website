@@ -21,6 +21,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/06/optimizing-firefox-30x-for-saving.html
+  published: "2009-06-11T21:44:00.000-07:00"
 ---
 
 Hum, I got so headache when using a slow computer so I have to find the issue… I know I have many programs installed on my system so these can be the problem but I use mostly the firefox for internet surfing…

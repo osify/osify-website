@@ -21,6 +21,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/01/how-to-kill-virus-ms-doscom-globalexe.html
+  published: "2009-01-04T20:36:00.000-08:00"
 ---
 
 The virus: MS-DOS.com which in the process we can see it as Global.exe, system.exe and svchost.exe (which confused to the system process) which are the main process of the virus.

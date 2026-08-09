@@ -18,6 +18,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2008/10/my-brief.html
+  published: "2008-10-23T00:04:00.000-07:00"
 ---
 
 Yes, the topic is layout here…

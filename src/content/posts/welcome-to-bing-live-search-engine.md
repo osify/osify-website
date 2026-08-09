@@ -20,6 +20,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/06/welcome-bing-live-search-engine.html
+  published: "2009-06-07T20:27:00.000-07:00"
 ---
 
 [![](/media/21/215f6cfd4598-bing.webp)](/media/21/215f6cfd4598-bing.webp)

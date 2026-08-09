@@ -22,6 +22,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2010/01/website-hacked-with-random-url-to.html
+  published: "2010-01-26T20:18:00.000-08:00"
 ---
 
 One of my website has been hacked by some hacker or can be with some libraries I am using for my CodeIgniter project… I’m not sure if it is due to the library or about my web hosting place…. I’m still investigating the issue.

@@ -22,6 +22,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2008/12/wanna-to-write-khmer-unicode-on-coding.html
+  published: "2008-12-25T23:49:00.000-08:00"
 ---
 
 In fact, I know many people should already know it but I suppose to post here that maybe help others to search for.

@@ -21,6 +21,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/07/solution-game-man-bought-house.html
+  published: "2009-07-26T22:43:00.000-07:00"
 ---
 
 Can anyone write the procedure how to solve this below problem?

@@ -21,6 +21,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2008/12/write-string-to-specific-line-or.html
+  published: "2008-12-22T19:31:00.000-08:00"
 ---
 
 I got doubt on this point almost 2 hours to seek how can I write a string to a file at the position, I want.

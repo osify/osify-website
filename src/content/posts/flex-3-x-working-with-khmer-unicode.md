@@ -20,6 +20,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2010/02/flex-3x-working-with-khmer-unicode.html
+  published: "2010-02-02T23:05:00.000-08:00"
 ---
 
 I start a topic now with Flex 3 not rendering well with Khmer Unicode.

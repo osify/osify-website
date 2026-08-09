@@ -22,6 +22,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2010/01/jboss-422ga-deploying-issue-on-class.html
+  published: "2010-01-25T19:14:00.000-08:00"
 ---
 
 While deploying my applications with JBoss 4.2.2.GA, using JDK 1.5 I got some issue with class loading issue something like:

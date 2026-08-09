@@ -23,6 +23,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2010/02/migrate-from-mysql-to-ms-sql-2005-using.html
+  published: "2010-02-21T21:54:00.000-08:00"
 ---
 
 My friend asked me this topic “Migrate all tables of MySQL to MS SQL 2005 – what way”.

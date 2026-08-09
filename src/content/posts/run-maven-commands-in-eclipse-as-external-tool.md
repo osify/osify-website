@@ -23,6 +23,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/10/run-maven-commands-in-eclipse-as.html
+  published: "2009-10-01T04:51:00.000-07:00"
 ---
 
 You might already know what is [maven](http://maven.apache.org/index.html); it’s a tool to build / compile or package java project…

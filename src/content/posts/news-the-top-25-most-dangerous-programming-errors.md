@@ -22,6 +22,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/01/news-top-25-most-dangerous-programming.html
+  published: "2009-01-13T19:26:00.000-08:00"
 ---
 
 Here is the list of the top 25 most dangerous programming errors to be notified by all programmers:

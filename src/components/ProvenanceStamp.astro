@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { origin, date, modified, author, mergedFrom } = post.data;
+const { origin, date, modified, author, mergedFrom, originalSource } = post.data;
 
 const wasEdited = modified.getTime() - date.getTime() > 60_000;
 ---
@@ -63,6 +63,24 @@ const wasEdited = modified.getTime() - date.getTime() > 60_000;
       <dt class="w-20 shrink-0 text-faint uppercase tracking-[0.08em]">Author</dt>
       <dd class="text-muted">{author}</dd>
     </div>
+
+    {
+      originalSource && (
+        <div class="flex gap-2 sm:col-span-2">
+          <dt class="w-20 shrink-0 text-faint uppercase tracking-[0.08em]">First ran</dt>
+          <dd class="text-muted">
+            <a
+              href={originalSource.url}
+              rel="nofollow noopener"
+              class="underline decoration-rule underline-offset-2 hover:text-stamp hover:decoration-stamp"
+            >
+              {originalSource.host}
+            </a>
+            <span class="text-faint"> · {originalSource.published.slice(0, 10)}</span>
+          </dd>
+        </div>
+      )
+    }
 
     {
       mergedFrom.length > 0 && (

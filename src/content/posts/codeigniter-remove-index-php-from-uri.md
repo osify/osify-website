@@ -19,6 +19,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2010/01/codeigniter-remove-indexphp-from-uri.html
+  published: "2010-01-21T21:22:00.000-08:00"
 ---
 
 Normally with CodeIgniter, the URI will come with http://domain/index.php/controller/method

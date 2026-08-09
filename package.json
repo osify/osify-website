@@ -12,8 +12,10 @@
     "migrate": "node scripts/migrate.mjs",
     "migrate:media": "node scripts/migrate-media.mjs",
     "migrate:external": "node scripts/fetch-external.mjs",
+    "migrate:blogspot": "node scripts/migrate-blogspot.mjs",
+    "migrate:redirects": "node scripts/build-legacy-redirects.mjs",
     "migrate:fonts": "node scripts/fetch-fonts.mjs",
-    "migrate:all": "npm run migrate:media && npm run migrate:external && npm run migrate"
+    "migrate:all": "npm run migrate:media && npm run migrate:external && npm run migrate && npm run migrate:blogspot && npm run migrate:redirects"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.12",

@@ -20,6 +20,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2008/12/flex-build-30194161-not-working-with.html
+  published: "2008-12-18T03:12:00.000-08:00"
 ---
 
 First I install flex (build: 3.0.194161) to use with Eclipse 3.2.1, it’s working fine.

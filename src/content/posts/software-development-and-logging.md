@@ -25,6 +25,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2008/11/software-development-and-logging.html
+  published: "2008-11-13T22:34:00.000-08:00"
 ---
 
 Beside understanding programming language and programming model etc. We must know how to manage the message from the development for user, for developer etc. We called logging.

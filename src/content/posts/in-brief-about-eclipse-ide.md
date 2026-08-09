@@ -22,6 +22,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/08/in-short-about-eclipse-ide.html
+  published: "2009-08-28T04:38:00.000-07:00"
 ---
 
 **Eclipse** is a multi-language [software development environment](http://en.wikipedia.org/wiki/Software_development_environment) comprising an [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment) and a [plug-in](http://en.wikipedia.org/wiki/Plug-in_%28computing%29) system to extend it. It is written primarily in [Java](http://en.wikipedia.org/wiki/Java_%28programming_language%29) and can be used to develop applications in Java and, by means of the various plug-ins, in other [languages](http://en.wikipedia.org/wiki/Programming_language) as well, including [C](http://en.wikipedia.org/wiki/C_%28programming_language%29), [C++](http://en.wikipedia.org/wiki/C%2B%2B), [COBOL](http://en.wikipedia.org/wiki/COBOL), [Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29), [Perl](http://en.wikipedia.org/wiki/Perl), [PHP](http://en.wikipedia.org/wiki/PHP), and others.[1]

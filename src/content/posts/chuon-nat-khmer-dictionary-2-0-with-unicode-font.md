@@ -22,6 +22,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/06/chuon-nat-khmer-dictionary-20-with.html
+  published: "2009-06-21T22:02:00.000-07:00"
 ---
 
 [![](/media/dd/dd735ef00a34-chuon-nat-khmer-dictionary2-0.webp)](/media/dd/dd735ef00a34-chuon-nat-khmer-dictionary2-0.webp)

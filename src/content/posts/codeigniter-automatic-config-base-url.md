@@ -19,6 +19,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2010/01/codeigniter-automatic-config-base-url.html
+  published: "2010-01-21T20:29:00.000-08:00"
 ---
 
 In CodeIgniter, you may know that you need to configure base url via config.php (param: $config[“base_url”]) so when change domain you may doubt sometimes with such small error; Here a solution to help solving the issue;

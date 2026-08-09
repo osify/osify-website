@@ -27,6 +27,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2008/12/khmer-unicode-with-crystal-report-in-c.html
+  published: "2008-12-26T02:17:00.000-08:00"
 ---
 
 I use VS2008 to test Khmer Unicode rendering in Crystal Report.

@@ -21,6 +21,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2010/02/khmer-unicode-with-ireport-371-works.html
+  published: "2010-02-28T18:30:00.000-08:00"
 ---
 
 Just quick configuration with Ireport 3.7.1 without detail here:

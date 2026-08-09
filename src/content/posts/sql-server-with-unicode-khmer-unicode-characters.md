@@ -23,6 +23,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/07/sql-server-with-unicode-khmer-unicode.html
+  published: "2009-07-13T02:47:00.000-07:00"
 ---
 
 To be notice MS SQL supports only UCS-2 encoding so do not have encoding with UTF-8 as we expected as MySQL or some other database server as well. This means that you can’t use UTF-8 character encoding with Microsoft SQL Server:

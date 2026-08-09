@@ -27,6 +27,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/10/at-barcamp-2009-topic-state-of-art-of.html
+  published: "2009-10-04T19:26:00.000-07:00"
 ---
 
 Hi,

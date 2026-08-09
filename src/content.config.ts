@@ -32,6 +32,19 @@ const posts = defineCollection({
       url: z.string().url(),
       host: z.string(),
     }),
+    /**
+     * Where the piece was first published, when that predates both blogs.
+     * The earliest articles ran on computer-experience.blogspot.com before
+     * being exported to osify.com in 2010.
+     */
+    originalSource: z
+      .object({
+        platform: z.string(),
+        host: z.string(),
+        url: z.string().url(),
+        published: z.string(),
+      })
+      .optional(),
     /** Old URLs that must keep resolving; each gets a redirect stub. */
     legacyUrls: z.array(z.string()).default([]),
     /** Ids of articles merged into this one as duplicates. */

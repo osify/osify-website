@@ -21,6 +21,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2009/08/wordpress-move-local-wordpress.html
+  published: "2009-08-18T04:52:00.000-07:00"
 ---
 
 First I have read some post and I though it was right but when I followed I got same error such as executing timeout (**Fatal error**: Maximum execution time of 30 seconds exceeded) when browse the website etc.

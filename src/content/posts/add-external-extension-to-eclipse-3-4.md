@@ -20,6 +20,11 @@ mergedFrom: []
 mediaCount: 0
 featured: false
 draft: false
+originalSource:
+  platform: Blogger
+  host: computer-experience.blogspot.com
+  url: https://computer-experience.blogspot.com/2008/12/add-external-extension-to-eclipse-34.html
+  published: "2008-12-18T01:23:00.000-08:00"
 ---
 
 I got wonder when I try to find place to add External Extension in Eclipse 3.4 because it doesn’t have the URL as: Help -> Software Updates -> Manage Configurations as Eclipse 3.2.x
