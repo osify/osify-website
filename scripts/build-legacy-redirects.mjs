@@ -228,11 +228,36 @@ function resolve(rawPath) {
 const redirects = new Map(); // from (no leading/trailing slash) -> to
 const unmapped = [];
 
+/**
+ * Hand-decided destinations for pages that could not simply be restored.
+ *
+ *   associated-store    carried an identical one-line body to
+ *                       /programming-books/; kept as one page, not two.
+ *   mr-pongsa-metrey-sok was password-protected on the old site, so the only
+ *                       thing the Internet Archive holds is the "Protected:"
+ *                       title. There is no bio to restore, so the URL points
+ *                       at the colophon instead of inventing one.
+ */
+const MANUAL = {
+  'associated-store': '/programming-books/',
+  'mr-pongsa-metrey-sok': '/about/',
+};
+
+/** Slugs of pages restored from the archive — these render, so never redirect them. */
+const restoredPages = new Set();
+const pagesDir = path.join(SITE_ROOT, 'src', 'content', 'pages');
+if (fs.existsSync(pagesDir)) {
+  for (const name of fs.readdirSync(pagesDir)) {
+    if (name.endsWith('.md')) restoredPages.add(name.replace(/\.md$/, ''));
+  }
+}
+
 function add(from, to) {
   const key = from.replace(/^\/+|\/+$/g, '');
   if (!key || !to) return;
   // Never shadow a real page on the new site.
   if (/^(posts|archive|topics|categories|authors|work|about|license)(\/|$)/.test(key)) return;
+  if (restoredPages.has(key.split('/')[0])) return;
   if (!redirects.has(key)) redirects.set(key, to);
 }
 
@@ -266,6 +291,7 @@ for (let year = 2008; year <= 2021; year++) {
 }
 for (let page = 2; page <= 60; page++) add(`page/${page}`, '/archive/');
 add('feed', '/rss.xml');
+for (const [from, to] of Object.entries(MANUAL)) add(from, to);
 
 const list = [...redirects.entries()]
   .map(([from, to]) => ({ from, to }))

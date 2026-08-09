@@ -2580,6 +2580,10 @@
     "to": "/archive/#y2021"
   },
   {
+    "from": "associated-store",
+    "to": "/programming-books/"
+  },
+  {
     "from": "author/admin",
     "to": "/authors/osify/"
   },
@@ -5746,6 +5750,10 @@
   {
     "from": "labels/youtube",
     "to": "/topics/youtube/"
+  },
+  {
+    "from": "mr-pongsa-metrey-sok",
+    "to": "/about/"
   },
   {
     "from": "page/10",

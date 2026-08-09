@@ -61,6 +61,28 @@ const projects = defineCollection({
   }),
 });
 
+/**
+ * Standalone pages recovered from the Wayback Machine. The original extractor
+ * exported `type: post` only, so these were missing entirely and their URLs
+ * 404'd. Each records the snapshot it came from, because the origin server no
+ * longer exists to check against.
+ */
+const pages = defineCollection({
+  loader: glob({ base: './src/content/pages', pattern: '**/*.md' }),
+  schema: z.object({
+    title: z.string(),
+    order: z.number().default(99),
+    legacyUrls: z.array(z.string()).default([]),
+    restoredFrom: z
+      .object({
+        snapshot: z.string().url(),
+        captured: z.string(),
+      })
+      .optional(),
+    draft: z.boolean().default(false),
+  }),
+});
+
 /** Author roster, kept as JSON so it is trivial to update by hand. */
 const authors = defineCollection({
   loader: file('./src/data/authors.json'),
@@ -73,4 +95,4 @@ const authors = defineCollection({
   }),
 });
 
-export const collections = { posts, projects, authors };
+export const collections = { posts, projects, pages, authors };

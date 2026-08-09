@@ -1,0 +1,58 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { formatDate } from '../lib/site';
+
+/*
+  Restored standalone pages, served at their original single-segment URLs
+  (/contact/, /music/ …). A single dynamic segment takes priority over the
+  [...legacy] rest route, so redirect stubs still handle everything else.
+*/
+export const getStaticPaths: GetStaticPaths = async () => {
+  const pages = await getCollection('pages', ({ data }) => import.meta.env.DEV || !data.draft);
+  return pages.map((entry) => ({ params: { page: entry.id }, props: { entry } }));
+};
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { title, restoredFrom } = entry.data;
+---
+
+<BaseLayout title={title} description={`${title} — from the OSIFY archive.`}>
+  <div class="mx-auto max-w-3xl px-5 py-12 sm:px-8 sm:py-16">
+    <header>
+      <p class="meta">Page</p>
+      <h1 class="mt-3 text-balance font-bold tracking-[-0.04em] text-ink" style="font-size: var(--text-title)">
+        {title}
+      </h1>
+    </header>
+
+    <div class="prose prose-archive mt-10 max-w-none">
+      <Content />
+    </div>
+
+    {
+      restoredFrom && (
+        <aside
+          class="not-prose mt-12 rounded-sm border border-rule bg-raised/60 px-4 py-3"
+          aria-label="Provenance"
+        >
+          <p class="font-mono text-[0.7rem] leading-relaxed text-muted">
+            <span class="text-faint uppercase tracking-[0.08em]">Recovered</span> — this page was not
+            part of the article export. The text above is as it stood on{' '}
+            {formatDate(new Date(restoredFrom.captured))}, taken from the{' '}
+            <a
+              href={restoredFrom.snapshot}
+              rel="nofollow noopener"
+              class="underline decoration-rule underline-offset-2 hover:text-stamp hover:decoration-stamp"
+            >
+              Internet Archive
+            </a>
+            . It is kept as a record and is no longer maintained.
+          </p>
+        </aside>
+      )
+    }
+  </div>
+</BaseLayout>

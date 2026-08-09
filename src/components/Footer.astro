@@ -1,9 +1,13 @@
 ---
+import { getCollection } from 'astro:content';
 import { SITE, supportEnabled } from '../lib/site';
 import { allPosts } from '../lib/posts';
 import SupportCoffee from './SupportCoffee.astro';
 
 const posts = await allPosts();
+const restoredPages = (await getCollection('pages', ({ data }) => !data.draft)).sort(
+  (a, b) => a.data.order - b.data.order
+);
 const years = posts.length
   ? `${posts[posts.length - 1].data.date.getUTCFullYear()}–${posts[0].data.date.getUTCFullYear()}`
   : '';
@@ -29,6 +33,15 @@ const years = posts.length
           <li><a href="/topics/" class="link-draw text-muted hover:text-ink">Topics</a></li>
           <li><a href="/work/" class="link-draw text-muted hover:text-ink">Work</a></li>
           <li><a href="/about/" class="link-draw text-muted hover:text-ink">About</a></li>
+          {
+            restoredPages.map((page) => (
+              <li>
+                <a href={`/${page.id}/`} class="link-draw text-muted hover:text-ink">
+                  {page.data.title}
+                </a>
+              </li>
+            ))
+          }
         </ul>
       </div>
 
